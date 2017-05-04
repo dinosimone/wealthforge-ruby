@@ -1,0 +1,42 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://sandbox.capitalforge.com/capitalforge-transaction/api/investment/d8cd4024-46aa-4858-9ff1-b10961ec6186/status
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 21 Apr 2017 04:16:59 GMT
+      Server:
+      - Apache/2.4.18 (Amazon) OpenSSL/1.0.1k-fips
+      Cache-Control:
+      - private
+      Expires:
+      - Wed, 31 Dec 1969 19:00:00 EST
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"code":"INVESTMENT_PENDING","name":"Pending","metadata":null,"sequence":null,"active":null,"updatedAt":1387360913297,"hidden":null},"status":200,"code":null,"errors":[],"messages":[]}'
+    http_version: 
+  recorded_at: Fri, 21 Apr 2017 04:16:59 GMT
+recorded_with: VCR 3.0.3

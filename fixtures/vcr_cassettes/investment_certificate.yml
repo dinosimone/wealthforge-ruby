@@ -1,0 +1,77 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://sandbox.capitalforge.com/capitalforge-transaction/api/investment/d8cd4024-46aa-4858-9ff1-b10961ec6186/certificate
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Date:
+      - Tue, 25 Apr 2017 02:57:48 GMT
+      Server:
+      - Apache/2.4.18 (Amazon) OpenSSL/1.0.1k-fips
+      Cache-Control:
+      - private
+      Expires:
+      - Wed, 31 Dec 1969 19:00:00 EST
+      Content-Length:
+      - '0'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Tue, 25 Apr 2017 02:57:48 GMT
+- request:
+    method: get
+    uri: https://sandbox.capitalforge.com/capitalforge-transaction/api/investment/399762de-f33a-413c-b4b9-c8cb4c8f842a/certificate
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Date:
+      - Wed, 26 Apr 2017 02:48:46 GMT
+      Server:
+      - Apache/2.4.18 (Amazon) OpenSSL/1.0.1k-fips
+      Cache-Control:
+      - private
+      Expires:
+      - Wed, 31 Dec 1969 19:00:00 EST
+      Content-Length:
+      - '0'
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Wed, 26 Apr 2017 02:48:46 GMT
+recorded_with: VCR 3.0.3

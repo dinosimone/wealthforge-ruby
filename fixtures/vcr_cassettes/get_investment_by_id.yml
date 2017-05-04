@@ -1,0 +1,127 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.capitalforge.com/capitalforge-transaction/api/investment/232d2cb4-0938-4003-8cf0-a20e918099ad
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 05 Jan 2017 03:46:25 GMT
+      Server:
+      - Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips
+      Cache-Control:
+      - private
+      Expires:
+      - Wed, 31 Dec 1969 19:00:00 EST
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"232d2cb4-0938-4003-8cf0-a20e918099ad","offerDetail":"6ae740a7-14c7-4e58-99cd-132801d07f34","subscriptionAgreementStatus":null,"paymentStatus":null,"status":{"code":"INVESTMENT_PENDING","name":"Pending","metadata":null,"sequence":null,"active":null,"updatedAt":1387342913297,"hidden":null},"escrowStatus":null,"paymentType":{"code":"WIRE","name":"Wire","metadata":null,"sequence":4,"active":null,"updatedAt":1414450367945,"hidden":null},"account":null,"investor":{"id":"37a332b1-1033-4426-bc3e-ff7f336e85ff","investmentTimeline":{"code":null,"name":null},"country":null,"state":{"code":"NY","name":"New
+        York","hidden":false},"accreditation":{"code":"BUS_PROXY","name":"Business
+        Proxy","metadata":null,"sequence":4,"active":null,"version":"1.0","updatedAt":1391418369151,"hidden":null},"investmentRisk":{"code":null,"name":null},"investorType":{"code":"ENTITY","name":"Entity","metadata":null,"sequence":null,"active":true,"updatedAt":1389774976423,"hidden":false},"investorSubType":{"code":"COMPANY_OFFICER","name":"Director/Executive
+        Officer of Company","metadata":null,"sequence":8,"active":true,"investorType":{"code":"ENTITY","name":"Entity","metadata":null,"sequence":null,"active":true,"updatedAt":1389774976423,"hidden":false},"version":"1.0","updatedAt":1389774933270,"hidden":false},"status":{"code":"INVESTOR_ACTIVE","name":"Active","metadata":null,"sequence":2,"active":null,"updatedAt":1387342828185,"hidden":null},"name":"Chapelgate
+        Credit Opportunity Master Fund Ltd","logo":"http://none","city":"New York","investorUrl":"http://www.orchardgroup.com/","address":"33
+        Whitehall Street","address2":null,"phone":"857-250-0235","zip":"10004","signature":null,"taxId":"00-1234567","uid":null,"accredited":true,"dob":null,"income":null,"netWorth":null,"accreditedOther":null,"eligibleInvestAmount":null,"email":"investors+orchard@fakecorp.com","purchaseRepExists":true,"purchaseRepName":null,"purchaseRepAddress":null,"purchaseRepAddress2":null,"purchaseRepCity":null,"purchaseRepState":null,"purchaseRepZip":null,"existingRelationship":true,"existingRelationshipName":null,"existingRelationshipYears":null,"existingRelationshipNature":null,"yearVerified":null,"accreditationFile":null,"ssn":null},"wfStatus":null,"dateStart":null,"dateEnd":null,"investAmount":175000.00,"expectedReturn":null,"percentageOwnership":null,"inMinRaiseAchieved":null,"uuidCertificate":null,"amount":175000},"status":200,"code":null,"errors":[],"messages":[]}'
+    http_version: 
+  recorded_at: Thu, 05 Jan 2017 03:46:25 GMT
+- request:
+    method: get
+    uri: https://sandbox.capitalforge.com/capitalforge-transaction/api/investment/232d2cb4-0938-4003-8cf0-a20e918099ad
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 500
+      message: Internal Server Error
+    headers:
+      Date:
+      - Wed, 19 Apr 2017 02:33:26 GMT
+      Server:
+      - Apache/2.4.18 (Amazon) OpenSSL/1.0.1k-fips
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Origin:
+      - "*"
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":null,"status":500,"code":"IOLJGACGUC","errors":[{"timestamp":1492569206587,"value":"[IOLJGACGUC]
+        : Entity could not be found with specified parameters","parameters":[],"message":"[IOLJGACGUC]
+        : Entity could not be found with specified parameters"}],"messages":[]}'
+    http_version: 
+  recorded_at: Wed, 19 Apr 2017 02:33:26 GMT
+- request:
+    method: get
+    uri: https://sandbox.capitalforge.com/capitalforge-transaction/api/investment/d8cd4024-46aa-4858-9ff1-b10961ec6186
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 May 2017 01:37:30 GMT
+      Server:
+      - Apache/2.4.18 (Amazon) OpenSSL/1.0.1k-fips
+      Cache-Control:
+      - private
+      Expires:
+      - Wed, 31 Dec 1969 19:00:00 EST
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"d8cd4024-46aa-4858-9ff1-b10961ec6186","offerDetail":"62eb0e80-8421-4344-9de2-ac69cfeedd1b","subscriptionAgreementStatus":{"code":"SA_APPROVED","name":"Approved","metadata":null,"sequence":null,"active":null,"updatedAt":1387361040197,"hidden":null},"paymentStatus":null,"status":{"code":"INVESTMENT_APPROVED","name":"Approved","metadata":null,"sequence":null,"active":null,"updatedAt":1387360941563,"hidden":null},"escrowStatus":null,"paymentType":{"code":"WIRE","name":"Wire","metadata":null,"sequence":4,"active":null,"updatedAt":1412771282248,"hidden":null},"account":{"id":"044bac29-96aa-4208-9a46-bf865b0817db","parentId":"fee3a56d-7426-4f01-9a0a-3a3315095a20","nacha":{"code":"CCD","name":"Corporate
+        credit or debit","metadata":null,"sequence":null,"active":null,"updatedAt":1382459455000,"hidden":false},"bankName":null,"name":"John
+        Smith","number":"***4567","routing":"011103093","numberHint":null},"investor":{"id":"fee3a56d-7426-4f01-9a0a-3a3315095a20","investmentTimeline":{"code":null,"name":null},"country":null,"state":{"code":"GA","name":"Georgia","hidden":false},"accreditation":{"code":"INCOME","name":"Income","metadata":null,"sequence":2,"active":true,"version":"2.0","updatedAt":1450899477335,"hidden":false},"investmentRisk":{"code":null,"name":null},"investorType":{"code":"INDIVIDUAL","name":"Individual","metadata":null,"sequence":null,"active":true,"updatedAt":1389792976423,"hidden":false},"investorSubType":null,"status":{"code":"INVESTOR_ACTIVE","name":"Active","metadata":null,"sequence":2,"active":null,"updatedAt":1387360828185,"hidden":null},"name":"Bigly
+        Investor","logo":null,"city":"Lawrence","investorUrl":null,"address":"18 Big
+        League","address2":null,"phone":"124-123-1212","zip":"02139","signature":null,"taxId":null,"uid":null,"accredited":true,"dob":757400400000,"income":null,"netWorth":null,"accreditedOther":null,"eligibleInvestAmount":null,"email":"dino.simone+biglytester@fakecorp.com","purchaseRepExists":false,"purchaseRepName":null,"purchaseRepAddress":null,"purchaseRepAddress2":null,"purchaseRepCity":null,"purchaseRepState":null,"purchaseRepZip":null,"existingRelationship":null,"existingRelationshipName":null,"existingRelationshipYears":null,"existingRelationshipNature":null,"yearVerified":null,"accreditationFile":null,"ssn":"123-12-1212"},"wfStatus":null,"dateStart":null,"dateEnd":null,"investAmount":5555.00,"expectedReturn":null,"percentageOwnership":null,"inMinRaiseAchieved":null,"uuidCertificate":null,"amount":7500},"status":200,"code":null,"errors":[],"messages":[]}'
+    http_version: 
+  recorded_at: Thu, 04 May 2017 01:37:30 GMT
+recorded_with: VCR 3.0.3

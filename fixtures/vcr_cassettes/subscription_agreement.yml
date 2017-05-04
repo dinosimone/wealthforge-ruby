@@ -1,0 +1,153 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://sandbox.capitalforge.com/capitalforge-transaction/api/investment/d8cd4024-46aa-4858-9ff1-b10961ec6186/duediligence
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 500
+      message: Internal Server Error
+    headers:
+      Date:
+      - Wed, 26 Apr 2017 02:27:38 GMT
+      Server:
+      - Apache/2.4.18 (Amazon) OpenSSL/1.0.1k-fips
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Origin:
+      - "*"
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":null,"status":500,"code":"7LDR4F3MOH","errors":[{"timestamp":1493173658774,"value":"[7LDR4F3MOH]
+        : Entity could not be found with specified parameters","parameters":[],"message":"[7LDR4F3MOH]
+        : Entity could not be found with specified parameters"}],"messages":[]}'
+    http_version: 
+  recorded_at: Wed, 26 Apr 2017 02:27:38 GMT
+- request:
+    method: get
+    uri: https://sandbox.capitalforge.com/capitalforge-transaction/api/investment/d33b81d9-e509-4a24-acc6-06d862873797/subscriptionAgreement
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 500
+      message: Internal Server Error
+    headers:
+      Date:
+      - Wed, 26 Apr 2017 02:42:27 GMT
+      Server:
+      - Apache/2.4.18 (Amazon) OpenSSL/1.0.1k-fips
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Origin:
+      - "*"
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":null,"status":500,"code":"ZI62ERI4GB","errors":[],"messages":[]}'
+    http_version: 
+  recorded_at: Wed, 26 Apr 2017 02:42:27 GMT
+- request:
+    method: get
+    uri: https://sandbox.capitalforge.com/capitalforge-transaction/api/investment/3bb21d35-07e0-4b63-ab53-2225c09ff84e/subscriptionAgreement
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 500
+      message: Internal Server Error
+    headers:
+      Date:
+      - Wed, 26 Apr 2017 02:43:09 GMT
+      Server:
+      - Apache/2.4.18 (Amazon) OpenSSL/1.0.1k-fips
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Origin:
+      - "*"
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":null,"status":500,"code":"9O3SL36JHQ","errors":[],"messages":[]}'
+    http_version: 
+  recorded_at: Wed, 26 Apr 2017 02:43:09 GMT
+- request:
+    method: get
+    uri: https://sandbox.capitalforge.com/capitalforge-transaction/api/investment/d8cd4024-46aa-4858-9ff1-b10961ec6186/subscriptionAgreement
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 500
+      message: Internal Server Error
+    headers:
+      Date:
+      - Fri, 28 Apr 2017 02:12:01 GMT
+      Server:
+      - Apache/2.4.18 (Amazon) OpenSSL/1.0.1k-fips
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Origin:
+      - "*"
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":null,"status":500,"code":"1IYMS6WMF2","errors":[],"messages":[]}'
+    http_version: 
+  recorded_at: Fri, 28 Apr 2017 02:12:01 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: put
+    uri: https://sandbox.capitalforge.com/capitalforge-transaction/api/investment/d8cd4024-46aa-4858-9ff1-b10961ec6186/account
+    body:
+      encoding: UTF-8
+      string: '{"name":"John Smith","parentId":"7025856b-0d20-4bfa-a92f-c433793c7883","routing":"011103093","number":"1234567","id":"044bac29-96aa-4208-9a46-bf865b0817db"}'
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 May 2017 01:37:31 GMT
+      Server:
+      - Apache/2.4.18 (Amazon) OpenSSL/1.0.1k-fips
+      Cache-Control:
+      - private
+      Expires:
+      - Wed, 31 Dec 1969 19:00:00 EST
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"044bac29-96aa-4208-9a46-bf865b0817db","parentId":"7025856b-0d20-4bfa-a92f-c433793c7883","nacha":{"code":"CCD","name":"Corporate
+        credit or debit","metadata":null,"sequence":null,"active":null,"updatedAt":1382459455000,"hidden":false},"bankName":null,"name":"John
+        Smith","number":"***4567","routing":"011103093","numberHint":null},"status":200,"code":null,"errors":[],"messages":[]}'
+    http_version: 
+  recorded_at: Thu, 04 May 2017 01:37:31 GMT
+recorded_with: VCR 3.0.3

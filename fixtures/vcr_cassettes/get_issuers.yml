@@ -1,0 +1,205 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://sandbox.capitalforge.com/capitalforge-transaction/api/issuer
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 403
+      message: Forbidden
+    headers:
+      Date:
+      - Wed, 11 Jan 2017 05:00:04 GMT
+      Server:
+      - Apache/2.4.18 (Amazon) OpenSSL/1.0.1k-fips
+      Cache-Control:
+      - no-cache, no-store
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Set-Cookie:
+      - JSESSIONID=8939C6765C29269CC53697AE8B639BDE.sandbox; Expires=Wed, 11-Jan-2017
+        17:00:04 GMT; Path=/capitalforge-transaction/; Secure; HttpOnly
+      Pragma:
+      - no-cache
+      Content-Type:
+      - text/html;charset=UTF-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n  \t<head><script type=\"text/javascript\"
+        src=\"/capitalforge-transaction/js/jquery.js\"></script>\n<script type=\"text/javascript\"
+        src=\"../wicket/resource/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/res/js/wicket-event-jquery.min-ver-CD167ED7BEFC26AED029F20C2EBF9AA7.js\"></script>\n<script
+        type=\"text/javascript\" src=\"../wicket/resource/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/res/js/wicket-ajax-jquery.min-ver-373007567CBDD4D664471DD5DBA38759.js\"></script>\n<script
+        type=\"text/javascript\" id=\"wicket-ajax-base-url\">\n/*<![CDATA[*/\nWicket.Ajax.baseUrl=\"api/issuer\";\n/*]]>*/\n</script>\n\r\n\t
+        \   <meta charset=\"utf-8\" />\r\n\t    <meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1, maximum-scale=1\" />\r\n\t    <meta name=\"description\"
+        content=\"\" />\r\n\t    <meta name=\"author\" content=\"WealthForge Holdings,
+        Inc.\" />\r\n\t    <title>CapitalForge</title>\r\n\t\t\r\n\t<link rel=\"stylesheet\"
+        type=\"text/css\" href=\"../wicket/resource/org.apache.wicket.Application/skincss/a2c37db4-e4fd-4bb7-87ce-5dcb7309be8e\"
+        />\n<script type=\"text/javascript\" >\n/*<![CDATA[*/\nWicket.Event.add(window,
+        \"domready\", function(event) { \nWicket.Ajax.ajax({\"f\":\"id1\",\"u\":\"../login?0-1.IBehaviorListener.0-clientSidePanel-supportForm-submitSupportLink\",\"e\":\"click\",\"c\":\"id2\",\"sc\":\"submitSupportLink\",\"i\":\"id3--ajax-indicator\",\"m\":\"POST\"});;\nWicket.Ajax.ajax({\"f\":\"form\",\"u\":\"../login?0-1.IBehaviorListener.0-form-currentPanel-submit\",\"e\":\"click\",\"c\":\"id4\",\"mp\":true,\"sc\":\"currentPanel:submit\",\"i\":\"id5--ajax-indicator\",\"m\":\"POST\"});;\nWicket.Ajax.ajax({\"u\":\"../login?0-1.IBehaviorListener.0-form-currentPanel-signupLink\",\"e\":\"click\",\"c\":\"id6\",\"i\":\"id5--ajax-indicator\"});;\nWicket.Ajax.ajax({\"u\":\"../login?0-1.IBehaviorListener.0-form-currentPanel-forgotLink\",\"e\":\"click\",\"c\":\"id7\",\"i\":\"id5--ajax-indicator\"});;\nWicket.Event.publish(Wicket.Event.Topic.AJAX_HANDLERS_BOUND);\n;});\n/*]]>*/\n</script>\n</head>\r\n\t\r\n\t<body
+        id=\"UserLoginPage\">\r\n        <div class=\"maincontain\">\r\n            <span>\r\n
+        \   \r\n\t<div class=\"navbar navbar-fixed-top\" role=\"navigation\">\r\n
+        \    \t<div class=\"container-fluid\">\r\n      \t\t\r\n     \t\t<div class=\"mainlogo\">\r\n
+        \    \t\t\t<a id=\"clientheadSite\" href=\"#\" title=\"CapitalForge\"><img
+        src=\"https://sandbox.capitalforge.com/wfcontent/capitalforge/img/capitalforge_logo-175x31.png\"
+        class=\"img-responsive\"></a>\r\n     \t\t</div>\r\n     \t\t\r\n     \t\t<div
+        class=\"navbar-header\">\r\n     \t\t\t<button type=\"button\" class=\"navbar-toggle\"
+        data-toggle=\"collapse\" data-target=\".navbar-collapse\">\r\n\t     \t\t\t<span
+        class=\"icon-bar\"></span>\r\n\t\t\t        <span class=\"icon-bar\"></span>\r\n\t\t\t
+        \       <span class=\"icon-bar\"></span>\r\n\t\t      \t</button>\r\n\t\t
+        \   </div> <!-- / navbar-header -->\r\n\t\t\t<div class=\"collapse navbar-collapse\">\r\n\t\t\t\t<div
+        class=\"btn-settings visible-md-lg btn-group\">\r\n\t\t\t\t\t<button type=\"button\"
+        class=\"dropdown-toggle\" data-toggle=\"dropdown\"><i class=\"fa fa-caret-down\"></i></button>\r\n\t\t\t\t\t<ul
+        class=\"dropdown-menu\" role=\"menu\">\r\n\t\t\t\t\t\t<li><a href=\"../privacy\">Privacy
+        Policy</a></li>\r\n\t\t\t\t\t\t<li><a href=\"../terms\">Terms of Service</a></li>\r\n\t\t\t\t\t\t<li><a
+        data-toggle=\"modal\" href=\"#support\">Support</a></li>\r\n\t\t\t\t\t\t<li>\r\n\t\t
+        \       \t\t\t\r\n\t\t       \t\t\t</li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t</div>\r\n\t\t\t\t<ul
+        class=\"nav navbar-nav pull-right\">\r\n\t                <li class=\"hidden-md-lg\"></li>\r\n\t
+        \               <li class=\"hidden-md-lg\"></li> \r\n\t                <li
+        class=\"hidden-md-lg\"></li> \r\n\t                <li class=\"hidden-md-lg\"></li>
+        \r\n\t                <li class=\"hidden-md-lg\"></li> \r\n\t                <li
+        class=\"hidden-md-lg\"></li> \r\n\t                <li class=\"hidden-md-lg\"></li>
+        \r\n\t                <li class=\"hidden-md-lg\"></li> \r\n\t                <li
+        class=\"hidden-md-lg\"></li>\r\n\t                <li class=\"hidden-md-lg\"><a
+        href=\".././privacy\">Privacy Policy</a></li>\r\n\t\t\t\t\t<li class=\"hidden-md-lg\"><a
+        href=\".././terms\">Terms of Service</a></li>\r\n\t\t\t\t\t<li class=\"hidden-md-lg\"><a
+        data-toggle=\"modal\" href=\"#support\"><i class=\"fa fa-question-circle fa-fw\"></i>
+        Support</a></li>\r\n\t\t\t\t\t<li class=\"hidden-md-lg\">\r\n\t\t        \t\t\r\n\t\t
+        \      \t\t</li>\r\n\t\t\t\t  \t<li>\r\n\t\t\t\t  \t\t\r\n\t\t\t\t  \t</li>\r\n\t\t\t\t</ul>\r\n\t\t\t</div><!--
+        / collapse -->\r\n\t\t\t\r\n      \t</div><!-- / container -->\r\n    </div><!--
+        / navbar-fixed-top -->\r\n    \t<link media=\"screen, projection\" rel=\"stylesheet\"
+        type=\"text/css\" href=\"/capitalforge-transaction/core/css/core.min.css\">\r\n
+        \   \t<link media=\"all\" rel=\"stylesheet\" type=\"text/css\" href=\"/capitalforge-transaction/core/css/toastr.min.css\">\r\n\t\t<script
+        src=\"/capitalforge-transaction/js/jquery.js\"></script>\r\n\t\t<script src=\"/capitalforge-transaction/js/toastr.js\"></script>\r\n\t\t<script
+        src=\"/capitalforge-transaction/js/bootstrap.min.js\"></script>\r\n\t\t<script
+        src=\"/capitalforge-transaction/js/global.min.js\"></script>\r\n\t\t<!--[if
+        lt IE 9]>\r\n\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n\t\t<script
+        src=\"/capitalforge-transaction/js/html5shiv-printshiv.min.js\"></script>\r\n\t\t<script
+        src=\"/capitalforge-transaction/js/html5shiv.min.js\"></script>\r\n\t\t<script
+        src=\"/capitalforge-transaction/js/respond.min.js\"></script>\r\n\t\t<![endif]-->\r\n</span><span
+        style=\"display:none;\" class=\"wicket-ajax-indicator\" id=\"id8--ajax-indicator\"><img
+        src=\"../wicket/resource/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator-ver-03CE3DCC84AF110E9DA8699A841E5200.gif\"
+        alt=\"\"/></span>\r\n\t\t\t<span id=\"id9\" style=\"display:none\"></span>\r\n\t\t\t<div
+        class=\"container\"> <!-- main body content container -->\t\r\n\t\t\t\t\n
+        \   <div class=\"row\">\n        <div class=\"col-xs-3 visible-xs\"></div>\n\t\t<div
+        class=\"col-xs-6 col-sm-8 col-sm-offset-2 logoWrapper text-center\">\n            <div
+        class=\"row\">\n                <div class=\"col-sm-offset-3 col-sm-6 col-md-offset-4
+        col-md-4\">\n                <img src=\"https://sandbox.capitalforge.com/wfcontent/capitalforge/img/capitalforge_logo.png\"
+        title=\"CapitalForge\" alt=\"CapitalForge Logo\" class=\"img-responsive\"/>\n
+        \               </div> \n            </div>\n\t\t</div>\n    </div>\t\n\t<form
+        id=\"form\" autocomplete=\"off\" method=\"post\" action=\"../login?0-1.IFormSubmitListener-form\"
+        enctype=\"multipart/form-data\" accept-charset=\"UTF-8\"><div style=\"width:0px;height:0px;position:absolute;left:-100px;top:-100px;overflow:hidden\"><input
+        type=\"hidden\" name=\"form_hf_0\" id=\"form_hf_0\" /></div>\n\t\t<div id=\"id5\">\n
+        \   <div class=\"col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 pagePanel\">\n\n
+        \       <h3>Login  <i class=\"pull-right\"> <a id=\"id6\" href=\"javascript:;\">Don't
+        have an account? Sign up.</a> <i>|</i> <a id=\"id7\" href=\"javascript:;\">Forgot
+        Your Password?</a></i></h3>\n        \n                \n\t\t<div class=\"inputGroup
+        row\"><label>Email</label>  <input autofocus=\"\" id=\"userEmailLogin\" type=\"text\"
+        value=\"\" name=\"currentPanel:username\"/></div>\n         \n        <div
+        class=\"inputGroup capsWatch row\"><label>Password</label><span id=\"capsWarn\">\n
+        \           <i class=\"fa fa-toggle-up text-secondary\"></i> caps lock is
+        on</span><input class=\"capsCheck\" id=\"userPasswordLogin\" type=\"password\"
+        value=\"\" name=\"currentPanel:password\"/>\n        </div>\n        <div
+        class=\"row\">\n            <div class=\"col-xs-12\">\n                <p>\n
+        \               </p>\n            </div>\n        </div>       \n        <div
+        class=\"row\">\n            <div class=\"col-xs-12\">\n                <input
+        type=\"submit\" class=\"btn btn-secondary btn-lg\" value=\"Login\" id=\"id4\">\n
+        \               <!--input class=\"btn btn-secondary btn-lg text-primary\"
+        wicket:id=\"signupLink\" value=\"Don't have an account? Sign Up\" /-->\n            </div>\n
+        \           <!-- /col -->\n        </div>\n        <!-- /row -->\n    </div>\n
+        \   <script>\n/*<![CDATA[*/\nloginFunction();\n/*]]>*/\n</script>\n</div><span
+        style=\"display:none;\" class=\"wicket-ajax-indicator\" id=\"id5--ajax-indicator\"><img
+        src=\"../wicket/resource/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator-ver-03CE3DCC84AF110E9DA8699A841E5200.gif\"
+        alt=\"\"/></span>\n\t</form>\n\r\n\t\t\t</div> <!-- / main body content container
+        -->\r\n\t\t</div><!-- / maincontain -->\r\n\r\n\t\t<span id=\"id3\">\r\n<!--
+        Support Modal -->\r\n\t<div class=\"modal fade\" id=\"support\" tabindex=\"-1\"
+        role=\"dialog\" aria-labelledby=\"support\" aria-hidden=\"true\">\r\n\t\t<div
+        class=\"modal-dialog\">\r\n\t\t\t<div class=\"modal-content\">\r\n\t\t\t\t<div
+        class=\"modal-header\">\r\n\t\t\t\t\t<button type=\"button\" class=\"close\"
+        data-dismiss=\"modal\" aria-hidden=\"true\">x</button>\r\n\t\t\t\t\t<h3 class=\"modal-title\">Support</h3>\r\n\t
+        \     \t\t</div><!-- /modal-header -->\r\n\t\t\t\t<form id=\"id1\" method=\"post\"
+        action=\"../login?0-1.IFormSubmitListener-clientSidePanel-supportForm\"><div
+        style=\"width:0px;height:0px;position:absolute;left:-100px;top:-100px;overflow:hidden\"><input
+        type=\"hidden\" name=\"id1_hf_0\" id=\"id1_hf_0\" /></div>\r\n\t\t\t\t\t<div
+        class=\"modal-body\">\r\n\t \t\t\t\t\t<div class=\"row\">\r\n\t\t\t\t\t\t
+        \   <div class=\"col-xs-12 form-group\">\r\n\t\t\t\t\t\t\t    <label for=\"name\"
+        class=\"required\">Full Name: </label>\r\n\t\t\t\t\t\t\t    <div class=\"form-inline\">\r\n\t\t\t\t\t\t\t\t\t<input
+        type=\"text\" name=\"p::name\" id=\"name\" class=\"form-control\" placeholder=\"Your
+        Full Name\" value=\"\" maxlength=\"50\">\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t
+        \   </div>\r\n\t\t\t\t\t\t    <div class=\"col-xs-12 form-group\">\r\n\t\t\t\t\t\t\t
+        \   <label for=\"email\" class=\"required\">Email Address:</label>\r\n\t\t\t\t\t\t\t
+        \   <div class=\"form-inline\">\r\n\t\t\t\t\t\t\t\t\t<input type=\"text\"
+        name=\"email\" id=\"email\" class=\"form-control\" placeholder=\"Your Email
+        Address\" value=\"\" maxlength=\"50\">\r\n\t\t\t\t\t\t\t    </div>\r\n\t\t\t\t\t\t
+        \   </div>\r\n\t\t\t\t\t\t    <div class=\"col-xs-12 form-group\">\t\r\n\t\t\t\t\t\t\t
+        \   <label for=\"subject\" class=\"required\">Subject:</label>\r\n\t\t\t\t\t\t\t
+        \   <div class=\"form-inline\">\r\n\t\t\t\t\t\t\t    \t<input type=\"text\"
+        name=\"subject\" id=\"subject\" class=\"form-control\" placeholder=\"Message
+        subject\" value=\"\" maxlength=\"100\">\r\n\t\t\t\t\t\t\t    </div>\t    \r\n\t\t\t\t\t\t
+        \   </div>\r\n\t\t\t\t\t\t\t<div class=\"col-xs-12 form-group\">\r\n\t\t\t\t\t\t\t
+        \   <label for=\"message\" class=\"required\">Message:</label>\r\n\t\t\t\t\t\t\t
+        \   <textarea rows=\"5\" cols=\"40\" name=\"message\" id=\"message\" class=\"form-control\"
+        placeholder=\"Type your message to us here...\" maxlength=\"256\"></textarea>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div><!--
+        /row -->\r\n\t\t\t\t\t</div><!-- /modal-body -->\r\n\t\t\t\t\t<div class=\"modal-footer\">\r\n\t\t\t\t\t
+        \   <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\r\n\t\t\t\t\t
+        \   <a class=\"btn btn-primary\" id=\"id2\" href=\"javascript:;\">Submit for
+        Support</a>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</form>\r\n\t\t\t</div><!-- /modal-content
+        -->\r\n\t\t</div><!-- /modal-dialog -->\t\r\n\t</div><!-- /modal fade (main
+        modal container) -->\r\n</span><span style=\"display:none;\" class=\"wicket-ajax-indicator\"
+        id=\"id3--ajax-indicator\"><img src=\"../wicket/resource/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator-ver-03CE3DCC84AF110E9DA8699A841E5200.gif\"
+        alt=\"\"/></span>\r\n\t\t<span>\r\n\t<footer>\r\n\t\t<div class=\"container\">\r\n
+        \          <div class=\"row\">\r\n\t\t\t\t<div class=\"col-xs-12 text-center\">\r\n
+        \                   <div class=\"text-primary footer-home hidden\"><a target=\"_blank\"
+        href=\".././privacy\" class=\"text-primary\">Privacy Policy</a> | <a target=\"_blank\"
+        href=\".././terms\" class=\"text-primary\">Terms of Service</a> | <a data-toggle=\"modal\"
+        href=\"#support\" class=\"text-primary\">Support</a></div>\r\n                    <div
+        class=\"global\"><a target=\"_blank\" href=\".././privacy\">Privacy Policy</a>
+        | <a target=\"_blank\" href=\".././terms\">Terms of Service</a> | <a data-toggle=\"modal\"
+        href=\"#support\">Support</a>\r\n                    <p></p>\r\n                    </div>\r\n
+        \                   <div class=\"logo hidden\"><img src=\"/capitalforge-transaction/img/capitalforge_logo_white.png\"></div>\r\n
+        \              </div>\r\n               <br/>\r\n            </div>\r\n\t\t\t<div
+        class=\"row\">\r\n\t\t\t\t<div class=\"col-xs-12 text-center\">\r\n\t\t\t\t\t<div
+        class=\"row\">\r\n\t\t\t\t\t\t<div class=\"col-xs-8 busLogo\">\r\n\t\t\t\t\t\t\tTRANSACTION
+        ENGINE POWERED BY <img src=\"/capitalforge-transaction/img/capitalforge_logo.png\"
+        class=\"img-responsive\">\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"col-xs-12
+        copyright\">\r\n\t\t\t\t\t\t\t<span>&copy; <var id=\"year\"></var> WealthForge
+        Technologies, LLC | Securities offered through WealthForge Securities, LLC.
+        Member: <span class=\"footer-home hidden\"><a class=\"text-primary\" href=\"http://www.finra.org\"
+        target=\"_blank\" >FINRA</a> | <a class=\"text-primary\" href=\"http://www.sipc.org\"
+        target=\"_blank\">SIPC</a></span><span class=\"global\"><a class=\"text-primary\"
+        href=\"http://www.finra.org\" target=\"_blank\" >FINRA</a> | <a class=\"text-primary\"
+        href=\"http://www.sipc.org\" target=\"_blank\">SIPC</a></span></span>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t\t<div
+        class=\"col-xs-12 text-centered\">\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t\t<div
+        class=\"col-xs-12\" id=\"siteseal\">\r\n\t\t\t\t\t<span><script type=\"text/javascript\"
+        src=\"https://seal.godaddy.com/getSeal?sealID=OuCEYXNhAgo9s9qHw2zXAUP6uKdkDLTilRtl8ngw7Xs7PZnqEa3Q3IjjZKjr\"></script></span>\r\n\t\t\t\t\t<span><img
+        src=\"https://qualysguard.qg2.apps.qualys.com/portal-front/portal/secureseal/assets/img/qualys-secure-seal-white.png\"
+        onclick=\"window.open('https://seal.qualys.com/sealserv/info/?i=619b1772-a8f1-4346-b6ae-2ae2a59ec7a6','qualysSealInfo',
+        'height=600,width=851,resizable=1')\" /></span>\r\n\t\t\t\t</div>\r\n\t\t\t</div><!--
+        / row -->\r\n\t\t</div><!-- / container -->\r\n\r\n\t\t<div class=\"devContainer\">\r\n\t\t\t<input
+        type=\"submit\" value=\"Clear Cache\" onclick=\"var win = this.ownerDocument.defaultView
+        || this.ownerDocument.parentWindow; if (win == window) { window.location.href=&#039;../login?0-1.ILinkListener-footer-devContainer-clearCache&#039;;
+        } ;return false\"/>\r\n\t\t\t<input type=\"submit\" value=\"Remove Investor
+        Data\" onclick=\"var win = this.ownerDocument.defaultView || this.ownerDocument.parentWindow;
+        if (win == window) { window.location.href=&#039;../login?0-1.ILinkListener-footer-devContainer-clearInvestor&#039;;
+        } ;return false\"/>\r\n\t\t</div>\r\n\t</footer>\r\n</span><span style=\"display:none;\"
+        class=\"wicket-ajax-indicator\" id=\"ida--ajax-indicator\"><img src=\"../wicket/resource/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator-ver-03CE3DCC84AF110E9DA8699A841E5200.gif\"
+        alt=\"\"/></span>\r\n\r\n\t</body>\r\n</html>"
+    http_version: 
+  recorded_at: Wed, 11 Jan 2017 05:00:04 GMT
+recorded_with: VCR 3.0.3
