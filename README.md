@@ -1,8 +1,7 @@
 # WealthForge
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/wealth_forge`. To experiment with that code, run `bin/console` for an interactive prompt.
+The WealthForge API acts as a connection between WealthForge's back-end transaction engine, CapitalForge, and your front-end website. This API client is responsible for fascilitating the connection and transfer of data between your application and the WealthForge API.
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -22,7 +21,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Please refer to the WealthForge API [https://api.wealthforge.com/](documentation) for a full list of functions. This client is currently a partial implementation. Available calls are listed below; as new ones get added, they will be listed below as well.
+
+
 
 ## Development
 
@@ -32,7 +33,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/wealth_forge. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/dinosimone/wealth_forge. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
