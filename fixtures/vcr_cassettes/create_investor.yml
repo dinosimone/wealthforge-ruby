@@ -1,0 +1,42 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://sandbox.capitalforge.com/capitalforge-transaction/api/investor
+    body:
+      encoding: UTF-8
+      string: '{"address":"123 Test Rd.","name":"API Investor","state":"VA","signature":"","country":"US","uid":null,"address2":null,"city":"Richmond","zip":"23229","investorUrl":"http://fundroom.com/apitest","phone":"(804)-555-1234","taxId":"112-22-3333","accredited":true,"dob":"1942-07-04","email":"wealthforge_api_investor@fundroom.com","investmentTimeline":"LESS_THAN_YEAR","accreditation":"INCOME","investmentRisk":"AGGRESSIVE","investorType":"INDIVIDUAL","logo":"
+        https://cdn0.iconfinder.com/data/icons/Personal_loan-512.png","income":10000000,"netWorth":null,"accreditedOther":null,"eligibleInvestAmount":null,"status":"INVESTOR_ACTIVE","yearVerified":""}'
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 05 May 2017 02:14:09 GMT
+      Server:
+      - Apache/2.4.18 (Amazon) OpenSSL/1.0.1k-fips
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"007e8578-6841-4106-8fad-fb6ed64ed293","investmentTimeline":{"code":"LESS_THAN_YEAR","name":"Less
+        than 2 years"},"country":{"code":"US","name":null},"state":{"code":"VA","name":null,"hidden":null},"accreditation":{"code":"INCOME","name":null,"metadata":null,"sequence":null,"active":null,"version":null,"updatedAt":null,"hidden":null},"investmentRisk":{"code":"AGGRESSIVE","name":"Speculative"},"investorType":{"code":"INDIVIDUAL","name":null,"metadata":null,"sequence":null,"active":null,"updatedAt":null,"hidden":null},"investorSubType":null,"status":{"code":"INVESTOR_ACTIVE","name":null,"metadata":null,"sequence":null,"active":null,"updatedAt":null,"hidden":null},"name":"API
+        Investor","logo":" https://cdn0.iconfinder.com/data/icons/Personal_loan-512.png","city":"Richmond","investorUrl":"http://fundroom.com/apitest","address":"123
+        Test Rd.","address2":null,"phone":"(804)-555-1234","zip":"23229","signature":"","taxId":"112-22-3333","uid":null,"accredited":true,"dob":-867700800000,"income":10000000,"netWorth":null,"accreditedOther":null,"eligibleInvestAmount":null,"email":"wealthforge_api_investor@fundroom.com","purchaseRepExists":null,"purchaseRepName":null,"purchaseRepAddress":null,"purchaseRepAddress2":null,"purchaseRepCity":null,"purchaseRepState":null,"purchaseRepZip":null,"existingRelationship":null,"existingRelationshipName":null,"existingRelationshipYears":null,"existingRelationshipNature":null,"yearVerified":"","accreditationFile":null,"ssn":"112-22-3333"},"status":200,"code":null,"errors":[],"messages":[]}'
+    http_version: 
+  recorded_at: Fri, 05 May 2017 02:14:09 GMT
+recorded_with: VCR 3.0.3

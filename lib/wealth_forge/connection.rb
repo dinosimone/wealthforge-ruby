@@ -74,8 +74,8 @@ class WealthForge::Connection
   def self.ssl_options
     cert_store = OpenSSL::X509::Store.new
     #cert_store.add_file(ENV['AUTHORITY_CRT'] #/public/certs/godaddy.crt')
-    wf_cert = ENV['WF_CRT_FILE'] ? File.read ENV['WF_CRT_FILE'] : ENV['WF_CRT'] #'/home/dino/Work/lexshares/lexshares/certs/development.crt'
-    wf_key  = ENV['WF_CRT_FILE'] ? File.read ENV['WF_KEY_FILE'] : ENV['WF_KEY'] # File.read '/home/dino/Work/lexshares/lexshares/certs/development.key'
+    wf_cert = ENV['WF_CRT_FILE'] ? File.read(ENV['WF_CRT_FILE']) : ENV['WF_CRT'] #'/home/dino/Work/lexshares/lexshares/certs/development.crt'
+    wf_key  = ENV['WF_CRT_FILE'] ? File.read(ENV['WF_KEY_FILE']) : ENV['WF_KEY'] # File.read '/home/dino/Work/lexshares/lexshares/certs/development.key'
     ssl_options = {
       :version => :TLSv1,
       :client_cert => OpenSSL::X509::Certificate.new(wf_cert),
