@@ -21,7 +21,7 @@ Or install it yourself as:
 
 ## Usage
 
-Please refer to the WealthForge API [documentation](https://api.wealthforge.com/) for a full list of functions. This client is currently a partial implementation. Available calls are listed below; as new ones get added, they will be listed below as well.
+Please refer to the official WealthForge API [documentation](https://api.wealthforge.com/) for a full list of functions. This client is currently a partial implementation of the most commnoly used functionality. Below is the list of available function calls; as new ones are implemented, they will be listed for reference.
 
 
 
