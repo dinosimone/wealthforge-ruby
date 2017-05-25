@@ -22,11 +22,11 @@ Or install it yourself as:
 
 ## Configuration
 
-Before you can use the gem, you'll have to set a few environment variables below.
+    Before you can use the gem, you'll have to set a few environment variables below.
 
-WF_CRT_FILE: Your certificate
-WF_KEY_FILE: Your private key
-ENVIRONMENT: production|development
+    WF_CRT_FILE: Your certificate
+    WF_KEY_FILE: Your private key
+    ENVIRONMENT: production|development
 
 
 ## Usage
