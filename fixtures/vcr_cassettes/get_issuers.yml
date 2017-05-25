@@ -4,8 +4,8 @@ http_interactions:
     method: get
     uri: https://sandbox.capitalforge.com/capitalforge-transaction/api/issuer
     body:
-      encoding: UTF-8
-      string: 'null'
+      encoding: US-ASCII
+      string: ''
     headers:
       User-Agent:
       - Faraday v0.10.1
@@ -17,189 +17,222 @@ http_interactions:
       - "*/*"
   response:
     status:
-      code: 403
-      message: Forbidden
+      code: 200
+      message: OK
     headers:
       Date:
-      - Wed, 11 Jan 2017 05:00:04 GMT
+      - Fri, 12 May 2017 03:33:39 GMT
       Server:
       - Apache/2.4.18 (Amazon) OpenSSL/1.0.1k-fips
       Cache-Control:
-      - no-cache, no-store
+      - private
       Expires:
-      - Thu, 01 Jan 1970 00:00:00 GMT
-      Set-Cookie:
-      - JSESSIONID=8939C6765C29269CC53697AE8B639BDE.sandbox; Expires=Wed, 11-Jan-2017
-        17:00:04 GMT; Path=/capitalforge-transaction/; Secure; HttpOnly
-      Pragma:
-      - no-cache
+      - Wed, 31 Dec 1969 19:00:00 EST
       Content-Type:
-      - text/html;charset=UTF-8
+      - application/json
       Access-Control-Allow-Origin:
       - "*"
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n  \t<head><script type=\"text/javascript\"
-        src=\"/capitalforge-transaction/js/jquery.js\"></script>\n<script type=\"text/javascript\"
-        src=\"../wicket/resource/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/res/js/wicket-event-jquery.min-ver-CD167ED7BEFC26AED029F20C2EBF9AA7.js\"></script>\n<script
-        type=\"text/javascript\" src=\"../wicket/resource/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/res/js/wicket-ajax-jquery.min-ver-373007567CBDD4D664471DD5DBA38759.js\"></script>\n<script
-        type=\"text/javascript\" id=\"wicket-ajax-base-url\">\n/*<![CDATA[*/\nWicket.Ajax.baseUrl=\"api/issuer\";\n/*]]>*/\n</script>\n\r\n\t
-        \   <meta charset=\"utf-8\" />\r\n\t    <meta name=\"viewport\" content=\"width=device-width,
-        initial-scale=1, maximum-scale=1\" />\r\n\t    <meta name=\"description\"
-        content=\"\" />\r\n\t    <meta name=\"author\" content=\"WealthForge Holdings,
-        Inc.\" />\r\n\t    <title>CapitalForge</title>\r\n\t\t\r\n\t<link rel=\"stylesheet\"
-        type=\"text/css\" href=\"../wicket/resource/org.apache.wicket.Application/skincss/a2c37db4-e4fd-4bb7-87ce-5dcb7309be8e\"
-        />\n<script type=\"text/javascript\" >\n/*<![CDATA[*/\nWicket.Event.add(window,
-        \"domready\", function(event) { \nWicket.Ajax.ajax({\"f\":\"id1\",\"u\":\"../login?0-1.IBehaviorListener.0-clientSidePanel-supportForm-submitSupportLink\",\"e\":\"click\",\"c\":\"id2\",\"sc\":\"submitSupportLink\",\"i\":\"id3--ajax-indicator\",\"m\":\"POST\"});;\nWicket.Ajax.ajax({\"f\":\"form\",\"u\":\"../login?0-1.IBehaviorListener.0-form-currentPanel-submit\",\"e\":\"click\",\"c\":\"id4\",\"mp\":true,\"sc\":\"currentPanel:submit\",\"i\":\"id5--ajax-indicator\",\"m\":\"POST\"});;\nWicket.Ajax.ajax({\"u\":\"../login?0-1.IBehaviorListener.0-form-currentPanel-signupLink\",\"e\":\"click\",\"c\":\"id6\",\"i\":\"id5--ajax-indicator\"});;\nWicket.Ajax.ajax({\"u\":\"../login?0-1.IBehaviorListener.0-form-currentPanel-forgotLink\",\"e\":\"click\",\"c\":\"id7\",\"i\":\"id5--ajax-indicator\"});;\nWicket.Event.publish(Wicket.Event.Topic.AJAX_HANDLERS_BOUND);\n;});\n/*]]>*/\n</script>\n</head>\r\n\t\r\n\t<body
-        id=\"UserLoginPage\">\r\n        <div class=\"maincontain\">\r\n            <span>\r\n
-        \   \r\n\t<div class=\"navbar navbar-fixed-top\" role=\"navigation\">\r\n
-        \    \t<div class=\"container-fluid\">\r\n      \t\t\r\n     \t\t<div class=\"mainlogo\">\r\n
-        \    \t\t\t<a id=\"clientheadSite\" href=\"#\" title=\"CapitalForge\"><img
-        src=\"https://sandbox.capitalforge.com/wfcontent/capitalforge/img/capitalforge_logo-175x31.png\"
-        class=\"img-responsive\"></a>\r\n     \t\t</div>\r\n     \t\t\r\n     \t\t<div
-        class=\"navbar-header\">\r\n     \t\t\t<button type=\"button\" class=\"navbar-toggle\"
-        data-toggle=\"collapse\" data-target=\".navbar-collapse\">\r\n\t     \t\t\t<span
-        class=\"icon-bar\"></span>\r\n\t\t\t        <span class=\"icon-bar\"></span>\r\n\t\t\t
-        \       <span class=\"icon-bar\"></span>\r\n\t\t      \t</button>\r\n\t\t
-        \   </div> <!-- / navbar-header -->\r\n\t\t\t<div class=\"collapse navbar-collapse\">\r\n\t\t\t\t<div
-        class=\"btn-settings visible-md-lg btn-group\">\r\n\t\t\t\t\t<button type=\"button\"
-        class=\"dropdown-toggle\" data-toggle=\"dropdown\"><i class=\"fa fa-caret-down\"></i></button>\r\n\t\t\t\t\t<ul
-        class=\"dropdown-menu\" role=\"menu\">\r\n\t\t\t\t\t\t<li><a href=\"../privacy\">Privacy
-        Policy</a></li>\r\n\t\t\t\t\t\t<li><a href=\"../terms\">Terms of Service</a></li>\r\n\t\t\t\t\t\t<li><a
-        data-toggle=\"modal\" href=\"#support\">Support</a></li>\r\n\t\t\t\t\t\t<li>\r\n\t\t
-        \       \t\t\t\r\n\t\t       \t\t\t</li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t</div>\r\n\t\t\t\t<ul
-        class=\"nav navbar-nav pull-right\">\r\n\t                <li class=\"hidden-md-lg\"></li>\r\n\t
-        \               <li class=\"hidden-md-lg\"></li> \r\n\t                <li
-        class=\"hidden-md-lg\"></li> \r\n\t                <li class=\"hidden-md-lg\"></li>
-        \r\n\t                <li class=\"hidden-md-lg\"></li> \r\n\t                <li
-        class=\"hidden-md-lg\"></li> \r\n\t                <li class=\"hidden-md-lg\"></li>
-        \r\n\t                <li class=\"hidden-md-lg\"></li> \r\n\t                <li
-        class=\"hidden-md-lg\"></li>\r\n\t                <li class=\"hidden-md-lg\"><a
-        href=\".././privacy\">Privacy Policy</a></li>\r\n\t\t\t\t\t<li class=\"hidden-md-lg\"><a
-        href=\".././terms\">Terms of Service</a></li>\r\n\t\t\t\t\t<li class=\"hidden-md-lg\"><a
-        data-toggle=\"modal\" href=\"#support\"><i class=\"fa fa-question-circle fa-fw\"></i>
-        Support</a></li>\r\n\t\t\t\t\t<li class=\"hidden-md-lg\">\r\n\t\t        \t\t\r\n\t\t
-        \      \t\t</li>\r\n\t\t\t\t  \t<li>\r\n\t\t\t\t  \t\t\r\n\t\t\t\t  \t</li>\r\n\t\t\t\t</ul>\r\n\t\t\t</div><!--
-        / collapse -->\r\n\t\t\t\r\n      \t</div><!-- / container -->\r\n    </div><!--
-        / navbar-fixed-top -->\r\n    \t<link media=\"screen, projection\" rel=\"stylesheet\"
-        type=\"text/css\" href=\"/capitalforge-transaction/core/css/core.min.css\">\r\n
-        \   \t<link media=\"all\" rel=\"stylesheet\" type=\"text/css\" href=\"/capitalforge-transaction/core/css/toastr.min.css\">\r\n\t\t<script
-        src=\"/capitalforge-transaction/js/jquery.js\"></script>\r\n\t\t<script src=\"/capitalforge-transaction/js/toastr.js\"></script>\r\n\t\t<script
-        src=\"/capitalforge-transaction/js/bootstrap.min.js\"></script>\r\n\t\t<script
-        src=\"/capitalforge-transaction/js/global.min.js\"></script>\r\n\t\t<!--[if
-        lt IE 9]>\r\n\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n\t\t<script
-        src=\"/capitalforge-transaction/js/html5shiv-printshiv.min.js\"></script>\r\n\t\t<script
-        src=\"/capitalforge-transaction/js/html5shiv.min.js\"></script>\r\n\t\t<script
-        src=\"/capitalforge-transaction/js/respond.min.js\"></script>\r\n\t\t<![endif]-->\r\n</span><span
-        style=\"display:none;\" class=\"wicket-ajax-indicator\" id=\"id8--ajax-indicator\"><img
-        src=\"../wicket/resource/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator-ver-03CE3DCC84AF110E9DA8699A841E5200.gif\"
-        alt=\"\"/></span>\r\n\t\t\t<span id=\"id9\" style=\"display:none\"></span>\r\n\t\t\t<div
-        class=\"container\"> <!-- main body content container -->\t\r\n\t\t\t\t\n
-        \   <div class=\"row\">\n        <div class=\"col-xs-3 visible-xs\"></div>\n\t\t<div
-        class=\"col-xs-6 col-sm-8 col-sm-offset-2 logoWrapper text-center\">\n            <div
-        class=\"row\">\n                <div class=\"col-sm-offset-3 col-sm-6 col-md-offset-4
-        col-md-4\">\n                <img src=\"https://sandbox.capitalforge.com/wfcontent/capitalforge/img/capitalforge_logo.png\"
-        title=\"CapitalForge\" alt=\"CapitalForge Logo\" class=\"img-responsive\"/>\n
-        \               </div> \n            </div>\n\t\t</div>\n    </div>\t\n\t<form
-        id=\"form\" autocomplete=\"off\" method=\"post\" action=\"../login?0-1.IFormSubmitListener-form\"
-        enctype=\"multipart/form-data\" accept-charset=\"UTF-8\"><div style=\"width:0px;height:0px;position:absolute;left:-100px;top:-100px;overflow:hidden\"><input
-        type=\"hidden\" name=\"form_hf_0\" id=\"form_hf_0\" /></div>\n\t\t<div id=\"id5\">\n
-        \   <div class=\"col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 pagePanel\">\n\n
-        \       <h3>Login  <i class=\"pull-right\"> <a id=\"id6\" href=\"javascript:;\">Don't
-        have an account? Sign up.</a> <i>|</i> <a id=\"id7\" href=\"javascript:;\">Forgot
-        Your Password?</a></i></h3>\n        \n                \n\t\t<div class=\"inputGroup
-        row\"><label>Email</label>  <input autofocus=\"\" id=\"userEmailLogin\" type=\"text\"
-        value=\"\" name=\"currentPanel:username\"/></div>\n         \n        <div
-        class=\"inputGroup capsWatch row\"><label>Password</label><span id=\"capsWarn\">\n
-        \           <i class=\"fa fa-toggle-up text-secondary\"></i> caps lock is
-        on</span><input class=\"capsCheck\" id=\"userPasswordLogin\" type=\"password\"
-        value=\"\" name=\"currentPanel:password\"/>\n        </div>\n        <div
-        class=\"row\">\n            <div class=\"col-xs-12\">\n                <p>\n
-        \               </p>\n            </div>\n        </div>       \n        <div
-        class=\"row\">\n            <div class=\"col-xs-12\">\n                <input
-        type=\"submit\" class=\"btn btn-secondary btn-lg\" value=\"Login\" id=\"id4\">\n
-        \               <!--input class=\"btn btn-secondary btn-lg text-primary\"
-        wicket:id=\"signupLink\" value=\"Don't have an account? Sign Up\" /-->\n            </div>\n
-        \           <!-- /col -->\n        </div>\n        <!-- /row -->\n    </div>\n
-        \   <script>\n/*<![CDATA[*/\nloginFunction();\n/*]]>*/\n</script>\n</div><span
-        style=\"display:none;\" class=\"wicket-ajax-indicator\" id=\"id5--ajax-indicator\"><img
-        src=\"../wicket/resource/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator-ver-03CE3DCC84AF110E9DA8699A841E5200.gif\"
-        alt=\"\"/></span>\n\t</form>\n\r\n\t\t\t</div> <!-- / main body content container
-        -->\r\n\t\t</div><!-- / maincontain -->\r\n\r\n\t\t<span id=\"id3\">\r\n<!--
-        Support Modal -->\r\n\t<div class=\"modal fade\" id=\"support\" tabindex=\"-1\"
-        role=\"dialog\" aria-labelledby=\"support\" aria-hidden=\"true\">\r\n\t\t<div
-        class=\"modal-dialog\">\r\n\t\t\t<div class=\"modal-content\">\r\n\t\t\t\t<div
-        class=\"modal-header\">\r\n\t\t\t\t\t<button type=\"button\" class=\"close\"
-        data-dismiss=\"modal\" aria-hidden=\"true\">x</button>\r\n\t\t\t\t\t<h3 class=\"modal-title\">Support</h3>\r\n\t
-        \     \t\t</div><!-- /modal-header -->\r\n\t\t\t\t<form id=\"id1\" method=\"post\"
-        action=\"../login?0-1.IFormSubmitListener-clientSidePanel-supportForm\"><div
-        style=\"width:0px;height:0px;position:absolute;left:-100px;top:-100px;overflow:hidden\"><input
-        type=\"hidden\" name=\"id1_hf_0\" id=\"id1_hf_0\" /></div>\r\n\t\t\t\t\t<div
-        class=\"modal-body\">\r\n\t \t\t\t\t\t<div class=\"row\">\r\n\t\t\t\t\t\t
-        \   <div class=\"col-xs-12 form-group\">\r\n\t\t\t\t\t\t\t    <label for=\"name\"
-        class=\"required\">Full Name: </label>\r\n\t\t\t\t\t\t\t    <div class=\"form-inline\">\r\n\t\t\t\t\t\t\t\t\t<input
-        type=\"text\" name=\"p::name\" id=\"name\" class=\"form-control\" placeholder=\"Your
-        Full Name\" value=\"\" maxlength=\"50\">\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t
-        \   </div>\r\n\t\t\t\t\t\t    <div class=\"col-xs-12 form-group\">\r\n\t\t\t\t\t\t\t
-        \   <label for=\"email\" class=\"required\">Email Address:</label>\r\n\t\t\t\t\t\t\t
-        \   <div class=\"form-inline\">\r\n\t\t\t\t\t\t\t\t\t<input type=\"text\"
-        name=\"email\" id=\"email\" class=\"form-control\" placeholder=\"Your Email
-        Address\" value=\"\" maxlength=\"50\">\r\n\t\t\t\t\t\t\t    </div>\r\n\t\t\t\t\t\t
-        \   </div>\r\n\t\t\t\t\t\t    <div class=\"col-xs-12 form-group\">\t\r\n\t\t\t\t\t\t\t
-        \   <label for=\"subject\" class=\"required\">Subject:</label>\r\n\t\t\t\t\t\t\t
-        \   <div class=\"form-inline\">\r\n\t\t\t\t\t\t\t    \t<input type=\"text\"
-        name=\"subject\" id=\"subject\" class=\"form-control\" placeholder=\"Message
-        subject\" value=\"\" maxlength=\"100\">\r\n\t\t\t\t\t\t\t    </div>\t    \r\n\t\t\t\t\t\t
-        \   </div>\r\n\t\t\t\t\t\t\t<div class=\"col-xs-12 form-group\">\r\n\t\t\t\t\t\t\t
-        \   <label for=\"message\" class=\"required\">Message:</label>\r\n\t\t\t\t\t\t\t
-        \   <textarea rows=\"5\" cols=\"40\" name=\"message\" id=\"message\" class=\"form-control\"
-        placeholder=\"Type your message to us here...\" maxlength=\"256\"></textarea>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div><!--
-        /row -->\r\n\t\t\t\t\t</div><!-- /modal-body -->\r\n\t\t\t\t\t<div class=\"modal-footer\">\r\n\t\t\t\t\t
-        \   <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\r\n\t\t\t\t\t
-        \   <a class=\"btn btn-primary\" id=\"id2\" href=\"javascript:;\">Submit for
-        Support</a>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</form>\r\n\t\t\t</div><!-- /modal-content
-        -->\r\n\t\t</div><!-- /modal-dialog -->\t\r\n\t</div><!-- /modal fade (main
-        modal container) -->\r\n</span><span style=\"display:none;\" class=\"wicket-ajax-indicator\"
-        id=\"id3--ajax-indicator\"><img src=\"../wicket/resource/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator-ver-03CE3DCC84AF110E9DA8699A841E5200.gif\"
-        alt=\"\"/></span>\r\n\t\t<span>\r\n\t<footer>\r\n\t\t<div class=\"container\">\r\n
-        \          <div class=\"row\">\r\n\t\t\t\t<div class=\"col-xs-12 text-center\">\r\n
-        \                   <div class=\"text-primary footer-home hidden\"><a target=\"_blank\"
-        href=\".././privacy\" class=\"text-primary\">Privacy Policy</a> | <a target=\"_blank\"
-        href=\".././terms\" class=\"text-primary\">Terms of Service</a> | <a data-toggle=\"modal\"
-        href=\"#support\" class=\"text-primary\">Support</a></div>\r\n                    <div
-        class=\"global\"><a target=\"_blank\" href=\".././privacy\">Privacy Policy</a>
-        | <a target=\"_blank\" href=\".././terms\">Terms of Service</a> | <a data-toggle=\"modal\"
-        href=\"#support\">Support</a>\r\n                    <p></p>\r\n                    </div>\r\n
-        \                   <div class=\"logo hidden\"><img src=\"/capitalforge-transaction/img/capitalforge_logo_white.png\"></div>\r\n
-        \              </div>\r\n               <br/>\r\n            </div>\r\n\t\t\t<div
-        class=\"row\">\r\n\t\t\t\t<div class=\"col-xs-12 text-center\">\r\n\t\t\t\t\t<div
-        class=\"row\">\r\n\t\t\t\t\t\t<div class=\"col-xs-8 busLogo\">\r\n\t\t\t\t\t\t\tTRANSACTION
-        ENGINE POWERED BY <img src=\"/capitalforge-transaction/img/capitalforge_logo.png\"
-        class=\"img-responsive\">\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"col-xs-12
-        copyright\">\r\n\t\t\t\t\t\t\t<span>&copy; <var id=\"year\"></var> WealthForge
-        Technologies, LLC | Securities offered through WealthForge Securities, LLC.
-        Member: <span class=\"footer-home hidden\"><a class=\"text-primary\" href=\"http://www.finra.org\"
-        target=\"_blank\" >FINRA</a> | <a class=\"text-primary\" href=\"http://www.sipc.org\"
-        target=\"_blank\">SIPC</a></span><span class=\"global\"><a class=\"text-primary\"
-        href=\"http://www.finra.org\" target=\"_blank\" >FINRA</a> | <a class=\"text-primary\"
-        href=\"http://www.sipc.org\" target=\"_blank\">SIPC</a></span></span>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t\t<div
-        class=\"col-xs-12 text-centered\">\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t\t<div
-        class=\"col-xs-12\" id=\"siteseal\">\r\n\t\t\t\t\t<span><script type=\"text/javascript\"
-        src=\"https://seal.godaddy.com/getSeal?sealID=OuCEYXNhAgo9s9qHw2zXAUP6uKdkDLTilRtl8ngw7Xs7PZnqEa3Q3IjjZKjr\"></script></span>\r\n\t\t\t\t\t<span><img
-        src=\"https://qualysguard.qg2.apps.qualys.com/portal-front/portal/secureseal/assets/img/qualys-secure-seal-white.png\"
-        onclick=\"window.open('https://seal.qualys.com/sealserv/info/?i=619b1772-a8f1-4346-b6ae-2ae2a59ec7a6','qualysSealInfo',
-        'height=600,width=851,resizable=1')\" /></span>\r\n\t\t\t\t</div>\r\n\t\t\t</div><!--
-        / row -->\r\n\t\t</div><!-- / container -->\r\n\r\n\t\t<div class=\"devContainer\">\r\n\t\t\t<input
-        type=\"submit\" value=\"Clear Cache\" onclick=\"var win = this.ownerDocument.defaultView
-        || this.ownerDocument.parentWindow; if (win == window) { window.location.href=&#039;../login?0-1.ILinkListener-footer-devContainer-clearCache&#039;;
-        } ;return false\"/>\r\n\t\t\t<input type=\"submit\" value=\"Remove Investor
-        Data\" onclick=\"var win = this.ownerDocument.defaultView || this.ownerDocument.parentWindow;
-        if (win == window) { window.location.href=&#039;../login?0-1.ILinkListener-footer-devContainer-clearInvestor&#039;;
-        } ;return false\"/>\r\n\t\t</div>\r\n\t</footer>\r\n</span><span style=\"display:none;\"
-        class=\"wicket-ajax-indicator\" id=\"ida--ajax-indicator\"><img src=\"../wicket/resource/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator-ver-03CE3DCC84AF110E9DA8699A841E5200.gif\"
-        alt=\"\"/></span>\r\n\r\n\t</body>\r\n</html>"
+      string: '{"data":[{"id":"97e6332e-2f0f-461a-b5af-af22fe3ba0ee","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexInvest
+        ACH","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"jaygberg@gmail.com","ssn":null,"ein":"464485031","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        &  Co. LLP","dateOfFormation":1405382400000},{"id":"293f5324-74aa-4a5f-bde7-318a3ff4e3cb","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"AR","name":"Arkansas","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"WannaSue
+        - Lex","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":null,"founderName":null,"email":"dino+remoteacct@sijamic.is","ssn":null,"ein":"123456789","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        & Co. LLP","dateOfFormation":1365811200000},{"id":"18734d6b-0052-42ff-a15c-f4deee82ab3b","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"AL","name":"Alabama","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"SSN
+        Business","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":null,"founderName":null,"email":"dino+remote@sijamic.is","ssn":null,"ein":"123456789","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        & Co. LLP","dateOfFormation":1331683200000},{"id":"2cef45e1-cfd7-4c55-83a9-bed44ed13b55","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexInvestSSN
+        LLC","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"jaygberg@gmail.com","ssn":null,"ein":"123456789","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        &  Co. LLP","dateOfFormation":1429488000000},{"id":"c3c75334-6c14-46b4-ab97-316211cad52c","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexVESTOR","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"jaygberg@gmail.com","ssn":null,"ein":"123456789","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        &  Co. LLP","dateOfFormation":1430438400000},{"id":"9ed3bdd0-4502-4fdb-93df-db7fe474c71c","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"AK","name":"Alaska","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"safa","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"test@sijamic.is","ssn":null,"ein":"00-1234567","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        &  Co. LLP","dateOfFormation":1431993600000},{"id":"17c36754-18bf-4b1b-8299-bcec6bf3baa2","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"AK","name":"Alaska","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"safa","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"test@sijamic.is","ssn":null,"ein":"123456789","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        &  Co. LLP","dateOfFormation":1431993600000},{"id":"4f3c847e-f8fd-4a3a-ba7f-dfd9424d6fb2","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexInvest
+        15 LLC","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"jaygberg@gmail.com","ssn":null,"ein":"123123123","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        &  Co. LLP","dateOfFormation":1436918400000},{"id":"0475ec3f-572a-417c-be4d-d36a57d01103","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"OH","name":"Ohio","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"Test
+        Business","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"testcorp@example.com","ssn":null,"ein":"485926485","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        &  Co. LLP","dateOfFormation":1419984000000},{"id":"f0561377-19e8-4972-a5c1-94d5ac3ef01c","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"OH","name":"Ohio","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"Test
+        Business","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"testcorp@example.com","ssn":null,"ein":"485926485","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        &  Co. LLP","dateOfFormation":1419984000000},{"id":"8a39aec7-c806-40af-9905-eeaab8c08b23","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexInvest
+        16 LLC","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"jaygberg@gmail.com","ssn":null,"ein":"456456456","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        &  Co. LLP","dateOfFormation":1436400000000},{"id":"6d1c1d87-2a2c-41df-b882-dea267224aa7","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexInvest
+        Fund 33 LLC","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"jaygberg@gmail.com","ssn":null,"ein":"123457789","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        &  Co. LLP","dateOfFormation":1445126400000},{"id":"02908061-67b8-47d1-b4f3-300bad651fbd","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexInvest
+        Fund 47 LLC","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"jaygberg@gmail.com","ssn":null,"ein":"441245827","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        &  Co. LLP","dateOfFormation":1442793600000},{"id":"b8dd616a-43d9-44a8-96f3-a41a16932ca5","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexInvest
+        48 LLC","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"jaygberg@gmail.com","ssn":null,"ein":"331515159","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        &  Co. LLP","dateOfFormation":1448928000000},{"id":"2be1c28d-bf15-444c-88bd-b9df2787e131","country":null,"stateOfFormation":{"code":"AL","name":"Alabama","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"TEST
+        LLC WF","busLogo":null,"founderTitle":"CEO","founderName":"nil","email":"wf-testing123@mailinator.com","ssn":null,"ein":"11-3124444","uid":null,"address":"123
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":null,"dateOfFormation":null},{"id":"df713899-8d5f-4f30-ab1e-7c634ef83815","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexInvest
+        Fund 49 LLC","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"jaygberg@gmail.com","ssn":null,"ein":"221245789","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        &  Co. LLP","dateOfFormation":1449360000000},{"id":"d55880e4-f7e9-4d7d-b73b-136156f62101","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexInvest
+        20 LLC","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"jaygberg@gmail.com","ssn":null,"ein":"456747474","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        &  Co. LLP","dateOfFormation":1436486400000},{"id":"c9301b5e-75d1-44d1-8210-f87a069c265c","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"NY","name":"New York","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"Trump
+        vs Clinton SPV","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"keith.gill+trumpSpv@lexshares.com","ssn":null,"ein":"11-1234567","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        &  Co. LLP","dateOfFormation":1461888000000},{"id":"961f64ac-e01a-4146-9cb9-bb129431a697","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"NY","name":"New York","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"Trump
+        vs Clinton SPV","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"keith.gill+trumpSpv@lexshares.com","ssn":null,"ein":"00-1234567","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        &  Co. LLP","dateOfFormation":1461888000000},{"id":"a69a1ea6-b7b4-40f9-9441-eafc08f16a84","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"NY","name":"New York","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"Trump
+        vs Clinton SPV","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"keith.gill+trumpSpv@lexshares.com","ssn":null,"ein":"001234567","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        &  Co. LLP","dateOfFormation":1461888000000},{"id":"6ff5ce20-dda7-44ed-855f-4bf2d5846f40","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"OH","name":"Ohio","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"Test
+        Business","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"MMMMMMM","founderName":"JJJJJJJ","email":"testcorp@example.com","ssn":null,"ein":"485926485","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        & Co. LLP","dateOfFormation":1420070400000},{"id":"7e522861-8b25-4c2e-85f3-87e757d00970","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"MA","name":"Massachusetts","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"TOCKON
+        industries","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"MMMMMMM","founderName":"JJJJJJJ","email":"alxjrbs@gmail.com","ssn":null,"ein":"123455789","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        & Co. LLP","dateOfFormation":1453852800000},{"id":"885bb456-c083-4c92-b9aa-4fb4d333ed03","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"VA","name":"Virginia","hidden":false},"state":{"code":"VA","name":"Virginia","hidden":false},"status":{"code":"ISSUER_ACTIVE","name":"Active","metadata":null,"sequence":2,"active":null,"updatedAt":1387360788169,"hidden":null},"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"API
+        Test Firm LLC","busLogo":"http://unews.utah.edu/wp-content/uploads/Cash.jpg","founderTitle":"CEO","founderName":"API
+        Issuer","email":"wealthforge_api_test@mailinator.com","ssn":null,"ein":"998995999","uid":null,"address":"123
+        Test Rd","address2":null,"phone":null,"city":"Richmond","zip":"23230","issuerUrl":null,"accountingFirm":"None","dateOfFormation":1293753600000},{"id":"61174f21-59ab-43b5-af65-daeb6a486e83","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"OH","name":"Ohio","hidden":false},"state":{"code":"OH","name":"Ohio","hidden":false},"status":{"code":"ISSUER_ACTIVE","name":"Active","metadata":null,"sequence":2,"active":null,"updatedAt":1387360788169,"hidden":null},"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"Test
+        Issuer LLC","busLogo":"http://unews.utah.edu/wp-content/uploads/Cash.jpg","founderTitle":"CEO","founderName":"Kevin
+        Pfefferle","email":"kevinp@testdouble.com","ssn":null,"ein":"839482749","uid":null,"address":"123
+        Main St","address2":null,"phone":null,"city":"Hilliard","zip":"43026","issuerUrl":null,"accountingFirm":"None","dateOfFormation":1391126400000},{"id":"3a1e5ed4-457d-4980-9912-da7c656127fd","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"OH","name":"Ohio","hidden":false},"state":{"code":"OH","name":"Ohio","hidden":false},"status":{"code":"ISSUER_ACTIVE","name":"Active","metadata":null,"sequence":2,"active":null,"updatedAt":1387360788169,"hidden":null},"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"Test
+        Issuer LLC","busLogo":"http://unews.utah.edu/wp-content/uploads/Cash.jpg","founderTitle":"CEO","founderName":"Kevin
+        Pfefferle","email":"kevinp@testdouble.com","ssn":null,"ein":"839481749","uid":null,"address":"123
+        Main St","address2":null,"phone":null,"city":"Hilliard","zip":"43026","issuerUrl":null,"accountingFirm":"None","dateOfFormation":1391126400000},{"id":"bf88ab59-362f-4012-8029-7166750fcc6b","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"VA","name":"Virginia","hidden":false},"state":{"code":"VA","name":"Virginia","hidden":false},"status":{"code":"ISSUER_ACTIVE","name":"Active","metadata":null,"sequence":2,"active":null,"updatedAt":1387360788169,"hidden":null},"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"API
+        Test Firm LLC","busLogo":"http://unews.utah.edu/wp-content/uploads/Cash.jpg","founderTitle":"CEO","founderName":"API
+        Issuer","email":"wealthforge_api_test@mailinator.com","ssn":null,"ein":"998999999","uid":null,"address":"123
+        Test Rd","address2":null,"phone":null,"city":"Richmond","zip":"23230","issuerUrl":null,"accountingFirm":"None","dateOfFormation":1293753600000},{"id":"c904a9ca-56fa-4816-bae0-362fb7eddca3","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"OH","name":"Ohio","hidden":false},"state":{"code":"OH","name":"Ohio","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"Staging
+        Test 2 LLC","busLogo":"http://unews.utah.edu/wp-content/uploads/Cash.jpg","founderTitle":"CEO","founderName":"Kevin
+        Pfefferle","email":"kevinp@testdouble.com","ssn":null,"ein":"385724104","uid":null,"address":"123
+        Main St","address2":null,"phone":null,"city":"Hilliard","zip":"43026","issuerUrl":null,"accountingFirm":"None","dateOfFormation":1417305600000},{"id":"5e6c2177-9ba9-4c64-89a4-1451a32a9bac","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"OH","name":"Ohio","hidden":false},"state":{"code":"OH","name":"Ohio","hidden":false},"status":{"code":"ISSUER_ACTIVE","name":"Active","metadata":null,"sequence":2,"active":null,"updatedAt":1387360788169,"hidden":null},"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"Staging
+        Test LLC","busLogo":"http://unews.utah.edu/wp-content/uploads/Cash.jpg","founderTitle":"CEO","founderName":"Kevin
+        Pfefferle","email":"kevinp@testdouble.com","ssn":null,"ein":"382946275","uid":null,"address":"123
+        Main St","address2":null,"phone":null,"city":"Hilliard","zip":"43026","issuerUrl":null,"accountingFirm":"None","dateOfFormation":1417305600000},{"id":"9774f9e0-4bda-4db4-9bc3-5d254d38e7e5","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexInvest
+        Fund 7, LLC","busLogo":null,"founderTitle":"Manager","founderName":"Jay Greenberg","email":"jaygberg@gmail.com","ssn":null,"ein":"47-2600772","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        & Co.","dateOfFormation":1419638400000},{"id":"cffa3436-f44c-433a-a3aa-398b0a7ebe60","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexInvest
+        Fund 7, LLC","busLogo":"JG","founderTitle":"Manager","founderName":"Jay Greenberg","email":"jaygberg@gmail.com","ssn":null,"ein":"472600772","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        & Co.","dateOfFormation":1419638400000},{"id":"d68d76bc-d827-49ed-b3c9-66c89315bd54","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"OH","name":"Ohio","hidden":false},"state":{"code":"OH","name":"Ohio","hidden":false},"status":{"code":"ISSUER_ACTIVE","name":"Active","metadata":null,"sequence":2,"active":null,"updatedAt":1387360788169,"hidden":null},"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"Test
+        Issuer LLC","busLogo":"http://unews.utah.edu/wp-content/uploads/Cash.jpg","founderTitle":"CEO","founderName":"Kevin
+        Pfefferle","email":"kevinp@testdouble.com","ssn":null,"ein":"839582749","uid":null,"address":"123
+        Main St","address2":null,"phone":null,"city":"Hilliard","zip":"43026","issuerUrl":null,"accountingFirm":"None","dateOfFormation":1391126400000},{"id":"ee58e04a-9f71-4aaf-aa4d-5f75ee16616d","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"OH","name":"Ohio","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"Staging
+        Test 3","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"kevinp@testdouble.com","ssn":null,"ein":"385618993","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        &  Co. LLP","dateOfFormation":1418083200000},{"id":"00069ac4-d80c-4cd9-9a40-3761c45f6f92","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"OH","name":"Ohio","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":{"code":"ISSUER_ACTIVE","name":"Active","metadata":null,"sequence":2,"active":null,"updatedAt":1387360788169,"hidden":null},"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"Investment
+        Test LLC","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"kevinp@testdouble.com","ssn":null,"ein":"274916306","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        &  Co. LLP","dateOfFormation":1419811200000},{"id":"9cea6570-eede-40df-98e7-49e65c2ae6fc","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":{"code":"ISSUER_ACTIVE","name":"Active","metadata":null,"sequence":2,"active":null,"updatedAt":1387360788169,"hidden":null},"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexInvest
+        Fund 14, LLC","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"jay.greenberg@gmail.com","ssn":null,"ein":"123456799","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        &  Co. LLP","dateOfFormation":1416960000000},{"id":"08107e9e-206d-46e6-b607-c70ace29aa41","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"VA","name":"Virginia","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":{"code":"ISSUER_ACTIVE","name":"Active","metadata":null,"sequence":2,"active":null,"updatedAt":1387360788169,"hidden":null},"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"WealthForge
+        Test","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"gmoore@wealthforge.com","ssn":null,"ein":"111111122","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        &  Co. LLP","dateOfFormation":1235952000000},{"id":"3f462fad-c28a-46d8-aa42-78dadf9a8afd","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"MA","name":"Massachusetts","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"TOCKON
+        industries","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"alxjrbs@gmail.com","ssn":null,"ein":"123455789","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        &  Co. LLP","dateOfFormation":1423180800000},{"id":"e2cbf549-2bc2-47ee-864a-1ae4b01e560b","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"MA","name":"Massachusetts","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"TOCKON
+        inc","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"alex@terriblelabs.com","ssn":null,"ein":"123455789","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        &  Co. LLP","dateOfFormation":1409356800000}],"status":200,"code":null,"errors":[],"messages":[]}'
     http_version: 
-  recorded_at: Wed, 11 Jan 2017 05:00:04 GMT
+  recorded_at: Fri, 12 May 2017 03:33:39 GMT
 recorded_with: VCR 3.0.3

@@ -1,8 +1,8 @@
 
 class WealthForge::Offering
 
-  def self.offering_list
-    WealthForge::Connection.get "offering", nil
+  def self.create(params)
+    WealthForge::Connection.post 'offering/setup', params
   end
 
 end

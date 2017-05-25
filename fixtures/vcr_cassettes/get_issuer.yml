@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://sandbox.capitalforge.com/capitalforge-transaction/api/issuer/cc8033ee-cbd9-41b3-a02b-d4aa922a9829
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 May 2017 02:48:14 GMT
+      Server:
+      - Apache/2.4.18 (Amazon) OpenSSL/1.0.1k-fips
+      Cache-Control:
+      - private
+      Expires:
+      - Wed, 31 Dec 1969 19:00:00 EST
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"cc8033ee-cbd9-41b3-a02b-d4aa922a9829","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"MA","name":"Massachusetts","hidden":false},"state":{"code":"MA","name":"Massachusetts","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexShares","busLogo":"http://unews.utah.edu/wp-content/uploads/Cash.jpg","founderTitle":"CEO","founderName":"James
+        Smith","email":"wealthforge_api_test@mailinator.com","ssn":null,"ein":"999999999","uid":null,"address":"124
+        Investor Way","address2":null,"phone":"2125551234","city":"Boston","zip":"02139","issuerUrl":null,"accountingFirm":"Accountants,
+        LLC","dateOfFormation":1004572800000},"status":200,"code":null,"errors":[],"messages":[]}'
+    http_version: 
+  recorded_at: Thu, 25 May 2017 02:48:14 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,42 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://sandbox.capitalforge.com/capitalforge-transaction/api/issuer
+    body:
+      encoding: UTF-8
+      string: '{"address":"124 Investor Way","city":"Boston","state":"MA","zip":"02139","country":{"code":"US"},"busName":"LexShares","accountingFirm":"Accountants,
+        LLC","founderName":"James Smith","stateOfFormation":{"code":"MA"},"entityType":{"code":"ENTITY_TYPE_LLC"},"founderTitle":"CEO","dateOfFormation":"2001-11-01","ein":"999999999","email":"wealthforge_api_test@mailinator.com","phone":"2125551234","busLogo":"http://unews.utah.edu/wp-content/uploads/Cash.jpg"}'
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 May 2017 02:48:13 GMT
+      Server:
+      - Apache/2.4.18 (Amazon) OpenSSL/1.0.1k-fips
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"4056d199-53e1-4503-b963-be295bd8f135","country":{"code":"US","name":null},"stateOfFormation":{"code":"MA","name":null,"hidden":null},"state":{"code":"MA","name":null,"hidden":null},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":null,"metadata":null,"sequence":null,"active":null,"updatedAt":null,"hidden":null},"busName":"LexShares","busLogo":"http://unews.utah.edu/wp-content/uploads/Cash.jpg","founderTitle":"CEO","founderName":"James
+        Smith","email":"wealthforge_api_test@mailinator.com","ssn":null,"ein":"999999999","uid":null,"address":"124
+        Investor Way","address2":null,"phone":"2125551234","city":"Boston","zip":"02139","issuerUrl":null,"accountingFirm":"Accountants,
+        LLC","dateOfFormation":1004572800000},"status":200,"code":null,"errors":[],"messages":[]}'
+    http_version: 
+  recorded_at: Thu, 25 May 2017 02:48:13 GMT
+recorded_with: VCR 3.0.3

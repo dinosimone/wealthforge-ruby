@@ -1,0 +1,42 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://sandbox.capitalforge.com/capitalforge-transaction/api/offering/setup
+    body:
+      encoding: UTF-8
+      string: '{"maxRaise":123000,"minRaise":15000,"dateStart":"2018-01-01","dateEnd":"2019-11-01","issuer":"4056d199-53e1-4503-b963-be295bd8f135","offerDetails":[{"issued":250,"offerDetailType":"EQUITY","instrumentType":"SHARE_COMMON","regulationType":"EXEMPTION_506C","minInvestment":2500}]}'
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 May 2017 02:48:59 GMT
+      Server:
+      - Apache/2.4.18 (Amazon) OpenSSL/1.0.1k-fips
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"5b160e3f-553d-49c5-aef0-057ca262f88c","status":{"code":"OFFERING_INPROGRESS","name":null,"metadata":null,"sequence":null,"active":null,"updatedAt":null,"hidden":null},"paymentStatus":null,"escrowStatus":null,"wfStatus":null,"escrowAccount":null,"feeAccount":null,"clientAccount":null,"issuer":{"id":"4056d199-53e1-4503-b963-be295bd8f135","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"MA","name":"Massachusetts","hidden":false},"state":{"code":"MA","name":"Massachusetts","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexShares","busLogo":"http://unews.utah.edu/wp-content/uploads/Cash.jpg","founderTitle":"CEO","founderName":"James
+        Smith","email":"wealthforge_api_test@mailinator.com","ssn":null,"ein":"999999999","uid":null,"address":"124
+        Investor Way","address2":null,"phone":"2125551234","city":"Boston","zip":"02139","issuerUrl":null,"accountingFirm":"Accountants,
+        LLC","dateOfFormation":1004572800000},"escrow":null,"previouslyRaised":null,"minRaise":15000,"maxRaise":123000,"amountRaised":null,"clientFee":null,"clientCommission":null,"totalNotes":null,"totalShare":null,"totalSharesAuthorized":null,"totalSharesOutstanding":null,"totalNotesOutstanding":null,"metMinRaise":null,"signed":null,"dateStart":1514764800000,"dateEnd":1572566400000,"paymentOptions":[],"offerDetails":[{"id":"68c44e84-f1a6-4510-8d11-afa4b2656820","offering":"5b160e3f-553d-49c5-aef0-057ca262f88c","instrumentType":{"code":"SHARE_COMMON","name":null,"metadata":null,"sequence":null,"active":null,"updatedAt":null,"hidden":null},"status":null,"regulationType":{"code":"EXEMPTION_506C","name":null,"metadata":null,"sequence":null,"active":null,"offerDetailType":null,"updatedAt":null,"hidden":null},"offerDetailType":{"code":"EQUITY","name":null,"metadata":null,"sequence":null,"active":null,"updatedAt":null,"hidden":null},"postMoneyValuation":null,"preMoneyValuation":null,"minRaise":null,"maxRaise":null,"amountRaised":null,"minInvestment":2500,"interestRate":null,"valuationCap":null,"discount":null,"debtYears":null,"maturity":null,"paymentFrequency":null,"price":null,"issued":250}],"title":null},"status":200,"code":null,"errors":[],"messages":[]}'
+    http_version: 
+  recorded_at: Thu, 25 May 2017 02:48:59 GMT
+recorded_with: VCR 3.0.3
