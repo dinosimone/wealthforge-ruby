@@ -19,6 +19,16 @@ Or install it yourself as:
 
     $ gem install wealth_forge
 
+
+## Configuration
+
+Before you can use the gem, you'll have to set a few environment variables below.
+
+WF_CRT_FILE: Your certificate
+WF_KEY_FILE: Your private key
+ENVIRONMENT: production|development
+
+
 ## Usage
 
 Please refer to the official WealthForge API [documentation](https://api.wealthforge.com/) for a full list of functions. This client is currently a partial implementation of the most commnoly used functionality.
