@@ -45,12 +45,12 @@ http_interactions:
         &  Co. LLP","dateOfFormation":1405382400000},{"id":"293f5324-74aa-4a5f-bde7-318a3ff4e3cb","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"AR","name":"Arkansas","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"WannaSue
-        - Lex","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":null,"founderName":null,"email":"dino+remoteacct@sijamic.is","ssn":null,"ein":"123456789","uid":null,"address":"33
+        - Lex","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":null,"founderName":null,"email":"dino+remoteacct@anotherplace.is","ssn":null,"ein":"123456789","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         & Co. LLP","dateOfFormation":1365811200000},{"id":"18734d6b-0052-42ff-a15c-f4deee82ab3b","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"AL","name":"Alabama","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"SSN
-        Business","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":null,"founderName":null,"email":"dino+remote@sijamic.is","ssn":null,"ein":"123456789","uid":null,"address":"33
+        Business","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":null,"founderName":null,"email":"dino+remote@anotherplace.is","ssn":null,"ein":"123456789","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         & Co. LLP","dateOfFormation":1331683200000},{"id":"2cef45e1-cfd7-4c55-83a9-bed44ed13b55","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
@@ -66,12 +66,12 @@ http_interactions:
         &  Co. LLP","dateOfFormation":1430438400000},{"id":"9ed3bdd0-4502-4fdb-93df-db7fe474c71c","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"AK","name":"Alaska","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"safa","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
-        Greenberg","email":"test@sijamic.is","ssn":null,"ein":"00-1234567","uid":null,"address":"33
+        Greenberg","email":"test@anotherplace.is","ssn":null,"ein":"00-1234567","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1431993600000},{"id":"17c36754-18bf-4b1b-8299-bcec6bf3baa2","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"AK","name":"Alaska","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"safa","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
-        Greenberg","email":"test@sijamic.is","ssn":null,"ein":"123456789","uid":null,"address":"33
+        Greenberg","email":"test@anotherplace.is","ssn":null,"ein":"123456789","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1431993600000},{"id":"4f3c847e-f8fd-4a3a-ba7f-dfd9424d6fb2","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
