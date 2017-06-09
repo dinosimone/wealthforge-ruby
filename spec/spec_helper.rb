@@ -1,6 +1,6 @@
 $LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
 
-require "wealth_forge"
+require "wealthforge-ruby"
 require "factory_girl"
 require "vcr"
 

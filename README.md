@@ -17,7 +17,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install wealth_forge
+    $ gem install wealthforge-ruby
 
 
 ## Configuration
@@ -85,7 +85,7 @@ Please refer to the official WealthForge API [documentation](https://api.wealthf
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/dinosimone/wealth_forge.
+Bug reports and pull requests are welcome on GitHub at https://github.com/dinosimone/wealthforge-ruby.
 
 
 ## Tests
