@@ -38,6 +38,18 @@ Before you can use this gem, you'll need to configure it with the key and cert. 
 Please refer to the official WealthForge API [documentation](https://api.wealthforge.com/) for a full list of API calls. Note that this is currently a partial implementation of the most commonly used functionality.
 
 
+### Available Calls
+
+#### Investor
+
+    WealthForge::Investor.all
+    WealthForge::Investor.create params
+    WealthForge::Investor.get @investor_id
+    WealthForge::Investor.update @investor_id, params
+    WealthForge::Investor.accreditation_evidence @investor_id, params
+    
+
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/dinosimone/wealth_forge.
