@@ -88,6 +88,14 @@ Please refer to the official WealthForge API [documentation](https://api.wealthf
 Bug reports and pull requests are welcome on GitHub at https://github.com/dinosimone/wealth_forge.
 
 
+## Tests
+
+All tests can be run by typing `rspec`. Prior to running tests, you'll need to export your cert and key as such:
+
+  export WF_CRT_FILE=/home/you/wealthforge/certs/development.crt
+  export WF_KEY_FILE=/home/you/wealthforge/certs/development.key
+
+
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
