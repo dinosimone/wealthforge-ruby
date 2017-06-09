@@ -1,6 +1,6 @@
 # WealthForge API Client for Ruby
 
-The WealthForge API acts as a connection between WealthForge's back-end transaction engine, CapitalForge, and your front-end website. This API client is responsible for interfacing with the WealthForge API.
+The WealthForge API acts as a connection between WealthForge's back-end transaction engine, CapitalForge, and your front-end website. This client seamlessly integrates into your Ruby application to provide an interface to the WealthForge API web service.
 
 
 ## Installation
@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Configuration
 
-Before you can use this gem, you'll need to configure it with the key and cert. If using with Rails, put this code in the initializer.
+Before you can use this gem, you'll need to configure it with the key and cert, which you'll have after registering with WealthForge. If using with Rails, put this code in the initializer.
 
 
     WealthForge.configure do |config|
@@ -52,9 +52,9 @@ Please refer to the official WealthForge API [documentation](https://api.wealthf
 
     WealthForge::Investor.all
     WealthForge::Investor.create params
-    WealthForge::Investor.get @investor_id
-    WealthForge::Investor.update @investor_id, params
-    WealthForge::Investor.accreditation_evidence @investor_id, params
+    WealthForge::Investor.get investor_id
+    WealthForge::Investor.update investor_id, params
+    WealthForge::Investor.accreditation_evidence investor_id, params
     
 #### Investment
 
@@ -92,3 +92,12 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/dinosi
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
+
+## Disclaimer
+
+This project and the code therein was not created by and is not supported by WealthForge.
+
+
+## Author
+
+Dino Simone (dino@simone.is)
