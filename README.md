@@ -48,6 +48,30 @@ Please refer to the official WealthForge API [documentation](https://api.wealthf
     WealthForge::Investor.update @investor_id, params
     WealthForge::Investor.accreditation_evidence @investor_id, params
     
+#### Investment
+
+    WealthForge::Investment.all
+    WealthForge::Investment.create params
+    WealthForge::Investment.get investment_id
+    WealthForge::Investment.update investment_id, params
+    WealthForge::Investment.redirect_url investment_id
+    WealthForge::Investment.status investment_id
+    WealthForge::Investment.account investment_id
+    WealthForge::Investment.update_account investment_id, account
+    WealthForge::Investment.approve investment_id
+    WealthForge::Investment.approve_subscription investment_id
+    WealthForge::Investment.due_diligence investment_id
+    WealthForge::Investment.create_subscription_agreement investment_id, params
+
+#### Issuer
+
+    WealthForge::Issuer.all
+    WealthForge::Issuer.create params
+    WealthForge::Issuer.get id
+
+#### Offering
+
+    WealthForge::Offering.create params
 
 
 ## Contributing
