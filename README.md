@@ -22,22 +22,25 @@ Or install it yourself as:
 
 ## Configuration
 
-Before you can use this gem, you'll need to set the following environment variables.
+Before you can use this gem, you'll need to configure it with the key and cert. If using with Rails, put this code in the initializer.
 
 
-    WF_CRT_FILE: Your certificate
-    WF_KEY_FILE: Your private key
-    ENVIRONMENT: production|development
+    WealthForge.configure do |config|
+      config.wf_crt      = ENV['WF_CRT_FILE']
+      config.wf_key      = ENV['WF_KEY_FILE']
+      config.environment = 'development'
+    end
+
 
 
 ## Usage
 
-Please refer to the official WealthForge API [documentation](https://api.wealthforge.com/) for a full list of functions. This client is currently a partial implementation of the most commnoly used functionality.
+Please refer to the official WealthForge API [documentation](https://api.wealthforge.com/) for a full list of API calls. Note that this is currently a partial implementation of the most commonly used functionality.
 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/dinosimone/wealth_forge. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/dinosimone/wealth_forge.
 
 
 ## License
