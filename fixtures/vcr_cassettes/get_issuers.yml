@@ -39,80 +39,80 @@ http_interactions:
       string: '{"data":[{"id":"97e6332e-2f0f-461a-b5af-af22fe3ba0ee","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexInvest
-        ACH","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        ACH","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
         Greenberg","email":"jaygberg@gmail.com","ssn":null,"ein":"464485031","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1405382400000},{"id":"293f5324-74aa-4a5f-bde7-318a3ff4e3cb","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"AR","name":"Arkansas","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"WannaSue
-        - Lex","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":null,"founderName":null,"email":"dino+remoteacct@anotherplace.is","ssn":null,"ein":"123456789","uid":null,"address":"33
+        - Lex","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":null,"founderName":null,"email":"dino+remoteacct@anotherplace.is","ssn":null,"ein":"123456789","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         & Co. LLP","dateOfFormation":1365811200000},{"id":"18734d6b-0052-42ff-a15c-f4deee82ab3b","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"AL","name":"Alabama","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"SSN
-        Business","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":null,"founderName":null,"email":"dino+remote@anotherplace.is","ssn":null,"ein":"123456789","uid":null,"address":"33
+        Business","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":null,"founderName":null,"email":"dino+remote@anotherplace.is","ssn":null,"ein":"123456789","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         & Co. LLP","dateOfFormation":1331683200000},{"id":"2cef45e1-cfd7-4c55-83a9-bed44ed13b55","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexInvestSSN
-        LLC","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        LLC","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
         Greenberg","email":"jaygberg@gmail.com","ssn":null,"ein":"123456789","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1429488000000},{"id":"c3c75334-6c14-46b4-ab97-316211cad52c","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
-        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexVESTOR","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexVESTOR","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
         Greenberg","email":"jaygberg@gmail.com","ssn":null,"ein":"123456789","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1430438400000},{"id":"9ed3bdd0-4502-4fdb-93df-db7fe474c71c","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"AK","name":"Alaska","hidden":false},"state":{"code":"NY","name":"New
-        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"safa","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"safa","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
         Greenberg","email":"test@anotherplace.is","ssn":null,"ein":"00-1234567","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1431993600000},{"id":"17c36754-18bf-4b1b-8299-bcec6bf3baa2","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"AK","name":"Alaska","hidden":false},"state":{"code":"NY","name":"New
-        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"safa","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"safa","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
         Greenberg","email":"test@anotherplace.is","ssn":null,"ein":"123456789","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1431993600000},{"id":"4f3c847e-f8fd-4a3a-ba7f-dfd9424d6fb2","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexInvest
-        15 LLC","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        15 LLC","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
         Greenberg","email":"jaygberg@gmail.com","ssn":null,"ein":"123123123","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1436918400000},{"id":"0475ec3f-572a-417c-be4d-d36a57d01103","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"OH","name":"Ohio","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"Test
-        Business","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Business","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
         Greenberg","email":"testcorp@example.com","ssn":null,"ein":"485926485","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1419984000000},{"id":"f0561377-19e8-4972-a5c1-94d5ac3ef01c","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"OH","name":"Ohio","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"Test
-        Business","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Business","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
         Greenberg","email":"testcorp@example.com","ssn":null,"ein":"485926485","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1419984000000},{"id":"8a39aec7-c806-40af-9905-eeaab8c08b23","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexInvest
-        16 LLC","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        16 LLC","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
         Greenberg","email":"jaygberg@gmail.com","ssn":null,"ein":"456456456","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1436400000000},{"id":"6d1c1d87-2a2c-41df-b882-dea267224aa7","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexInvest
-        Fund 33 LLC","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Fund 33 LLC","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
         Greenberg","email":"jaygberg@gmail.com","ssn":null,"ein":"123457789","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1445126400000},{"id":"02908061-67b8-47d1-b4f3-300bad651fbd","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexInvest
-        Fund 47 LLC","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Fund 47 LLC","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
         Greenberg","email":"jaygberg@gmail.com","ssn":null,"ein":"441245827","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1442793600000},{"id":"b8dd616a-43d9-44a8-96f3-a41a16932ca5","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexInvest
-        48 LLC","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        48 LLC","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
         Greenberg","email":"jaygberg@gmail.com","ssn":null,"ein":"331515159","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1448928000000},{"id":"2be1c28d-bf15-444c-88bd-b9df2787e131","country":null,"stateOfFormation":{"code":"AL","name":"Alabama","hidden":false},"state":{"code":"NY","name":"New
@@ -121,42 +121,42 @@ http_interactions:
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":null,"dateOfFormation":null},{"id":"df713899-8d5f-4f30-ab1e-7c634ef83815","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexInvest
-        Fund 49 LLC","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Fund 49 LLC","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
         Greenberg","email":"jaygberg@gmail.com","ssn":null,"ein":"221245789","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1449360000000},{"id":"d55880e4-f7e9-4d7d-b73b-136156f62101","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexInvest
-        20 LLC","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        20 LLC","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
         Greenberg","email":"jaygberg@gmail.com","ssn":null,"ein":"456747474","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1436486400000},{"id":"c9301b5e-75d1-44d1-8210-f87a069c265c","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"NY","name":"New York","hidden":false},"state":{"code":"NY","name":"New
-        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"Trump
-        vs Clinton SPV","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
-        Greenberg","email":"keith.gill+trumpSpv@lexshares.com","ssn":null,"ein":"11-1234567","uid":null,"address":"33
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"Biz
+        vs Loom SPV","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"tester+283aSpv@fakecorp.com","ssn":null,"ein":"11-1234567","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1461888000000},{"id":"961f64ac-e01a-4146-9cb9-bb129431a697","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"NY","name":"New York","hidden":false},"state":{"code":"NY","name":"New
-        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"Trump
-        vs Clinton SPV","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
-        Greenberg","email":"keith.gill+trumpSpv@lexshares.com","ssn":null,"ein":"00-1234567","uid":null,"address":"33
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"Biz
+        vs Loom SPV","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"tester+283aSpv@fakecorp.com","ssn":null,"ein":"00-1234567","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1461888000000},{"id":"a69a1ea6-b7b4-40f9-9441-eafc08f16a84","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"NY","name":"New York","hidden":false},"state":{"code":"NY","name":"New
-        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"Trump
-        vs Clinton SPV","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
-        Greenberg","email":"keith.gill+trumpSpv@lexshares.com","ssn":null,"ein":"001234567","uid":null,"address":"33
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"Biz
+        vs Loom SPV","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Greenberg","email":"tester+283aSpv@fakecorp.com","ssn":null,"ein":"001234567","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1461888000000},{"id":"6ff5ce20-dda7-44ed-855f-4bf2d5846f40","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"OH","name":"Ohio","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"Test
-        Business","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"MMMMMMM","founderName":"JJJJJJJ","email":"testcorp@example.com","ssn":null,"ein":"485926485","uid":null,"address":"33
+        Business","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"MMMMMMM","founderName":"JJJJJJJ","email":"testcorp@example.com","ssn":null,"ein":"485926485","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         & Co. LLP","dateOfFormation":1420070400000},{"id":"7e522861-8b25-4c2e-85f3-87e757d00970","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"MA","name":"Massachusetts","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"TOCKON
-        industries","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"MMMMMMM","founderName":"JJJJJJJ","email":"alxjrbs@gmail.com","ssn":null,"ein":"123455789","uid":null,"address":"33
+        industries","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"MMMMMMM","founderName":"JJJJJJJ","email":"alxjrbs@gmail.com","ssn":null,"ein":"123455789","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         & Co. LLP","dateOfFormation":1453852800000},{"id":"885bb456-c083-4c92-b9aa-4fb4d333ed03","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"VA","name":"Virginia","hidden":false},"state":{"code":"VA","name":"Virginia","hidden":false},"status":{"code":"ISSUER_ACTIVE","name":"Active","metadata":null,"sequence":2,"active":null,"updatedAt":1387360788169,"hidden":null},"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"API
@@ -199,37 +199,37 @@ http_interactions:
         Main St","address2":null,"phone":null,"city":"Hilliard","zip":"43026","issuerUrl":null,"accountingFirm":"None","dateOfFormation":1391126400000},{"id":"ee58e04a-9f71-4aaf-aa4d-5f75ee16616d","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"OH","name":"Ohio","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"Staging
-        Test 3","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Test 3","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
         Greenberg","email":"kevinp@testdouble.com","ssn":null,"ein":"385618993","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1418083200000},{"id":"00069ac4-d80c-4cd9-9a40-3761c45f6f92","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"OH","name":"Ohio","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":{"code":"ISSUER_ACTIVE","name":"Active","metadata":null,"sequence":2,"active":null,"updatedAt":1387360788169,"hidden":null},"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"Investment
-        Test LLC","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Test LLC","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
         Greenberg","email":"kevinp@testdouble.com","ssn":null,"ein":"274916306","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1419811200000},{"id":"9cea6570-eede-40df-98e7-49e65c2ae6fc","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":{"code":"ISSUER_ACTIVE","name":"Active","metadata":null,"sequence":2,"active":null,"updatedAt":1387360788169,"hidden":null},"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexInvest
-        Fund 14, LLC","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Fund 14, LLC","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
         Greenberg","email":"jay.greenberg@gmail.com","ssn":null,"ein":"123456799","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1416960000000},{"id":"08107e9e-206d-46e6-b607-c70ace29aa41","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"VA","name":"Virginia","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":{"code":"ISSUER_ACTIVE","name":"Active","metadata":null,"sequence":2,"active":null,"updatedAt":1387360788169,"hidden":null},"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"WealthForge
-        Test","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        Test","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
         Greenberg","email":"gmoore@wealthforge.com","ssn":null,"ein":"111111122","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1235952000000},{"id":"3f462fad-c28a-46d8-aa42-78dadf9a8afd","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"MA","name":"Massachusetts","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"TOCKON
-        industries","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        industries","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
         Greenberg","email":"alxjrbs@gmail.com","ssn":null,"ein":"123455789","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1423180800000},{"id":"e2cbf549-2bc2-47ee-864a-1ae4b01e560b","country":{"code":"US","name":"United
         States"},"stateOfFormation":{"code":"MA","name":"Massachusetts","hidden":false},"state":{"code":"NY","name":"New
         York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"TOCKON
-        inc","busLogo":"https://www.lexshares.com/assets/lexshares-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
+        inc","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"Jay
         Greenberg","email":"alex@terriblelabs.com","ssn":null,"ein":"123455789","uid":null,"address":"33
         Whitehall Street","address2":null,"phone":null,"city":"New York","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
         &  Co. LLP","dateOfFormation":1409356800000}],"status":200,"code":null,"errors":[],"messages":[]}'

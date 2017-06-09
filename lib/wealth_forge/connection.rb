@@ -64,7 +64,7 @@ class WealthForge::Connection
 
 
   def self.connection
-    api_endpoint = (!ENV['ENVIRONMENT'].nil? and ENV['ENVIRONMENT'].eql? 'production') ? 
+    api_endpoint = (!WealthForge.configuration.environment.nil? and WealthForge.configuration.environment.eql? 'production') ? 
       'https://www.capitalforge.com/capitalforge-transaction/api/' : 
       'https://sandbox.capitalforge.com/capitalforge-transaction/api/'
     return Faraday.new(:url => api_endpoint, :ssl => ssl_options) do |faraday|
