@@ -6,8 +6,8 @@ describe WealthForge::Offering do
 
     before do
       WealthForge.configure do |config|
-        config.wf_crt      = ENV['WF_CRT_FILE']
-        config.wf_key      = ENV['WF_KEY_FILE']
+        config.wf_crt_file = ENV['WF_CRT_FILE']
+        config.wf_key_file = ENV['WF_KEY_FILE']
         config.environment = 'development'
       end
     end

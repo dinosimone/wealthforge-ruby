@@ -26,8 +26,16 @@ Before you can use this gem, you'll need to configure it with the key and cert. 
 
 
     WealthForge.configure do |config|
-      config.wf_crt      = ENV['WF_CRT_FILE']
-      config.wf_key      = ENV['WF_KEY_FILE']
+      config.wf_crt_file = ENV['WF_CRT_FILE']
+      config.wf_key_file = ENV['WF_KEY_FILE']
+      config.environment = 'development'
+    end
+
+    or
+
+    WealthForge.configure do |config|
+      config.wf_crt = ENV['WF_CRT']
+      config.wf_key = ENV['WF_KEY']
       config.environment = 'development'
     end
 
@@ -72,6 +80,7 @@ Please refer to the official WealthForge API [documentation](https://api.wealthf
 #### Offering
 
     WealthForge::Offering.create params
+
 
 
 ## Contributing
