@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v0.10.1
+      - Faraday v0.12.0.1
       Content-Type:
       - application/json
       Accept-Encoding:
@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 May 2017 02:48:14 GMT
+      - Fri, 09 Jun 2017 02:15:44 GMT
       Server:
       - Apache/2.4.18 (Amazon) OpenSSL/1.0.1k-fips
       Cache-Control:
@@ -42,5 +42,5 @@ http_interactions:
         Investor Way","address2":null,"phone":"2125551234","city":"Boston","zip":"02139","issuerUrl":null,"accountingFirm":"Accountants,
         LLC","dateOfFormation":1004572800000},"status":200,"code":null,"errors":[],"messages":[]}'
     http_version: 
-  recorded_at: Thu, 25 May 2017 02:48:14 GMT
+  recorded_at: Fri, 09 Jun 2017 02:15:44 GMT
 recorded_with: VCR 3.0.3

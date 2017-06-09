@@ -64,7 +64,7 @@ class WealthForge::Connection
 
 
   def self.connection
-    api_endpoint = (ENV['ENVIRONMENT'].eql? 'production') ? 
+    api_endpoint = (!ENV['ENVIRONMENT'].nil? and ENV['ENVIRONMENT'].eql? 'production') ? 
       'https://www.capitalforge.com/capitalforge-transaction/api/' : 
       'https://sandbox.capitalforge.com/capitalforge-transaction/api/'
     return Faraday.new(:url => api_endpoint, :ssl => ssl_options) do |faraday|
@@ -77,8 +77,8 @@ class WealthForge::Connection
   def self.ssl_options
     cert_store = OpenSSL::X509::Store.new
     #cert_store.add_file(ENV['AUTHORITY_CRT'] #/public/certs/godaddy.crt')
-    wf_cert = ENV['WF_CRT_FILE'] ? File.read(ENV['WF_CRT_FILE']) : ENV['WF_CRT']
-    wf_key  = ENV['WF_CRT_FILE'] ? File.read(ENV['WF_KEY_FILE']) : ENV['WF_KEY']
+    wf_cert = File.read(WealthForge.configuration.wf_crt) #ENV['WF_CRT_FILE'] ? File.read(ENV['WF_CRT_FILE']) : ENV['WF_CRT']
+    wf_key  = File.read(WealthForge.configuration.wf_key) #ENV['WF_CRT_FILE'] ? File.read(ENV['WF_KEY_FILE']) : ENV['WF_KEY']
     ssl_options = {
       :version => :TLSv1,
       :client_cert => OpenSSL::X509::Certificate.new(wf_cert),

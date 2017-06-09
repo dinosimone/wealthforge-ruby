@@ -6,6 +6,11 @@ describe WealthForge::Investor do
 
     before do
       @investor_id = "007e8578-6841-4106-8fad-fb6ed64ed293"
+      WealthForge.configure do |config|
+        config.wf_crt      = ENV['WF_CRT_FILE']
+        config.wf_key      = ENV['WF_KEY_FILE']
+        config.environment = 'development'
+      end
     end
 
    
