@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'wealth_forge/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "wealth_forge"
+  spec.name          = "wealthforge-ruby"
   spec.version       = WealthForge::VERSION
   spec.authors       = ["Dino Simone"]
   spec.email         = ["dino@simone.is"]
