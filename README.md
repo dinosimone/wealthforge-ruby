@@ -92,8 +92,8 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/dinosi
 
 All tests can be run by typing `rspec`. Prior to running tests, you'll need to export your cert and key as such:
 
-  export WF_CRT_FILE=/home/you/wealthforge/certs/development.crt
-  export WF_KEY_FILE=/home/you/wealthforge/certs/development.key
+    export WF_CRT_FILE=/home/you/wealthforge/certs/development.crt
+    export WF_KEY_FILE=/home/you/wealthforge/certs/development.key
 
 
 ## License
