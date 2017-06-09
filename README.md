@@ -1,4 +1,4 @@
-# WealthForge
+# WealthForge API Client for Ruby
 
 The WealthForge API acts as a connection between WealthForge's back-end transaction engine, CapitalForge, and your front-end website. This API client is responsible for interfacing with the WealthForge API.
 
@@ -22,7 +22,8 @@ Or install it yourself as:
 
 ## Configuration
 
-Before you can use the gem, you'll have to set a few environment variables below.
+Before you can use this gem, you'll need to set the following environment variables.
+
 
     WF_CRT_FILE: Your certificate
     WF_KEY_FILE: Your private key
