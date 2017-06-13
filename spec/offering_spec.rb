@@ -5,6 +5,7 @@ describe WealthForge::Offering do
   context 'offering' do
 
     before do
+      @offering_id = "3d609eb4-93aa-444c-be02-72ee5ec584ad"
       WealthForge.configure do |config|
         config.wf_crt_file = ENV['WF_CRT_FILE']
         config.wf_key_file = ENV['WF_KEY_FILE']
@@ -38,12 +39,19 @@ describe WealthForge::Offering do
 
 
     it "get list of offerings" do
-      skip "Not yet implemented"
+      VCR.use_cassette 'list_offerings', record: :none do
+        response = WealthForge::Offering.all
+	puts response.inspect
+        expect(response[:errors].length).to eq 0
+      end
     end
 
 
     it "get offering" do
-      skip "Not yet implemented"
+      VCR.use_cassette 'get_offering_by_id', record: :none do
+        response = WealthForge::Offering.get @offering_id
+        expect(response[:errors].length).to eq 0
+      end
     end
 
 

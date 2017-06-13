@@ -1,0 +1,94 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://sandbox.capitalforge.com/capitalforge-transaction/api/investment/3d609eb4-93aa-444c-be02-72ee5ec584ad
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.0.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 500
+      message: Internal Server Error
+    headers:
+      Date:
+      - Tue, 13 Jun 2017 14:46:47 GMT
+      Server:
+      - Apache/2.4.18 (Amazon) OpenSSL/1.0.1k-fips
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Origin:
+      - "*"
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":null,"status":500,"code":"EPUDC8R46Z","errors":[{"timestamp":1497365207199,"value":"[EPUDC8R46Z]
+        : Entity could not be found with specified parameters","parameters":[],"message":"[EPUDC8R46Z]
+        : Entity could not be found with specified parameters"}],"messages":[]}'
+    http_version: 
+  recorded_at: Tue, 13 Jun 2017 14:46:47 GMT
+- request:
+    method: get
+    uri: https://sandbox.capitalforge.com/capitalforge-transaction/api/offering/3d609eb4-93aa-444c-be02-72ee5ec584ad
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.0.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 13 Jun 2017 14:55:55 GMT
+      Server:
+      - Apache/2.4.18 (Amazon) OpenSSL/1.0.1k-fips
+      Cache-Control:
+      - private
+      Expires:
+      - Wed, 31 Dec 1969 19:00:00 EST
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"3d609eb4-93aa-444c-be02-72ee5ec584ad","status":{"code":"OFFERING_ACTIVE","name":"Active","metadata":null,"sequence":4,"active":null,"updatedAt":1387358184294,"hidden":null},"paymentStatus":null,"escrowStatus":null,"wfStatus":{"code":"OFFERING_ACTIVE","name":"Active","metadata":null,"sequence":4,"active":null,"updatedAt":1387358184294,"hidden":null},"escrowAccount":null,"feeAccount":null,"clientAccount":null,"issuer":{"id":"df713899-8d5f-4f30-ab1e-7c634ef83815","country":{"code":"US","name":"United
+        States"},"stateOfFormation":{"code":"NJ","name":"New Jersey","hidden":false},"state":{"code":"NY","name":"New
+        York","hidden":false},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":"LLC","metadata":null,"sequence":1,"active":true,"updatedAt":1382459455000,"hidden":false},"busName":"LexInvest
+        Fund 49 LLC","busLogo":"https://www.fakecorp.com/assets/fakecorp-logo-e240ae59319eaeca74cf80bfb738aa05.png","founderTitle":"Manager","founderName":"John
+        Smith","email":"noname@gmail.com","ssn":null,"ein":"111111119","uid":null,"address":"33
+        Whitehall Street","address2":null,"phone":null,"city":"Nevada","zip":"10004","issuerUrl":null,"accountingFirm":"Downey
+        &  Co. LLP","dateOfFormation":1449360000000},"escrow":null,"previouslyRaised":0.00,"minRaise":399999.00,"maxRaise":400000.00,"amountRaised":null,"clientFee":null,"clientCommission":null,"totalNotes":null,"totalShare":400000,"totalSharesAuthorized":null,"totalSharesOutstanding":null,"totalNotesOutstanding":null,"metMinRaise":null,"signed":null,"dateStart":1449378000000,"dateEnd":1451451600000,"paymentOptions":[{"code":"ACH","name":"ACH","metadata":null,"sequence":1,"active":null,"updatedAt":1412771282248,"hidden":null}],"offerDetails":[{"id":"d9e78256-0637-4d03-b94a-58a2cae3ea47","offering":"3d609eb4-93aa-444c-be02-72ee5ec584ad","instrumentType":{"code":"SHARE_COMMON","name":"Common","metadata":null,"sequence":null,"active":false,"updatedAt":1383128671000,"hidden":null},"status":null,"regulationType":{"code":"MEMO_EQUITY_D506C","name":"Regulation
+        D Exemption 506(c) Equity - General Solicitation","metadata":"<p>Regulation
+        D Exemption 506(c) Equity - General Solicitation: is considered a \"safe harbor\"
+        for the private offering exemption of Section 4(2) of the Securities Act.
+        Companies relying on the Rule 506(c) exemption can raise an unlimited amount
+        of money in exchange for a percentage of ownership. The company may sell its
+        securities to an unlimited number of \"accredited investors\". (See Link:
+        http://www.sec.gov/answers/rule506.htm for more information)</p>","sequence":12,"active":false,"offerDetailType":{"code":"EQUITY","name":"Equity","metadata":null,"sequence":null,"active":true,"updatedAt":1382473855000,"hidden":false},"updatedAt":1390405001963,"hidden":true},"offerDetailType":{"code":"EQUITY","name":"Equity","metadata":null,"sequence":null,"active":true,"updatedAt":1382473855000,"hidden":false},"postMoneyValuation":400000.00,"preMoneyValuation":null,"minRaise":399999.00,"maxRaise":400000.00,"amountRaised":null,"minInvestment":5000.00,"interestRate":null,"valuationCap":null,"discount":null,"debtYears":null,"maturity":null,"paymentFrequency":null,"price":1.00,"issued":400000}],"title":null},"status":200,"code":null,"errors":[],"messages":[]}'
+    http_version: 
+  recorded_at: Tue, 13 Jun 2017 14:55:55 GMT
+recorded_with: VCR 3.0.3
