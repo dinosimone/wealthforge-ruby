@@ -80,7 +80,8 @@ Please refer to the official WealthForge API [documentation](https://api.wealthf
 #### Offering
 
     WealthForge::Offering.create params
-
+    WealthForge::Offering.all
+    WealthForge::Offering.get id
 
 
 ## Contributing
