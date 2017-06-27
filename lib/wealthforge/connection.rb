@@ -80,10 +80,14 @@ class WealthForge::Connection
     ssl_options = {
       :version => :TLSv1,
       :client_cert => OpenSSL::X509::Certificate.new(wf_cert),
-      :client_key  => OpenSSL::PKey::RSA.new(wf_key),
-      :ca_path     => '/usr/lib/ssl/certs'
+      :client_key  => OpenSSL::PKey::RSA.new(wf_key)
     }
-    ssl_options  
+    if WealthForge.configuration.environment.eql? 'production'
+      ssl_options[:ca_file] = ENV['CA_FILE']
+    else
+      ssl_options[:ca_path] = '/usr/lib/ssl/certs'
+    end
+    ssl_options
   end
 
 end
