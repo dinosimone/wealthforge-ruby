@@ -1,11 +1,9 @@
-require "wealthforge/configuration"
-require "wealthforge/version"
-require "wealthforge/api_exception"
-require "wealthforge/connection"
-require "wealthforge/investment"
-require "wealthforge/investor"
-require "wealthforge/issuer"
-require "wealthforge/offering"
+require 'wealthforge/configuration'
+require 'wealthforge/api_exception'
+require 'wealthforge/connection'
+require 'wealthforge/investment'
+require 'wealthforge/issuer'
+require 'wealthforge/offering'
 
 module WealthForge
 

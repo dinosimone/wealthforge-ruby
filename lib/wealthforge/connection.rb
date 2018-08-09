@@ -4,7 +4,7 @@ require 'json'
 require 'csv'
 require 'timeout'
 require 'resolv-replace'
-
+require 'jwt'
 
 class WealthForge::Connection
 
@@ -13,81 +13,118 @@ class WealthForge::Connection
       response = connection.post do |req|
         req.url endpoint
         req.headers['Content-Type'] = 'application/json'
-        req.body = prep_params(params)
-      end
-      JSON.parse(response.body, symbolize_names: true)
+        req.body = params.to_json
+    end
     rescue => e
       raise WealthForge::ApiException.new(e)
     end
+    JSON.parse(response.body)
   end
 
 
-  def self.put(endpoint, params)
-    begin
-      response = connection.put do |req|
-        req.url endpoint
-        req.headers['Content-Type'] = 'application/json'
-        req.body = prep_params(params)
-      end
-      JSON.parse(response.body, symbolize_names: true)
-    rescue => e
-      raise WealthForge::ApiException.new(e)
-    end
-  end
-
-
-  def self.get(endpoint, params, raw=false)
+  def self.get(endpoint, params)
     begin
       response = connection.get do |req|
         req.url endpoint
         req.headers['Content-Type'] = 'application/json'
-        req.body = prep_params(params)
+        req.body = params.to_json
       end
-      raw == false ? JSON.parse(response.body, symbolize_names: true) : response.body
     rescue => e
       raise WealthForge::ApiException.new(e)
     end
+    JSON.parse(response.body)
   end
 
 
-  private
-
-
-  def self.prep_params(params)
-    return if params.nil?
-    wf_params = {}
-    params.each do |key, value|
-      wf_params[key.to_s.camelize(:lower)] = value
+  def self.file_upload (endpoint, file, filename, mime_type)
+    payload = {:file => Faraday::UploadIO.new(file, mime_type, filename)}
+    begin
+      response = connection_multipart.post do |req|
+        req.url endpoint
+        req.body = payload
+      end
+    rescue => e
+      raise WealthForge::ApiException.new(e)
     end
-    wf_params.to_json
+    JSON.parse(response.body)
   end
 
 
   def self.connection
-    api_endpoint = (!WealthForge.configuration.environment.nil? and WealthForge.configuration.environment.eql? 'production') ? 
-      'https://www.capitalforge.com/capitalforge-transaction/api/' : 
-      'https://sandbox.capitalforge.com/capitalforge-transaction/api/'
-    return Faraday.new(:url => api_endpoint, :ssl => ssl_options) do |faraday|
+    set_token
+    return Faraday.new(:url => @api_url) do |faraday|
       faraday.request :url_encoded
+      faraday.headers['Authorization'] = @wf_token
       faraday.adapter Faraday.default_adapter
+      faraday.use CustomErrors
     end
   end
 
 
-  def self.ssl_options
-    wf_cert = !WealthForge.configuration.wf_crt.nil? ? WealthForge.configuration.wf_crt : File.read(WealthForge.configuration.wf_crt_file)
-    wf_key  = !WealthForge.configuration.wf_key.nil? ? WealthForge.configuration.wf_key : File.read(WealthForge.configuration.wf_key_file)
-    ssl_options = {
-      :version => :TLSv1,
-      :client_cert => OpenSSL::X509::Certificate.new(wf_cert),
-      :client_key  => OpenSSL::PKey::RSA.new(wf_key)
-    }
-    if WealthForge.configuration.environment.eql? 'production'
-      ssl_options[:ca_file] = ENV['CA_FILE']
-    else
-      ssl_options[:ca_path] = '/usr/lib/ssl/certs'
+  def self.connection_multipart
+    set_token
+    return Faraday.new(:url => @api_url) do |faraday|
+      faraday.request :multipart
+      faraday.headers['Authorization'] = @wf_token
+      faraday.adapter Faraday.default_adapter
+      faraday.use CustomErrors
     end
-    ssl_options
+  end
+
+
+  def self.set_token 
+    if @wf_token == nil
+      @wf_client_id = WealthForge.configuration.client_id
+      @wf_client_secret = WealthForge.configuration.client_secret
+      @api_url = WealthForge.configuration.api_url
+      @token_url = WealthForge.configuration.token_url
+      @wf_token = retrieve_token
+    end
+
+    # test to see if token has expired
+    t = @wf_token.reverse.chomp("Bearer ".reverse).reverse
+    decoded_token = JWT.decode t, nil, false
+    token_exp = decoded_token[0]['exp']
+    leeway = 60
+    now = Time.now.to_i 
+    token_window = token_exp - leeway 
+    refresh_token = !(token_window > now)
+   
+    if refresh_token == true
+       # makes a call to get a new token
+      @wf_token = retrieve_token
+    end 
+  end 
+
+
+  def self.retrieve_token
+    auth = Faraday.new.post(@token_url) do |faraday|
+      faraday.body = {
+        data: {
+          attributes: {
+            clientId: @wf_client_id,
+            clientSecret: @wf_client_secret
+          },
+          type: 'token'
+        }
+      }.to_json
+    end.body
+    @wf_token = 'Bearer ' + JSON.parse(auth)['data']['attributes']['accessToken']
+  end
+end
+
+
+class CustomErrors < Faraday::Response::RaiseError
+
+  def on_complete(env)
+    case env[:status]
+    when 400...600
+      json_body = JSON.parse(env[:body])
+      return json_body
+    else
+      super
+    end
   end
 
 end
+

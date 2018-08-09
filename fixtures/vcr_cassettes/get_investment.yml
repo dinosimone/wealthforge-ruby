@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 08 Aug 2018 20:45:28 GMT
+      - Thu, 09 Aug 2018 04:07:04 GMT
       Content-Type:
       - application/vnd.api+json
       Content-Length:
@@ -30,11 +30,11 @@ http_interactions:
       - keep-alive
     body:
       encoding: UTF-8
-      string: '{"data":{"attributes":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1qVXhRVUV4UWtZeU5EaEVPVVU1UTBNNVEwSTVSVVl5UmtZNU5EYzFRVEEwTWpBM05rWTRNZyJ9.eyJodHRwczovL3dlYWx0aGZvcmdlLmNvbS93ZlVzZXJJZCI6IjZjMDEyYmExLTdhMDQtNGNjNi1iMmQ3LTRhMWRkYjBlYWRiNCIsImlzcyI6Imh0dHBzOi8vd2ZoLW5vbi1wcm9kLmF1dGgwLmNvbS8iLCJzdWIiOiJ1WHlzUHF5QkNXZVlISTllUzdiMW82aVZscjc2QkplNEBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9hcGkud2VhbHRoZm9yZ2Uub3JnIiwiaWF0IjoxNTMzNzYxMTI4LCJleHAiOjE1MzM3NjE3MjgsImF6cCI6InVYeXNQcXlCQ1dlWUhJOWVTN2IxbzZpVmxyNzZCSmU0Iiwic2NvcGUiOiJhcGk6YWNjZXNzIHN1YnNjcmlwdGlvbjpjcmVhdGUgc3Vic2NyaXB0aW9uOmdldCBzcG9uc29yOmNyZWF0ZSBvZmZlcmluZzpjcmVhdGUiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.O29Ak0WJpgWYGoJdALZ0vTnzRZJ2OmlmPWagcwIkUxE_cq5PF15GBIXjnrkESMREeiN3FHvZn60vVJju969YBbg1gLpe5Bpu2838MJ2f-nifEDgOXtB1V1eyi1spmwarUFijcah0iiUslG3etnQNND6Gm7egJHIViHftKJVAaoUs4IlOhDH2VvK4Pb4zogqomIVckol84aQO1JgJI0WE9Cv8dh-KLmleoqRtyTSp2dxqqTGrl7wOUmEf2DCVVzMQToqTc7Ij0MkTDrHoWAVCZMSFGJBmLx-ggp5Aq_FDRp-yK6acMhCQTlUm0dQS3j_aZ-ROr0uS9StTHdOfK6aQiA","expiresInSeconds":600,"tokenType":"Bearer"},"id":"80c0e08c-2dd5-4ade-8b8e-955e34f1557f","type":"tokens"}}
+      string: '{"data":{"attributes":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1qVXhRVUV4UWtZeU5EaEVPVVU1UTBNNVEwSTVSVVl5UmtZNU5EYzFRVEEwTWpBM05rWTRNZyJ9.eyJodHRwczovL3dlYWx0aGZvcmdlLmNvbS93ZlVzZXJJZCI6IjZjMDEyYmExLTdhMDQtNGNjNi1iMmQ3LTRhMWRkYjBlYWRiNCIsImlzcyI6Imh0dHBzOi8vd2ZoLW5vbi1wcm9kLmF1dGgwLmNvbS8iLCJzdWIiOiJ1WHlzUHF5QkNXZVlISTllUzdiMW82aVZscjc2QkplNEBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9hcGkud2VhbHRoZm9yZ2Uub3JnIiwiaWF0IjoxNTMzNzg3NjI0LCJleHAiOjE1MzM3ODgyMjQsImF6cCI6InVYeXNQcXlCQ1dlWUhJOWVTN2IxbzZpVmxyNzZCSmU0Iiwic2NvcGUiOiJhcGk6YWNjZXNzIHN1YnNjcmlwdGlvbjpjcmVhdGUgc3Vic2NyaXB0aW9uOmdldCBzcG9uc29yOmNyZWF0ZSBvZmZlcmluZzpjcmVhdGUiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.uC3P588fOkYLTh76sPjEeqcwWFLNiMrxSgnPsC6OiLZdrFASr2bsNeOO7MinpFPewtTn4V_4zazCyeGHN5FkeSqe8_x4_9bDQXCeuPiIbUrsHUHK_tNRVxte5LOyRTcqbz_T4fFl_9CXCpAT_B2XR7aZGidCj4vKyjcX-ayWY3shKzUULJRZnhnkXSRCxGCJkLysO6LnWh9OiCKM2UOwshOXpptokLHliJ4fOsUSkjwESr1Q6WXrfNIbezg0Bq4J8_nIvRKqmMlsos7Gf4_6SMe5YpEFBqgoR9vf_stfn_PUtpVXLtqSx8iCJZNWCif5AN2S0Akm79yOQXpMk3SMjA","expiresInSeconds":600,"tokenType":"Bearer"},"id":"6d1acf0e-e532-4701-8ff5-d1e0d7d2c9cc","type":"tokens"}}
 
 '
     http_version: 
-  recorded_at: Wed, 08 Aug 2018 20:45:28 GMT
+  recorded_at: Thu, 09 Aug 2018 04:07:04 GMT
 - request:
     method: get
     uri: https://api.wealthforge.org/v1/subscriptions/995d4912-ec81-4598-a0a0-e0aa174f1591
@@ -43,7 +43,7 @@ http_interactions:
       string: 'null'
     headers:
       Authorization:
-      - Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1qVXhRVUV4UWtZeU5EaEVPVVU1UTBNNVEwSTVSVVl5UmtZNU5EYzFRVEEwTWpBM05rWTRNZyJ9.eyJodHRwczovL3dlYWx0aGZvcmdlLmNvbS93ZlVzZXJJZCI6IjZjMDEyYmExLTdhMDQtNGNjNi1iMmQ3LTRhMWRkYjBlYWRiNCIsImlzcyI6Imh0dHBzOi8vd2ZoLW5vbi1wcm9kLmF1dGgwLmNvbS8iLCJzdWIiOiJ1WHlzUHF5QkNXZVlISTllUzdiMW82aVZscjc2QkplNEBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9hcGkud2VhbHRoZm9yZ2Uub3JnIiwiaWF0IjoxNTMzNzYxMTI4LCJleHAiOjE1MzM3NjE3MjgsImF6cCI6InVYeXNQcXlCQ1dlWUhJOWVTN2IxbzZpVmxyNzZCSmU0Iiwic2NvcGUiOiJhcGk6YWNjZXNzIHN1YnNjcmlwdGlvbjpjcmVhdGUgc3Vic2NyaXB0aW9uOmdldCBzcG9uc29yOmNyZWF0ZSBvZmZlcmluZzpjcmVhdGUiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.O29Ak0WJpgWYGoJdALZ0vTnzRZJ2OmlmPWagcwIkUxE_cq5PF15GBIXjnrkESMREeiN3FHvZn60vVJju969YBbg1gLpe5Bpu2838MJ2f-nifEDgOXtB1V1eyi1spmwarUFijcah0iiUslG3etnQNND6Gm7egJHIViHftKJVAaoUs4IlOhDH2VvK4Pb4zogqomIVckol84aQO1JgJI0WE9Cv8dh-KLmleoqRtyTSp2dxqqTGrl7wOUmEf2DCVVzMQToqTc7Ij0MkTDrHoWAVCZMSFGJBmLx-ggp5Aq_FDRp-yK6acMhCQTlUm0dQS3j_aZ-ROr0uS9StTHdOfK6aQiA
+      - Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1qVXhRVUV4UWtZeU5EaEVPVVU1UTBNNVEwSTVSVVl5UmtZNU5EYzFRVEEwTWpBM05rWTRNZyJ9.eyJodHRwczovL3dlYWx0aGZvcmdlLmNvbS93ZlVzZXJJZCI6IjZjMDEyYmExLTdhMDQtNGNjNi1iMmQ3LTRhMWRkYjBlYWRiNCIsImlzcyI6Imh0dHBzOi8vd2ZoLW5vbi1wcm9kLmF1dGgwLmNvbS8iLCJzdWIiOiJ1WHlzUHF5QkNXZVlISTllUzdiMW82aVZscjc2QkplNEBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9hcGkud2VhbHRoZm9yZ2Uub3JnIiwiaWF0IjoxNTMzNzg3NjI0LCJleHAiOjE1MzM3ODgyMjQsImF6cCI6InVYeXNQcXlCQ1dlWUhJOWVTN2IxbzZpVmxyNzZCSmU0Iiwic2NvcGUiOiJhcGk6YWNjZXNzIHN1YnNjcmlwdGlvbjpjcmVhdGUgc3Vic2NyaXB0aW9uOmdldCBzcG9uc29yOmNyZWF0ZSBvZmZlcmluZzpjcmVhdGUiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.uC3P588fOkYLTh76sPjEeqcwWFLNiMrxSgnPsC6OiLZdrFASr2bsNeOO7MinpFPewtTn4V_4zazCyeGHN5FkeSqe8_x4_9bDQXCeuPiIbUrsHUHK_tNRVxte5LOyRTcqbz_T4fFl_9CXCpAT_B2XR7aZGidCj4vKyjcX-ayWY3shKzUULJRZnhnkXSRCxGCJkLysO6LnWh9OiCKM2UOwshOXpptokLHliJ4fOsUSkjwESr1Q6WXrfNIbezg0Bq4J8_nIvRKqmMlsos7Gf4_6SMe5YpEFBqgoR9vf_stfn_PUtpVXLtqSx8iCJZNWCif5AN2S0Akm79yOQXpMk3SMjA
       User-Agent:
       - Faraday v0.12.0.1
       Content-Type:
@@ -58,7 +58,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 08 Aug 2018 20:45:28 GMT
+      - Thu, 09 Aug 2018 04:07:04 GMT
       Content-Type:
       - application/vnd.api+json
       Content-Length:
@@ -73,5 +73,5 @@ http_interactions:
 
 '
     http_version: 
-  recorded_at: Wed, 08 Aug 2018 20:45:28 GMT
+  recorded_at: Thu, 09 Aug 2018 04:07:04 GMT
 recorded_with: VCR 3.0.3

@@ -26,62 +26,32 @@ Before you can use this gem, you'll need to configure it with the key and cert, 
 
 
     WealthForge.configure do |config|
-      config.wf_crt_file = ENV['WF_CRT_FILE']
-      config.wf_key_file = ENV['WF_KEY_FILE']
+      config.client_secret = ENV['WF_CLIENT_SECRET']
+      config.client_id     = ENV['WF_CLIENT_ID']
       config.environment = 'development'
     end
-
-    or
-
-    WealthForge.configure do |config|
-      config.wf_crt = ENV['WF_CRT']
-      config.wf_key = ENV['WF_KEY']
-      config.environment = 'development'
-    end
-
 
 
 ## Usage
 
-Please refer to the official WealthForge API [documentation](https://api.wealthforge.com/) for a full list of API calls. Note that this is currently a partial implementation of the most commonly used functionality.
+Please refer to the official WealthForge API [documentation](https://wealthforge.api-docs.io/) for a full list of API calls. Note that this is currently a partial implementation of the most commonly used functionality.
 
 
 ### Available Calls
 
-#### Investor
-
-    WealthForge::Investor.all
-    WealthForge::Investor.create params
-    WealthForge::Investor.get investor_id
-    WealthForge::Investor.update investor_id, params
-    WealthForge::Investor.accreditation_evidence investor_id, params
-    
 #### Investment
 
-    WealthForge::Investment.all
     WealthForge::Investment.create params
     WealthForge::Investment.get investment_id
-    WealthForge::Investment.update investment_id, params
-    WealthForge::Investment.redirect_url investment_id
-    WealthForge::Investment.status investment_id
-    WealthForge::Investment.account investment_id
-    WealthForge::Investment.update_account investment_id, account
-    WealthForge::Investment.approve investment_id
-    WealthForge::Investment.approve_subscription investment_id
-    WealthForge::Investment.due_diligence investment_id
-    WealthForge::Investment.create_subscription_agreement investment_id, params
+    WealthForge::Investment.file_upload path, mime_type, title, subscription_id
 
 #### Issuer
 
-    WealthForge::Issuer.all
     WealthForge::Issuer.create params
-    WealthForge::Issuer.get id
 
 #### Offering
 
     WealthForge::Offering.create params
-    WealthForge::Offering.all
-    WealthForge::Offering.get id
 
 
 ## Contributing
@@ -93,8 +63,8 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/dinosi
 
 All tests can be run by typing `rspec`. Prior to running tests, you'll need to export your cert and key as such:
 
-    export WF_CRT_FILE=/home/you/wealthforge/certs/development.crt
-    export WF_KEY_FILE=/home/you/wealthforge/certs/development.key
+    export WF_CLIENT_SECRET=[secret]
+    export WF_CLIENT_ID=[client-id]
 
 
 ## License
@@ -109,4 +79,4 @@ This project and the code therein was not created by and is not supported by Wea
 
 ## Author
 
-Dino Simone (dino@simone.is)
+Dino Simone (dino@simone.is) | dinosimone.com

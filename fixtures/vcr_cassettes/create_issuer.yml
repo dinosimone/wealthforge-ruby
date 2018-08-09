@@ -2,14 +2,52 @@
 http_interactions:
 - request:
     method: post
-    uri: https://sandbox.capitalforge.com/capitalforge-transaction/api/issuer
+    uri: https://api.wealthforge.org/v1/auth/tokens
     body:
       encoding: UTF-8
-      string: '{"address":"124 Investor Way","city":"Boston","state":"MA","zip":"02139","country":{"code":"US"},"busName":"LexShares","accountingFirm":"Accountants,
-        LLC","founderName":"James Smith","stateOfFormation":{"code":"MA"},"entityType":{"code":"ENTITY_TYPE_LLC"},"founderTitle":"CEO","dateOfFormation":"2001-11-01","ein":"999999999","email":"wealthforge_api_test@mailinator.com","phone":"2125551234","busLogo":"http://unews.utah.edu/wp-content/uploads/Cash.jpg"}'
+      string: '{"data":{"attributes":{"clientId":"uXysPqyBCWeYHI9eS7b1o6iVlr76BJe4","clientSecret":"lTfIdKwqCi8mEX-H5mEOP50IrWB1yi7n8wfcxJvFNGrAqEYkcjhqxHhhjo7lhK1r"},"type":"token"}}'
     headers:
       User-Agent:
-      - Faraday v0.10.1
+      - Faraday v0.12.0.1
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 Aug 2018 20:17:29 GMT
+      Content-Type:
+      - application/vnd.api+json
+      Content-Length:
+      - '1133'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"data":{"attributes":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1qVXhRVUV4UWtZeU5EaEVPVVU1UTBNNVEwSTVSVVl5UmtZNU5EYzFRVEEwTWpBM05rWTRNZyJ9.eyJodHRwczovL3dlYWx0aGZvcmdlLmNvbS93ZlVzZXJJZCI6IjZjMDEyYmExLTdhMDQtNGNjNi1iMmQ3LTRhMWRkYjBlYWRiNCIsImlzcyI6Imh0dHBzOi8vd2ZoLW5vbi1wcm9kLmF1dGgwLmNvbS8iLCJzdWIiOiJ1WHlzUHF5QkNXZVlISTllUzdiMW82aVZscjc2QkplNEBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9hcGkud2VhbHRoZm9yZ2Uub3JnIiwiaWF0IjoxNTMzNzU5NDQ5LCJleHAiOjE1MzM3NjAwNDksImF6cCI6InVYeXNQcXlCQ1dlWUhJOWVTN2IxbzZpVmxyNzZCSmU0Iiwic2NvcGUiOiJhcGk6YWNjZXNzIHN1YnNjcmlwdGlvbjpjcmVhdGUgc3Vic2NyaXB0aW9uOmdldCBzcG9uc29yOmNyZWF0ZSBvZmZlcmluZzpjcmVhdGUiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.e2mPkm2PksN1xVDi_9Ez9NSDDdWT6N28OdWoeaMLlHG7DiEJcPgp66lJfeDzGiKScnud_hddaulN9IlAUyj_jCD_HCu4XOR089c1ZDhNN2U3E7CwzbrqFt5g_JaEg_ARlckPkWqu_7yqCu_JZaFEYjHaqR6reN_-ONkNTXusbhT3GSk9k2tqM8YqDDq5T2faDg9Wx0bfczEoMymRfUzCGfBhLo7UOjO5-LJxaH7hhzGXoVssLIz21GuD1whdd2hW-br_DjfGGIhvI5cuRztPtTymFBHppISHvepOsxO_7qOG2IVtXtORVueVKndH0zRP5af5N1e_K2UGP5PaTRfo8g","expiresInSeconds":600,"tokenType":"Bearer"},"id":"ef4c9f92-5c58-4fa9-b8a4-8cf0d2e8e794","type":"tokens"}}
+
+'
+    http_version: 
+  recorded_at: Wed, 08 Aug 2018 20:17:29 GMT
+- request:
+    method: post
+    uri: https://api.wealthforge.org/v1/issuers
+    body:
+      encoding: UTF-8
+      string: '{"data":{"attributes":{"address":{"city":"Boston","country":"US","postalCode":"02139","stateProv":"MA","street1":"323
+        Congress Street","street2":null},"bank":"Bank of America","contact":{"emailAddress":"test.guy@test.com","firstName":"Test","lastName":"Guy","phoneNumber":"111-222-3333","title":"CEO"},"ein":"123456789","entityType":"LLC","name":"Kingdom
+        Holdings, LLC","organizationType":"ISSUER","phoneNumber":"111-222-3333","stateOfIncorporation":"MA","sponsorID":null},"type":"issuer"}}'
+    headers:
+      Authorization:
+      - Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1qVXhRVUV4UWtZeU5EaEVPVVU1UTBNNVEwSTVSVVl5UmtZNU5EYzFRVEEwTWpBM05rWTRNZyJ9.eyJodHRwczovL3dlYWx0aGZvcmdlLmNvbS93ZlVzZXJJZCI6IjZjMDEyYmExLTdhMDQtNGNjNi1iMmQ3LTRhMWRkYjBlYWRiNCIsImlzcyI6Imh0dHBzOi8vd2ZoLW5vbi1wcm9kLmF1dGgwLmNvbS8iLCJzdWIiOiJ1WHlzUHF5QkNXZVlISTllUzdiMW82aVZscjc2QkplNEBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9hcGkud2VhbHRoZm9yZ2Uub3JnIiwiaWF0IjoxNTMzNzU5NDQ5LCJleHAiOjE1MzM3NjAwNDksImF6cCI6InVYeXNQcXlCQ1dlWUhJOWVTN2IxbzZpVmxyNzZCSmU0Iiwic2NvcGUiOiJhcGk6YWNjZXNzIHN1YnNjcmlwdGlvbjpjcmVhdGUgc3Vic2NyaXB0aW9uOmdldCBzcG9uc29yOmNyZWF0ZSBvZmZlcmluZzpjcmVhdGUiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.e2mPkm2PksN1xVDi_9Ez9NSDDdWT6N28OdWoeaMLlHG7DiEJcPgp66lJfeDzGiKScnud_hddaulN9IlAUyj_jCD_HCu4XOR089c1ZDhNN2U3E7CwzbrqFt5g_JaEg_ARlckPkWqu_7yqCu_JZaFEYjHaqR6reN_-ONkNTXusbhT3GSk9k2tqM8YqDDq5T2faDg9Wx0bfczEoMymRfUzCGfBhLo7UOjO5-LJxaH7hhzGXoVssLIz21GuD1whdd2hW-br_DjfGGIhvI5cuRztPtTymFBHppISHvepOsxO_7qOG2IVtXtORVueVKndH0zRP5af5N1e_K2UGP5PaTRfo8g
+      User-Agent:
+      - Faraday v0.12.0.1
       Content-Type:
       - application/json
       Accept-Encoding:
@@ -22,21 +60,20 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 May 2017 02:48:13 GMT
-      Server:
-      - Apache/2.4.18 (Amazon) OpenSSL/1.0.1k-fips
+      - Wed, 08 Aug 2018 20:17:29 GMT
       Content-Type:
-      - application/json
-      Access-Control-Allow-Origin:
-      - "*"
-      Transfer-Encoding:
-      - chunked
+      - application/vnd.api+json
+      Content-Length:
+      - '613'
+      Connection:
+      - keep-alive
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"4056d199-53e1-4503-b963-be295bd8f135","country":{"code":"US","name":null},"stateOfFormation":{"code":"MA","name":null,"hidden":null},"state":{"code":"MA","name":null,"hidden":null},"status":null,"entityType":{"code":"ENTITY_TYPE_LLC","name":null,"metadata":null,"sequence":null,"active":null,"updatedAt":null,"hidden":null},"busName":"LexShares","busLogo":"http://unews.utah.edu/wp-content/uploads/Cash.jpg","founderTitle":"CEO","founderName":"James
-        Smith","email":"wealthforge_api_test@mailinator.com","ssn":null,"ein":"999999999","uid":null,"address":"124
-        Investor Way","address2":null,"phone":"2125551234","city":"Boston","zip":"02139","issuerUrl":null,"accountingFirm":"Accountants,
-        LLC","dateOfFormation":1004572800000},"status":200,"code":null,"errors":[],"messages":[]}'
+      string: '{"data":{"attributes":{"address":{"city":"Boston","country":"US","postalCode":"02139","stateProv":"MA","street1":"323
+        Congress Street"},"bank":"","contact":{"emailAddress":"test.guy@test.com","firstName":"Test","lastName":"Guy","phoneNumber":"111-222-3333","title":"CEO"},"createdAt":"2018-08-08T20:17:29.753854011Z","ein":"UGRtRnpkRzl1WlN4MGRFQmN3JNo2dOCwloJ0/44US7o=","entityType":"LLC","name":"Kingdom
+        Holdings, LLC","organizationType":"ISSUER","phoneNumber":"111-222-3333","stateOfIncorporation":"MA","updatedAt":"2018-08-08T20:17:29.753854011Z"},"id":"7dd36a5a-d4bc-469a-b782-f80b0cc771ef","type":"issuer"}}
+
+'
     http_version: 
-  recorded_at: Thu, 25 May 2017 02:48:13 GMT
+  recorded_at: Wed, 08 Aug 2018 20:17:29 GMT
 recorded_with: VCR 3.0.3
