@@ -14,9 +14,9 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'https://github.com/dinosimone/wealthforge-ruby'
   spec.license       = 'MIT'
 
-  spec.files         = Dir.glob("{bin,lib}/**/*") + %w(LICENSE README.md ROADMAP.md CHANGELOG.md)
+  spec.files         = Dir.glob("{bin,lib}/**/*") + %w(LICENSE README.md)
   spec.bindir        = 'bin'
-  spec.executables   = ['bundle']
+  spec.executables   = ['console', 'setup']
   spec.require_paths = ['lib']
   
   spec.add_runtime_dependency 'faraday', '~> 0.12.0.1'
