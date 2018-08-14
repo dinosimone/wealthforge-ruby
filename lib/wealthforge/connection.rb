@@ -74,11 +74,11 @@ class WealthForge::Connection
 
   def self.set_token 
     if @wf_token == nil
-      @wf_client_id = WealthForge.configuration.client_id
+      @wf_client_id     = WealthForge.configuration.client_id
       @wf_client_secret = WealthForge.configuration.client_secret
-      @api_url = WealthForge.configuration.api_url
-      @token_url = WealthForge.configuration.token_url
-      @wf_token = retrieve_token
+      @api_url          = WealthForge.configuration.api_url
+      @token_url        = WealthForge.configuration.token_url
+      @wf_token         = retrieve_token
     end
 
     # test to see if token has expired

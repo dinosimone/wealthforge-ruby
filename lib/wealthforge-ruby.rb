@@ -21,6 +21,8 @@ module WealthForge
 
   def self.configure
     yield(configuration)
+    configuration.api_url   = configuration.environment == 'production' ? configuration.production_url : configuration.sandbox_url
+    configuration.token_url = "#{configuration.api_url}/auth/tokens"
   end
 
 end
