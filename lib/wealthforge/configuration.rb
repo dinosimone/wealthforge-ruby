@@ -18,7 +18,7 @@ module WealthForge
       @api_url        = nil
       @token_url      = nil
       @production_url = 'https://api.wealthforge.com/v1'
-      @staging_url    = 'https://api.wealthforge.org/v1'
+      @sandbox_url    = 'https://api.wealthforge.org/v1'
       @version        = 'v1'
     end
 
