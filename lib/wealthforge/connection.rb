@@ -5,7 +5,6 @@ require 'csv'
 require 'timeout'
 require 'resolv-replace'
 require 'jwt'
-require 'pp'
 
 class WealthForge::Connection
 
@@ -65,10 +64,7 @@ class WealthForge::Connection
 
 
   def self.check_result(result)
-    pp result
-    unless result['errors'].nil?
-      pp result
-    end
+    puts "WF log: #{result.inspect}"
   end
 
 
