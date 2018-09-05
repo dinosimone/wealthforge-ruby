@@ -5,6 +5,7 @@ require 'csv'
 require 'timeout'
 require 'resolv-replace'
 require 'jwt'
+require 'pp'
 
 class WealthForge::Connection
 
@@ -18,7 +19,9 @@ class WealthForge::Connection
     rescue => e
       raise WealthForge::ApiException.new(e)
     end
-    JSON.parse(response.body)
+    result = JSON.parse(response.body)
+    check_result(result)
+    result
   end
 
 
@@ -57,6 +60,14 @@ class WealthForge::Connection
       faraday.headers['Authorization'] = @wf_token
       faraday.adapter Faraday.default_adapter
       faraday.use CustomErrors
+    end
+  end
+
+
+  def self.check_result(result)
+    pp result
+    unless result['errors'].nil?
+      pp result
     end
   end
 
