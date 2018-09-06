@@ -18,9 +18,7 @@ class WealthForge::Connection
     rescue => e
       raise WealthForge::ApiException.new(e)
     end
-    result = JSON.parse(response.body)
-    check_result(result)
-    result
+    JSON.parse(response.body)
   end
 
 
@@ -60,11 +58,6 @@ class WealthForge::Connection
       faraday.adapter Faraday.default_adapter
       faraday.use CustomErrors
     end
-  end
-
-
-  def self.check_result(result)
-    puts "WF log: #{result.inspect}"
   end
 
 
