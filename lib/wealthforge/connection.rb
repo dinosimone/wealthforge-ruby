@@ -46,7 +46,7 @@ class WealthForge::Connection
     rescue => e
       raise WealthForge::ApiException.new(e)
     end
-    JSON.parse(response.body)
+    response.body
   end  
 
 
