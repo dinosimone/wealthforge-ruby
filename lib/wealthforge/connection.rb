@@ -36,6 +36,20 @@ class WealthForge::Connection
   end
 
 
+  def self.patch(endpoint, params)
+    begin
+      response = connection.patch do |req|
+        req.url endpoint
+        req.headers['Content-Type'] = 'application/json'
+        req.body = params.to_json
+      end
+    rescue => e
+      raise WealthForge::ApiException.new(e)
+    end
+    JSON.parse(response.body)
+  end  
+
+
   def self.file_upload (endpoint, file, filename, mime_type)
     payload = {:file => Faraday::UploadIO.new(file, mime_type, filename)}
     begin
