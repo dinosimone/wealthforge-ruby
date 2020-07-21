@@ -68,6 +68,8 @@ class WealthForge::Connection
     set_token
     return Faraday.new(:url => @api_url) do |faraday|
       faraday.request :url_encoded
+      faraday.options.timeout = 5
+      faraday.options.open_timeout = 5
       faraday.headers['Authorization'] = @wf_token
       faraday.adapter Faraday.default_adapter
       faraday.use CustomErrors
