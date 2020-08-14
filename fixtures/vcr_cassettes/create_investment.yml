@@ -8,7 +8,7 @@ http_interactions:
       string: '{"data":{"attributes":{"clientId":"uXysPqyBCWeYHI9eS7b1o6iVlr76BJe4","clientSecret":"lTfIdKwqCi8mEX-H5mEOP50IrWB1yi7n8wfcxJvFNGrAqEYkcjhqxHhhjo7lhK1r"},"type":"token"}}'
     headers:
       User-Agent:
-      - Faraday v0.12.0.1
+      - Faraday v0.14.0
       Content-Type:
       - application/x-www-form-urlencoded
       Accept-Encoding:
@@ -21,35 +21,35 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 08 Aug 2018 20:41:08 GMT
+      - Fri, 14 Aug 2020 14:09:59 GMT
       Content-Type:
-      - application/vnd.api+json
+      - application/vnd.wfh.token+json
       Content-Length:
-      - '1133'
+      - '1202'
       Connection:
       - keep-alive
     body:
       encoding: UTF-8
-      string: '{"data":{"attributes":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1qVXhRVUV4UWtZeU5EaEVPVVU1UTBNNVEwSTVSVVl5UmtZNU5EYzFRVEEwTWpBM05rWTRNZyJ9.eyJodHRwczovL3dlYWx0aGZvcmdlLmNvbS93ZlVzZXJJZCI6IjZjMDEyYmExLTdhMDQtNGNjNi1iMmQ3LTRhMWRkYjBlYWRiNCIsImlzcyI6Imh0dHBzOi8vd2ZoLW5vbi1wcm9kLmF1dGgwLmNvbS8iLCJzdWIiOiJ1WHlzUHF5QkNXZVlISTllUzdiMW82aVZscjc2QkplNEBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9hcGkud2VhbHRoZm9yZ2Uub3JnIiwiaWF0IjoxNTMzNzYwODY4LCJleHAiOjE1MzM3NjE0NjgsImF6cCI6InVYeXNQcXlCQ1dlWUhJOWVTN2IxbzZpVmxyNzZCSmU0Iiwic2NvcGUiOiJhcGk6YWNjZXNzIHN1YnNjcmlwdGlvbjpjcmVhdGUgc3Vic2NyaXB0aW9uOmdldCBzcG9uc29yOmNyZWF0ZSBvZmZlcmluZzpjcmVhdGUiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.vrOZ0eaApu3-Gc48hkZZBDG1077-tBkJcmWSCQE7SMq3LzLO78l7IEr2ztjOCcBeRTk3aJ1Uo_CpJlxq-A05u9pVAsXYVvN46NIt2UcqY8Iy_qMyIuLInKCI_t9GEEsVML7iqARx_PQkjoPO59gwg5MD24Y7Yp2cqGLUZCwbtho6DYhcbwyQbxRof-pGmzhWGz5xruSOyifjrVUGpsfoBS00-MAmNqkDJEYqZbAj-EKEl4FDCv930KVqBZdLeMqDhz_7NYKbu2G-vzL7Uf7-pz91BRN2o0ZAyAtKsNLXuX-pjc6BEWRayxmSJdWq-IuHP-vvt5YBw68-mJJ6cNLVFg","expiresInSeconds":600,"tokenType":"Bearer"},"id":"110f24ec-06bd-49d0-8446-36aef2463c59","type":"tokens"}}
+      string: '{"data":{"attributes":{"accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qVXhRVUV4UWtZeU5EaEVPVVU1UTBNNVEwSTVSVVl5UmtZNU5EYzFRVEEwTWpBM05rWTRNZyJ9.eyJodHRwczovL3dlYWx0aGZvcmdlLmNvbS93ZlVzZXJJZCI6IjZjMDEyYmExLTdhMDQtNGNjNi1iMmQ3LTRhMWRkYjBlYWRiNCIsImlzcyI6Imh0dHBzOi8vd2ZoLW5vbi1wcm9kLmF1dGgwLmNvbS8iLCJzdWIiOiJ1WHlzUHF5QkNXZVlISTllUzdiMW82aVZscjc2QkplNEBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9hcGkud2VhbHRoZm9yZ2Uub3JnIiwiaWF0IjoxNTk3NDE0MTk5LCJleHAiOjE1OTc0MjEzOTksImF6cCI6InVYeXNQcXlCQ1dlWUhJOWVTN2IxbzZpVmxyNzZCSmU0Iiwic2NvcGUiOiJhcGk6YWNjZXNzIHN1YnNjcmlwdGlvbjpjcmVhdGUgc3Vic2NyaXB0aW9uOmdldCBzcG9uc29yOmNyZWF0ZSBvZmZlcmluZzpjcmVhdGUgc3A6YyBzcDpyIHNwOnUgc3ViOmMgc3ViOnIgc3ViOnUgb2ZmOmMgb2ZmOnIgb2ZmOnUiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.dwbBhv3Eive1ub4g0PWS3N9n2mBQLLxWbc4TzPwf8iRLWS8RQdC27jLQ7TffASgazKqZ4-CBLsQOzVm64W-4UFX7R-pimKpzU4vuqKV8eF1wjQFP4vglsfZCKR3hM2D8GAuwKuG8biedCbScz_Ljd6p8BfKGOMEl36VSegizaXEuP07wM4AcC4t8Ff6CjNrkmpbEWZeKWuayDrIS9fuj5yB3sJRI9-vlTXvsRBqsL_5tkib4eiFgplbwOVIhX-EbA_AfW_Et5CIJm65UkeIcWEfZ9PuSj_dQQHz5gyhYuDxVyXvw_kABq3gzKiBvMSmImV_6DEK3xV8_rhEMV1XaSA","expiresInSeconds":7200,"tokenType":"Bearer"},"id":"6c49586f-f11a-4cb4-a6b8-79e36d59f375","type":"tokens"}}
 
-'
+        '
     http_version: 
-  recorded_at: Wed, 08 Aug 2018 20:41:08 GMT
+  recorded_at: Fri, 14 Aug 2020 14:09:59 GMT
 - request:
     method: post
     uri: https://api.wealthforge.org/v1/subscriptions
     body:
       encoding: UTF-8
-      string: '{"data":{"attributes":{"investors":[{"accreditationType":null,"address":{"city":"Boston","country":"US","postalCode":"02139","stateProv":"MA","street1":"40
-        Congress","street2":null},"crdNumber":null,"dateOfBirth":"01/01/1980","emailAddress":"investor@test.com","firstName":"Tammy","investorType":"INDIVIDUAL","isPrimary":true,"lastName":"Smith","name":"Entity
-        Name","primaryPhone":"122-122-2222","ssn":"123456789","ein":"123456789","signatory":{"title":"CEO","address":{"city":"Boston","street1":"39
-        School Street","street2":null,"stateProv":"MA","postalCode":"02139","country":"US"},"dateOfBirth":"01/01/1983","lastName":"Smith","firstName":"Bob","signatoryAuthority":true,"ssn":"123456789"}}],"fundingMethods":[{"accountFirstName":null,"accountLastName":null,"accountNumber":null,"accountType":null,"bankName":null,"routingNumber":null,"investmentAmount":"7500.00","numberOfShares":null,"numberOfNotes":null,"paymentType":"WIRE"}],"investmentAmount":"7500.00","offering":{"id":"81bff709-2388-4b2b-ad16-c21b21665f6f","name":null,"securityType":null},"stash":{},"suitabilityQuestions":[{"answerKeys":["a"],"questionKey":"Experience"},{"answerKeys":["a"],"questionKey":"Objective"},{"answerKeys":["a"],"questionKey":"Tolerance"},{"answerKeys":["a"],"questionKey":"Other
-        Investments"}]},"type":"subscription"}}'
+      string: '{"data":{"attributes":{"investors":[{"accreditationType":"INCOME","address":{"city":"Boston","country":"US","postalCode":"02139","stateProv":"MA","street1":"40
+        Congress","street2":null},"crdNumber":null,"dateOfBirth":"1980-02-03","emailAddress":"investor@test.com","firstName":"Tammy","investorType":"INDIVIDUAL","isPrimary":true,"lastName":"Smith","name":"Entity
+        Name","primaryPhone":"1221222222","ssn":"123456789","ein":"123456789","signatory":{"title":"CEO","address":{"city":"Boston","street1":"39
+        School Street","street2":null,"stateProv":"MA","postalCode":"02139","country":"US"},"dateOfBirth":"01/01/1983","lastName":"Smith","firstName":"Bob","signatoryAuthority":true,"ssn":"123456789"}}],"fundingMethods":[{"accountFirstName":null,"accountLastName":null,"accountNumber":null,"accountType":null,"bankName":null,"routingNumber":null,"investmentAmount":"7500.00","numberOfShares":null,"numberOfNotes":null,"paymentType":"WIRE"}],"investmentAmount":"7500.00","offeringId":"988fad9f-985b-44db-87a4-4aab4f5fd9cd","stash":{},"suitabilityQuestions":[{"answerKeys":["a"],"questionKey":"Experience"},{"answerKeys":["a"],"questionKey":"Objective"},{"answerKeys":["a"],"questionKey":"Tolerance"},{"answerKeys":["a"],"questionKey":"Other
+        Investments"}]},"type":"subscriptions"}}'
     headers:
       Authorization:
-      - Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1qVXhRVUV4UWtZeU5EaEVPVVU1UTBNNVEwSTVSVVl5UmtZNU5EYzFRVEEwTWpBM05rWTRNZyJ9.eyJodHRwczovL3dlYWx0aGZvcmdlLmNvbS93ZlVzZXJJZCI6IjZjMDEyYmExLTdhMDQtNGNjNi1iMmQ3LTRhMWRkYjBlYWRiNCIsImlzcyI6Imh0dHBzOi8vd2ZoLW5vbi1wcm9kLmF1dGgwLmNvbS8iLCJzdWIiOiJ1WHlzUHF5QkNXZVlISTllUzdiMW82aVZscjc2QkplNEBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9hcGkud2VhbHRoZm9yZ2Uub3JnIiwiaWF0IjoxNTMzNzYwODY4LCJleHAiOjE1MzM3NjE0NjgsImF6cCI6InVYeXNQcXlCQ1dlWUhJOWVTN2IxbzZpVmxyNzZCSmU0Iiwic2NvcGUiOiJhcGk6YWNjZXNzIHN1YnNjcmlwdGlvbjpjcmVhdGUgc3Vic2NyaXB0aW9uOmdldCBzcG9uc29yOmNyZWF0ZSBvZmZlcmluZzpjcmVhdGUiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.vrOZ0eaApu3-Gc48hkZZBDG1077-tBkJcmWSCQE7SMq3LzLO78l7IEr2ztjOCcBeRTk3aJ1Uo_CpJlxq-A05u9pVAsXYVvN46NIt2UcqY8Iy_qMyIuLInKCI_t9GEEsVML7iqARx_PQkjoPO59gwg5MD24Y7Yp2cqGLUZCwbtho6DYhcbwyQbxRof-pGmzhWGz5xruSOyifjrVUGpsfoBS00-MAmNqkDJEYqZbAj-EKEl4FDCv930KVqBZdLeMqDhz_7NYKbu2G-vzL7Uf7-pz91BRN2o0ZAyAtKsNLXuX-pjc6BEWRayxmSJdWq-IuHP-vvt5YBw68-mJJ6cNLVFg
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qVXhRVUV4UWtZeU5EaEVPVVU1UTBNNVEwSTVSVVl5UmtZNU5EYzFRVEEwTWpBM05rWTRNZyJ9.eyJodHRwczovL3dlYWx0aGZvcmdlLmNvbS93ZlVzZXJJZCI6IjZjMDEyYmExLTdhMDQtNGNjNi1iMmQ3LTRhMWRkYjBlYWRiNCIsImlzcyI6Imh0dHBzOi8vd2ZoLW5vbi1wcm9kLmF1dGgwLmNvbS8iLCJzdWIiOiJ1WHlzUHF5QkNXZVlISTllUzdiMW82aVZscjc2QkplNEBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9hcGkud2VhbHRoZm9yZ2Uub3JnIiwiaWF0IjoxNTk3NDE0MjYyLCJleHAiOjE1OTc0MjE0NjIsImF6cCI6InVYeXNQcXlCQ1dlWUhJOWVTN2IxbzZpVmxyNzZCSmU0Iiwic2NvcGUiOiJhcGk6YWNjZXNzIHN1YnNjcmlwdGlvbjpjcmVhdGUgc3Vic2NyaXB0aW9uOmdldCBzcG9uc29yOmNyZWF0ZSBvZmZlcmluZzpjcmVhdGUgc3A6YyBzcDpyIHNwOnUgc3ViOmMgc3ViOnIgc3ViOnUgb2ZmOmMgb2ZmOnIgb2ZmOnUiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.ylAvRvg9y84pvd_pQk2RK-D0qQLTNxiAazZxM92n-mXjS_1tGbgeJkZirvq6_1kBvvs7jxr1rne0r8_P58Mw78PJ88lmolmeauYLesCFVuRZSMTVI9yUS_ovUyFeHH6JpbA7m1YQCGQGrDAehvR-ylitU4upNe2tAD8OvTJPJovZULg41k7bl-EYX21gP8v4FOU_oJ-_J9AduwcdtaJjcSzRxV5ntz8GZP4Qo6e-6HnWJkqiVP1ul-LsTHk3BT9HyNC31tAZuDpwbqeWR7DV1qiC-synEpzG0_l3PMZmMKGD6vn05ll34pZ9b3T8wC_gYevClIoN95-75fV6bQKzBw
       User-Agent:
-      - Faraday v0.12.0.1
+      - Faraday v0.14.0
       Content-Type:
       - application/json
       Accept-Encoding:
@@ -58,24 +58,24 @@ http_interactions:
       - "*/*"
   response:
     status:
-      code: 200
-      message: OK
+      code: 201
+      message: Created
     headers:
       Date:
-      - Wed, 08 Aug 2018 20:41:09 GMT
+      - Fri, 14 Aug 2020 14:13:46 GMT
       Content-Type:
-      - application/vnd.api+json
+      - application/vnd.wfh.subscription+json
       Content-Length:
-      - '877'
+      - '1036'
       Connection:
       - keep-alive
     body:
       encoding: UTF-8
-      string: '{"data":{"attributes":{"createdAt":"2018-08-08T20:41:09.046671394Z","fundingMethods":[{"investmentAmount":"7500.00","paymentType":"WIRE"}],"investmentAmount":"7500.00","investors":[{"address":{"city":"Boston","country":"US","postalCode":"02139","stateProv":"MA","street1":"40
-        Congress"},"dateOfBirth":"01/01/1980","emailAddress":"investor@test.com","firstName":"Tammy","investorType":"INDIVIDUAL","isPrimary":true,"lastName":"Smith","primaryPhone":"122-122-2222","ssn":"123456789"}],"offering":{"id":"81bff709-2388-4b2b-ad16-c21b21665f6f"},"suitabilityQuestions":[{"answerKeys":["a"],"questionKey":"Experience"},{"answerKeys":["a"],"questionKey":"Objective"},{"answerKeys":["a"],"questionKey":"Tolerance"},{"answerKeys":["a"],"questionKey":"Other
-        Investments"}],"updatedAt":"2018-08-08T20:41:09.046671394Z"},"id":"995d4912-ec81-4598-a0a0-e0aa174f1591","type":"subscriptions"}}
+      string: '{"data":{"attributes":{"createdAt":"2020-08-14T14:13:46.328305612Z","createdBy":"6c012ba1-7a04-4cc6-b2d7-4a1ddb0eadb4","fundingMethods":[{"investmentAmount":"7500.00","paymentType":"WIRE"}],"investmentAmount":"7500.00","investors":[{"accreditationType":"INCOME","address":{"city":"Boston","country":"US","postalCode":"02139","stateProv":"MA","street1":"40
+        Congress"},"dateOfBirth":"1980-02-03","emailAddress":"investor@test.com","firstName":"Tammy","investorType":"INDIVIDUAL","isPrimary":true,"lastName":"Smith","primaryPhone":"1221222222","ssn":"123456789"}],"kycResult":"SKIPPED","offeringId":"988fad9f-985b-44db-87a4-4aab4f5fd9cd","stash":{},"statuses":{"processingStatus":"REVIEW_IN_PROGRESS"},"suitabilityQuestions":[{"answerKeys":["a"],"questionKey":"Experience"},{"answerKeys":["a"],"questionKey":"Objective"},{"answerKeys":["a"],"questionKey":"Tolerance"},{"answerKeys":["a"],"questionKey":"Other
+        Investments"}],"updatedAt":"2020-08-14T14:13:46.328305612Z"},"id":"fb801261-40fc-45b6-9790-c0aab125b6ae","type":"subscriptions"}}
 
-'
+        '
     http_version: 
-  recorded_at: Wed, 08 Aug 2018 20:41:09 GMT
+  recorded_at: Fri, 14 Aug 2020 14:13:46 GMT
 recorded_with: VCR 3.0.3

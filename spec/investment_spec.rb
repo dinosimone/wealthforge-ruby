@@ -6,15 +6,15 @@ describe WealthForge::Investment do
 
     before do
       WealthForge.configure do |config|
-        config.client_secret = 'your-client-secret'
-        config.client_id     = 'your-client-id'	      
+        config.client_secret = ''
+        config.client_id     = ''
         config.environment   = 'development'
       end
     end
 
     it 'get investment' do
       VCR.use_cassette 'get_investment', record: :none do
-      	response = WealthForge::Investment.get '995d4912-ec81-4598-a0a0-e0aa174f1591'
+        response = WealthForge::Investment.get '8ee6531d-7d15-43a5-8270-c111bc9d42f9'
         expect(response['data']['id']).not_to be_nil
         expect(response['data']['type']).to eq 'subscriptions'
       end
@@ -34,7 +34,7 @@ describe WealthForge::Investment do
           data: {
             attributes: {
               investors: [{
-                accreditationType: nil,
+                accreditationType: 'INCOME',
                 address: {
                   city: 'Boston',
                   country: 'US',
@@ -44,14 +44,14 @@ describe WealthForge::Investment do
                   street2: nil
                 },
                 crdNumber: nil,
-	        dateOfBirth: '01/01/1980',
+	        dateOfBirth: '1980-02-03',
                 emailAddress: 'investor@test.com',
                 firstName: 'Tammy',
                 investorType: 'INDIVIDUAL',
                 isPrimary: true,
                 lastName: 'Smith',
                 name: 'Entity Name',
-                primaryPhone: '122-122-2222',
+                primaryPhone: '1221222222',
                 ssn: '123456789',
                 ein: '123456789',
                 signatory: {
@@ -86,11 +86,7 @@ describe WealthForge::Investment do
                 }
               ],
               investmentAmount: '7500.00',
-              offering: {
-                id: '81bff709-2388-4b2b-ad16-c21b21665f6f',
-                name: nil,
-                securityType: nil
-              },
+	      offeringId: '988fad9f-985b-44db-87a4-4aab4f5fd9cd',
               stash: {},
               suitabilityQuestions: [
                 {
@@ -111,7 +107,7 @@ describe WealthForge::Investment do
                 }
               ]
             },
-            type: 'subscription'
+            type: 'subscriptions'
           }
         }
         response = WealthForge::Investment.create params
