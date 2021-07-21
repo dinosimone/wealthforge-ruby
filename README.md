@@ -24,13 +24,13 @@ Or install it yourself as:
 
 Before you can use this gem, you'll need to configure it with the key and cert, which you'll have after registering with WealthForge. If using with Rails, put this code in the initializer.
 
-
-    WealthForge.configure do |config|
-      config.client_secret = ENV['WF_CLIENT_SECRET']
-      config.client_id     = ENV['WF_CLIENT_ID']
-      config.environment = 'development'
-    end
-
+```ruby
+WealthForge.configure do |config|
+  config.client_secret = ENV['WF_CLIENT_SECRET']
+  config.client_id     = ENV['WF_CLIENT_ID']
+  config.environment = 'development'
+end
+```
 
 ## Usage
 
@@ -41,18 +41,23 @@ Please refer to the official WealthForge API [documentation](https://wealthforge
 
 #### Investment
 
-    WealthForge::Investment.create params
-    WealthForge::Investment.get investment_id
-    WealthForge::Investment.file_upload path, mime_type, title, subscription_id
+```ruby
+WealthForge::Investment.create params
+WealthForge::Investment.get investment_id
+WealthForge::Investment.file_upload path, mime_type, title, subscription_id
+```
 
 #### Issuer
 
-    WealthForge::Issuer.create params
+```ruby
+WealthForge::Issuer.create params
+```
 
 #### Offering
 
-    WealthForge::Offering.create params
-
+```ruby
+WealthForge::Offering.create params
+```
 
 ## Contributing
 
