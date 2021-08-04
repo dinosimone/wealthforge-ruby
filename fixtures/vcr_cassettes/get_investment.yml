@@ -1,52 +1,14 @@
 ---
 http_interactions:
 - request:
-    method: get
-    uri: https://api.wealthforge.org/v1/subscriptions/995d4912-ec81-4598-a0a0-e0aa174f1591
-    body:
-      encoding: UTF-8
-      string: 'null'
-    headers:
-      Authorization:
-      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qVXhRVUV4UWtZeU5EaEVPVVU1UTBNNVEwSTVSVVl5UmtZNU5EYzFRVEEwTWpBM05rWTRNZyJ9.eyJodHRwczovL3dlYWx0aGZvcmdlLmNvbS93ZlVzZXJJZCI6IjZjMDEyYmExLTdhMDQtNGNjNi1iMmQ3LTRhMWRkYjBlYWRiNCIsImlzcyI6Imh0dHBzOi8vd2ZoLW5vbi1wcm9kLmF1dGgwLmNvbS8iLCJzdWIiOiJ1WHlzUHF5QkNXZVlISTllUzdiMW82aVZscjc2QkplNEBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9hcGkud2VhbHRoZm9yZ2Uub3JnIiwiaWF0IjoxNTk3NDEzOTUwLCJleHAiOjE1OTc0MjExNTAsImF6cCI6InVYeXNQcXlCQ1dlWUhJOWVTN2IxbzZpVmxyNzZCSmU0Iiwic2NvcGUiOiJhcGk6YWNjZXNzIHN1YnNjcmlwdGlvbjpjcmVhdGUgc3Vic2NyaXB0aW9uOmdldCBzcG9uc29yOmNyZWF0ZSBvZmZlcmluZzpjcmVhdGUgc3A6YyBzcDpyIHNwOnUgc3ViOmMgc3ViOnIgc3ViOnUgb2ZmOmMgb2ZmOnIgb2ZmOnUiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.o1Gm21si1Coe_ZmFpcqGZ3U1zXaA5DjM_F_3biVe86fNG1WmtMMKss5jHVJPtWBc1m0sBJDLmhL08yoL1xOFa14pTvGqOejco0yHKv00cSGCJgYPjh_tfQfTgN4sBFKOz6obCNV5SxjU9VExNqdWv-eWy6plhtga54x1IboZ2Qg0m5CsslntBVTKZxo_b-rghfQBUwbunOVx9bHwoDRxg43fcFyjVY0lrg_iL8hWATZGcI7RWdT2s6I6BzU2Ix35yJyevl6likQExz6TliD4EfR5soRhk392HUUWwMsD7c4AcoYQ8ZlDknW0_Ja5wTQwpF4Hj0kO4aRYqyQeX4R-HQ
-      User-Agent:
-      - Faraday v0.14.0
-      Content-Type:
-      - application/json
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 404
-      message: Not Found
-    headers:
-      Date:
-      - Fri, 14 Aug 2020 14:05:51 GMT
-      Content-Type:
-      - application/vnd.jsonapierrors+json
-      Content-Length:
-      - '103'
-      Connection:
-      - close
-    body:
-      encoding: UTF-8
-      string: '{"errors":[{"code":"not_found","detail":"record not found","status":"404","title":"not
-        found error"}]}
-
-        '
-    http_version: 
-  recorded_at: Fri, 14 Aug 2020 14:05:51 GMT
-- request:
     method: post
     uri: https://api.wealthforge.org/v1/auth/tokens
     body:
       encoding: UTF-8
-      string: '{"data":{"attributes":{"clientId":"uXysPqyBCWeYHI9eS7b1o6iVlr76BJe4","clientSecret":"lTfIdKwqCi8mEX-H5mEOP50IrWB1yi7n8wfcxJvFNGrAqEYkcjhqxHhhjo7lhK1r"},"type":"token"}}'
+      string: '{"data":{"attributes":{"clientId":"your-client-id","clientSecret":"your-client-secret"},"type":"token"}}'
     headers:
       User-Agent:
-      - Faraday v0.14.0
+      - Faraday v1.6.0
       Content-Type:
       - application/x-www-form-urlencoded
       Accept-Encoding:
@@ -59,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 14 Aug 2020 14:11:02 GMT
+      - Wed, 04 Aug 2021 14:21:37 GMT
       Content-Type:
       - application/vnd.wfh.token+json
       Content-Length:
@@ -68,11 +30,10 @@ http_interactions:
       - keep-alive
     body:
       encoding: UTF-8
-      string: '{"data":{"attributes":{"accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qVXhRVUV4UWtZeU5EaEVPVVU1UTBNNVEwSTVSVVl5UmtZNU5EYzFRVEEwTWpBM05rWTRNZyJ9.eyJodHRwczovL3dlYWx0aGZvcmdlLmNvbS93ZlVzZXJJZCI6IjZjMDEyYmExLTdhMDQtNGNjNi1iMmQ3LTRhMWRkYjBlYWRiNCIsImlzcyI6Imh0dHBzOi8vd2ZoLW5vbi1wcm9kLmF1dGgwLmNvbS8iLCJzdWIiOiJ1WHlzUHF5QkNXZVlISTllUzdiMW82aVZscjc2QkplNEBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9hcGkud2VhbHRoZm9yZ2Uub3JnIiwiaWF0IjoxNTk3NDE0MjYyLCJleHAiOjE1OTc0MjE0NjIsImF6cCI6InVYeXNQcXlCQ1dlWUhJOWVTN2IxbzZpVmxyNzZCSmU0Iiwic2NvcGUiOiJhcGk6YWNjZXNzIHN1YnNjcmlwdGlvbjpjcmVhdGUgc3Vic2NyaXB0aW9uOmdldCBzcG9uc29yOmNyZWF0ZSBvZmZlcmluZzpjcmVhdGUgc3A6YyBzcDpyIHNwOnUgc3ViOmMgc3ViOnIgc3ViOnUgb2ZmOmMgb2ZmOnIgb2ZmOnUiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.ylAvRvg9y84pvd_pQk2RK-D0qQLTNxiAazZxM92n-mXjS_1tGbgeJkZirvq6_1kBvvs7jxr1rne0r8_P58Mw78PJ88lmolmeauYLesCFVuRZSMTVI9yUS_ovUyFeHH6JpbA7m1YQCGQGrDAehvR-ylitU4upNe2tAD8OvTJPJovZULg41k7bl-EYX21gP8v4FOU_oJ-_J9AduwcdtaJjcSzRxV5ntz8GZP4Qo6e-6HnWJkqiVP1ul-LsTHk3BT9HyNC31tAZuDpwbqeWR7DV1qiC-synEpzG0_l3PMZmMKGD6vn05ll34pZ9b3T8wC_gYevClIoN95-75fV6bQKzBw","expiresInSeconds":7200,"tokenType":"Bearer"},"id":"ab03fed3-5336-4cfb-9dc1-18f97db8da44","type":"tokens"}}
+      string: '{"data":{"attributes":{"accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qVXhRVUV4UWtZeU5EaEVPVVU1UTBNNVEwSTVSVVl5UmtZNU5EYzFRVEEwTWpBM05rWTRNZyJ9.eyJodHRwczovL3dlYWx0aGZvcmdlLmNvbS93ZlVzZXJJZCI6IjZjMDEyYmExLTdhMDQtNGNjNi1iMmQ3LTRhMWRkYjBlYWRiNCIsImlzcyI6Imh0dHBzOi8vd2ZoLW5vbi1wcm9kLmF1dGgwLmNvbS8iLCJzdWIiOiJ1WHlzUHF5QkNXZVlISTllUzdiMW82aVZscjc2QkplNEBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9hcGkud2VhbHRoZm9yZ2Uub3JnIiwiaWF0IjoxNjI4MDg2ODk2LCJleHAiOjE2MjgwOTQwOTYsImF6cCI6InVYeXNQcXlCQ1dlWUhJOWVTN2IxbzZpVmxyNzZCSmU0Iiwic2NvcGUiOiJhcGk6YWNjZXNzIHN1YnNjcmlwdGlvbjpjcmVhdGUgc3Vic2NyaXB0aW9uOmdldCBzcG9uc29yOmNyZWF0ZSBvZmZlcmluZzpjcmVhdGUgc3A6YyBzcDpyIHNwOnUgc3ViOmMgc3ViOnIgc3ViOnUgb2ZmOmMgb2ZmOnIgb2ZmOnUiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.LvqwSsJkoNb8ILnfw8GXx0ypyP740Q-8vRGvq2oFPhAIiJshcOQDvnpV6tIZVhemWAHte0jWeBxs61lOKJhHFsiMWdpgS_JppMbLzK3WqRBFMqGxnQoeVfPaxqNJdBbbUU63-37uj_qaXMHklE5vCP7LWrR9_zxVH77wZWnFMW3rwkdv0doLDnj-xJ6M5DwtfmK2Q8c28_UMQwcSp1Xk2t7Mv_quhCCpEVPFcf851ts5B53C0XYNwQjl8ujvp-kbJhjrJBRRwpJmsweun0NPb6AYxlK1Q_-NNC9OxHypA7D1PYZEh5pMVlJcq4ht7OF75A-wfi-VVNIAUrc3dqT0mA","expiresInSeconds":7200,"tokenType":"Bearer"},"id":"d801648c-5634-4eb6-a00e-869f3bcbcd8a","type":"tokens"}}
 
         '
-    http_version: 
-  recorded_at: Fri, 14 Aug 2020 14:11:02 GMT
+  recorded_at: Wed, 04 Aug 2021 14:21:37 GMT
 - request:
     method: get
     uri: https://api.wealthforge.org/v1/subscriptions/8ee6531d-7d15-43a5-8270-c111bc9d42f9
@@ -81,9 +42,9 @@ http_interactions:
       string: 'null'
     headers:
       Authorization:
-      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qVXhRVUV4UWtZeU5EaEVPVVU1UTBNNVEwSTVSVVl5UmtZNU5EYzFRVEEwTWpBM05rWTRNZyJ9.eyJodHRwczovL3dlYWx0aGZvcmdlLmNvbS93ZlVzZXJJZCI6IjZjMDEyYmExLTdhMDQtNGNjNi1iMmQ3LTRhMWRkYjBlYWRiNCIsImlzcyI6Imh0dHBzOi8vd2ZoLW5vbi1wcm9kLmF1dGgwLmNvbS8iLCJzdWIiOiJ1WHlzUHF5QkNXZVlISTllUzdiMW82aVZscjc2QkplNEBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9hcGkud2VhbHRoZm9yZ2Uub3JnIiwiaWF0IjoxNTk3NDE0MjYyLCJleHAiOjE1OTc0MjE0NjIsImF6cCI6InVYeXNQcXlCQ1dlWUhJOWVTN2IxbzZpVmxyNzZCSmU0Iiwic2NvcGUiOiJhcGk6YWNjZXNzIHN1YnNjcmlwdGlvbjpjcmVhdGUgc3Vic2NyaXB0aW9uOmdldCBzcG9uc29yOmNyZWF0ZSBvZmZlcmluZzpjcmVhdGUgc3A6YyBzcDpyIHNwOnUgc3ViOmMgc3ViOnIgc3ViOnUgb2ZmOmMgb2ZmOnIgb2ZmOnUiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.ylAvRvg9y84pvd_pQk2RK-D0qQLTNxiAazZxM92n-mXjS_1tGbgeJkZirvq6_1kBvvs7jxr1rne0r8_P58Mw78PJ88lmolmeauYLesCFVuRZSMTVI9yUS_ovUyFeHH6JpbA7m1YQCGQGrDAehvR-ylitU4upNe2tAD8OvTJPJovZULg41k7bl-EYX21gP8v4FOU_oJ-_J9AduwcdtaJjcSzRxV5ntz8GZP4Qo6e-6HnWJkqiVP1ul-LsTHk3BT9HyNC31tAZuDpwbqeWR7DV1qiC-synEpzG0_l3PMZmMKGD6vn05ll34pZ9b3T8wC_gYevClIoN95-75fV6bQKzBw
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qVXhRVUV4UWtZeU5EaEVPVVU1UTBNNVEwSTVSVVl5UmtZNU5EYzFRVEEwTWpBM05rWTRNZyJ9.eyJodHRwczovL3dlYWx0aGZvcmdlLmNvbS93ZlVzZXJJZCI6IjZjMDEyYmExLTdhMDQtNGNjNi1iMmQ3LTRhMWRkYjBlYWRiNCIsImlzcyI6Imh0dHBzOi8vd2ZoLW5vbi1wcm9kLmF1dGgwLmNvbS8iLCJzdWIiOiJ1WHlzUHF5QkNXZVlISTllUzdiMW82aVZscjc2QkplNEBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9hcGkud2VhbHRoZm9yZ2Uub3JnIiwiaWF0IjoxNjI4MDg2ODk2LCJleHAiOjE2MjgwOTQwOTYsImF6cCI6InVYeXNQcXlCQ1dlWUhJOWVTN2IxbzZpVmxyNzZCSmU0Iiwic2NvcGUiOiJhcGk6YWNjZXNzIHN1YnNjcmlwdGlvbjpjcmVhdGUgc3Vic2NyaXB0aW9uOmdldCBzcG9uc29yOmNyZWF0ZSBvZmZlcmluZzpjcmVhdGUgc3A6YyBzcDpyIHNwOnUgc3ViOmMgc3ViOnIgc3ViOnUgb2ZmOmMgb2ZmOnIgb2ZmOnUiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.LvqwSsJkoNb8ILnfw8GXx0ypyP740Q-8vRGvq2oFPhAIiJshcOQDvnpV6tIZVhemWAHte0jWeBxs61lOKJhHFsiMWdpgS_JppMbLzK3WqRBFMqGxnQoeVfPaxqNJdBbbUU63-37uj_qaXMHklE5vCP7LWrR9_zxVH77wZWnFMW3rwkdv0doLDnj-xJ6M5DwtfmK2Q8c28_UMQwcSp1Xk2t7Mv_quhCCpEVPFcf851ts5B53C0XYNwQjl8ujvp-kbJhjrJBRRwpJmsweun0NPb6AYxlK1Q_-NNC9OxHypA7D1PYZEh5pMVlJcq4ht7OF75A-wfi-VVNIAUrc3dqT0mA
       User-Agent:
-      - Faraday v0.14.0
+      - Faraday v1.6.0
       Content-Type:
       - application/json
       Accept-Encoding:
@@ -96,7 +57,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 14 Aug 2020 14:11:02 GMT
+      - Wed, 04 Aug 2021 14:21:37 GMT
       Content-Type:
       - application/vnd.wfh.subscription+json
       Content-Length:
@@ -110,6 +71,5 @@ http_interactions:
         Investments"}],"updatedAt":"2020-08-14T14:09:59.430044Z"},"id":"8ee6531d-7d15-43a5-8270-c111bc9d42f9","type":"subscriptions"}}
 
         '
-    http_version: 
-  recorded_at: Fri, 14 Aug 2020 14:11:02 GMT
-recorded_with: VCR 3.0.3
+  recorded_at: Wed, 04 Aug 2021 14:21:37 GMT
+recorded_with: VCR 6.0.0

@@ -5,7 +5,7 @@ http_interactions:
     uri: https://api.wealthforge.org/v1/auth/tokens
     body:
       encoding: UTF-8
-      string: '{"data":{"attributes":{"clientId":"uXysPqyBCWeYHI9eS7b1o6iVlr76BJe4","clientSecret":"lTfIdKwqCi8mEX-H5mEOP50IrWB1yi7n8wfcxJvFNGrAqEYkcjhqxHhhjo7lhK1r"},"type":"token"}}'
+      string: '{"data":{"attributes":{"clientId":"your-client-id","clientSecret":"your-client-secret"},"type":"token"}}'
     headers:
       User-Agent:
       - Faraday v0.12.0.1

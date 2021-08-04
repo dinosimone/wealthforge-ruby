@@ -126,7 +126,6 @@ class CustomErrors < Faraday::Response::RaiseError
     case env[:status]
     when 400...600
       JSON.parse(env[:body])
-
     else
       super
     end

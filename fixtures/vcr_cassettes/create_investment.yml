@@ -5,7 +5,7 @@ http_interactions:
     uri: https://api.wealthforge.org/v1/auth/tokens
     body:
       encoding: UTF-8
-      string: '{"data":{"attributes":{"clientId":"uXysPqyBCWeYHI9eS7b1o6iVlr76BJe4","clientSecret":"lTfIdKwqCi8mEX-H5mEOP50IrWB1yi7n8wfcxJvFNGrAqEYkcjhqxHhhjo7lhK1r"},"type":"token"}}'
+      string: '{"data":{"attributes":{"clientId":"your-client-id","clientSecret":"your-client-secret"},"type":"token"}}'
     headers:
       User-Agent:
       - Faraday v0.14.0
@@ -33,7 +33,6 @@ http_interactions:
       string: '{"data":{"attributes":{"accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qVXhRVUV4UWtZeU5EaEVPVVU1UTBNNVEwSTVSVVl5UmtZNU5EYzFRVEEwTWpBM05rWTRNZyJ9.eyJodHRwczovL3dlYWx0aGZvcmdlLmNvbS93ZlVzZXJJZCI6IjZjMDEyYmExLTdhMDQtNGNjNi1iMmQ3LTRhMWRkYjBlYWRiNCIsImlzcyI6Imh0dHBzOi8vd2ZoLW5vbi1wcm9kLmF1dGgwLmNvbS8iLCJzdWIiOiJ1WHlzUHF5QkNXZVlISTllUzdiMW82aVZscjc2QkplNEBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9hcGkud2VhbHRoZm9yZ2Uub3JnIiwiaWF0IjoxNTk3NDE0MTk5LCJleHAiOjE1OTc0MjEzOTksImF6cCI6InVYeXNQcXlCQ1dlWUhJOWVTN2IxbzZpVmxyNzZCSmU0Iiwic2NvcGUiOiJhcGk6YWNjZXNzIHN1YnNjcmlwdGlvbjpjcmVhdGUgc3Vic2NyaXB0aW9uOmdldCBzcG9uc29yOmNyZWF0ZSBvZmZlcmluZzpjcmVhdGUgc3A6YyBzcDpyIHNwOnUgc3ViOmMgc3ViOnIgc3ViOnUgb2ZmOmMgb2ZmOnIgb2ZmOnUiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.dwbBhv3Eive1ub4g0PWS3N9n2mBQLLxWbc4TzPwf8iRLWS8RQdC27jLQ7TffASgazKqZ4-CBLsQOzVm64W-4UFX7R-pimKpzU4vuqKV8eF1wjQFP4vglsfZCKR3hM2D8GAuwKuG8biedCbScz_Ljd6p8BfKGOMEl36VSegizaXEuP07wM4AcC4t8Ff6CjNrkmpbEWZeKWuayDrIS9fuj5yB3sJRI9-vlTXvsRBqsL_5tkib4eiFgplbwOVIhX-EbA_AfW_Et5CIJm65UkeIcWEfZ9PuSj_dQQHz5gyhYuDxVyXvw_kABq3gzKiBvMSmImV_6DEK3xV8_rhEMV1XaSA","expiresInSeconds":7200,"tokenType":"Bearer"},"id":"6c49586f-f11a-4cb4-a6b8-79e36d59f375","type":"tokens"}}
 
         '
-    http_version: 
   recorded_at: Fri, 14 Aug 2020 14:09:59 GMT
 - request:
     method: post
@@ -47,9 +46,9 @@ http_interactions:
         Investments"}]},"type":"subscriptions"}}'
     headers:
       Authorization:
-      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qVXhRVUV4UWtZeU5EaEVPVVU1UTBNNVEwSTVSVVl5UmtZNU5EYzFRVEEwTWpBM05rWTRNZyJ9.eyJodHRwczovL3dlYWx0aGZvcmdlLmNvbS93ZlVzZXJJZCI6IjZjMDEyYmExLTdhMDQtNGNjNi1iMmQ3LTRhMWRkYjBlYWRiNCIsImlzcyI6Imh0dHBzOi8vd2ZoLW5vbi1wcm9kLmF1dGgwLmNvbS8iLCJzdWIiOiJ1WHlzUHF5QkNXZVlISTllUzdiMW82aVZscjc2QkplNEBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9hcGkud2VhbHRoZm9yZ2Uub3JnIiwiaWF0IjoxNTk3NDE0MjYyLCJleHAiOjE1OTc0MjE0NjIsImF6cCI6InVYeXNQcXlCQ1dlWUhJOWVTN2IxbzZpVmxyNzZCSmU0Iiwic2NvcGUiOiJhcGk6YWNjZXNzIHN1YnNjcmlwdGlvbjpjcmVhdGUgc3Vic2NyaXB0aW9uOmdldCBzcG9uc29yOmNyZWF0ZSBvZmZlcmluZzpjcmVhdGUgc3A6YyBzcDpyIHNwOnUgc3ViOmMgc3ViOnIgc3ViOnUgb2ZmOmMgb2ZmOnIgb2ZmOnUiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.ylAvRvg9y84pvd_pQk2RK-D0qQLTNxiAazZxM92n-mXjS_1tGbgeJkZirvq6_1kBvvs7jxr1rne0r8_P58Mw78PJ88lmolmeauYLesCFVuRZSMTVI9yUS_ovUyFeHH6JpbA7m1YQCGQGrDAehvR-ylitU4upNe2tAD8OvTJPJovZULg41k7bl-EYX21gP8v4FOU_oJ-_J9AduwcdtaJjcSzRxV5ntz8GZP4Qo6e-6HnWJkqiVP1ul-LsTHk3BT9HyNC31tAZuDpwbqeWR7DV1qiC-synEpzG0_l3PMZmMKGD6vn05ll34pZ9b3T8wC_gYevClIoN95-75fV6bQKzBw
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qVXhRVUV4UWtZeU5EaEVPVVU1UTBNNVEwSTVSVVl5UmtZNU5EYzFRVEEwTWpBM05rWTRNZyJ9.eyJodHRwczovL3dlYWx0aGZvcmdlLmNvbS93ZlVzZXJJZCI6IjZjMDEyYmExLTdhMDQtNGNjNi1iMmQ3LTRhMWRkYjBlYWRiNCIsImlzcyI6Imh0dHBzOi8vd2ZoLW5vbi1wcm9kLmF1dGgwLmNvbS8iLCJzdWIiOiJ1WHlzUHF5QkNXZVlISTllUzdiMW82aVZscjc2QkplNEBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9hcGkud2VhbHRoZm9yZ2Uub3JnIiwiaWF0IjoxNjI4MDg2ODk2LCJleHAiOjE2MjgwOTQwOTYsImF6cCI6InVYeXNQcXlCQ1dlWUhJOWVTN2IxbzZpVmxyNzZCSmU0Iiwic2NvcGUiOiJhcGk6YWNjZXNzIHN1YnNjcmlwdGlvbjpjcmVhdGUgc3Vic2NyaXB0aW9uOmdldCBzcG9uc29yOmNyZWF0ZSBvZmZlcmluZzpjcmVhdGUgc3A6YyBzcDpyIHNwOnUgc3ViOmMgc3ViOnIgc3ViOnUgb2ZmOmMgb2ZmOnIgb2ZmOnUiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.LvqwSsJkoNb8ILnfw8GXx0ypyP740Q-8vRGvq2oFPhAIiJshcOQDvnpV6tIZVhemWAHte0jWeBxs61lOKJhHFsiMWdpgS_JppMbLzK3WqRBFMqGxnQoeVfPaxqNJdBbbUU63-37uj_qaXMHklE5vCP7LWrR9_zxVH77wZWnFMW3rwkdv0doLDnj-xJ6M5DwtfmK2Q8c28_UMQwcSp1Xk2t7Mv_quhCCpEVPFcf851ts5B53C0XYNwQjl8ujvp-kbJhjrJBRRwpJmsweun0NPb6AYxlK1Q_-NNC9OxHypA7D1PYZEh5pMVlJcq4ht7OF75A-wfi-VVNIAUrc3dqT0mA
       User-Agent:
-      - Faraday v0.14.0
+      - Faraday v1.6.0
       Content-Type:
       - application/json
       Accept-Encoding:
@@ -62,7 +61,7 @@ http_interactions:
       message: Created
     headers:
       Date:
-      - Fri, 14 Aug 2020 14:13:46 GMT
+      - Wed, 04 Aug 2021 14:21:38 GMT
       Content-Type:
       - application/vnd.wfh.subscription+json
       Content-Length:
@@ -71,11 +70,10 @@ http_interactions:
       - keep-alive
     body:
       encoding: UTF-8
-      string: '{"data":{"attributes":{"createdAt":"2020-08-14T14:13:46.328305612Z","createdBy":"6c012ba1-7a04-4cc6-b2d7-4a1ddb0eadb4","fundingMethods":[{"investmentAmount":"7500.00","paymentType":"WIRE"}],"investmentAmount":"7500.00","investors":[{"accreditationType":"INCOME","address":{"city":"Boston","country":"US","postalCode":"02139","stateProv":"MA","street1":"40
+      string: '{"data":{"attributes":{"createdAt":"2021-08-04T14:21:38.757581851Z","createdBy":"6c012ba1-7a04-4cc6-b2d7-4a1ddb0eadb4","fundingMethods":[{"investmentAmount":"7500.00","paymentType":"WIRE"}],"investmentAmount":"7500.00","investors":[{"accreditationType":"INCOME","address":{"city":"Boston","country":"US","postalCode":"02139","stateProv":"MA","street1":"40
         Congress"},"dateOfBirth":"1980-02-03","emailAddress":"investor@test.com","firstName":"Tammy","investorType":"INDIVIDUAL","isPrimary":true,"lastName":"Smith","primaryPhone":"1221222222","ssn":"123456789"}],"kycResult":"SKIPPED","offeringId":"988fad9f-985b-44db-87a4-4aab4f5fd9cd","stash":{},"statuses":{"processingStatus":"REVIEW_IN_PROGRESS"},"suitabilityQuestions":[{"answerKeys":["a"],"questionKey":"Experience"},{"answerKeys":["a"],"questionKey":"Objective"},{"answerKeys":["a"],"questionKey":"Tolerance"},{"answerKeys":["a"],"questionKey":"Other
-        Investments"}],"updatedAt":"2020-08-14T14:13:46.328305612Z"},"id":"fb801261-40fc-45b6-9790-c0aab125b6ae","type":"subscriptions"}}
+        Investments"}],"updatedAt":"2021-08-04T14:21:38.757581851Z"},"id":"c6bf910a-8f47-4208-b924-0ed6fb5d85c0","type":"subscriptions"}}
 
         '
-    http_version: 
-  recorded_at: Fri, 14 Aug 2020 14:13:46 GMT
-recorded_with: VCR 3.0.3
+  recorded_at: Wed, 04 Aug 2021 14:21:38 GMT
+recorded_with: VCR 6.0.0

@@ -4,8 +4,8 @@ describe WealthForge::Investment do
   context "investment" do
     before do
       WealthForge.configure do |config|
-        config.client_secret = ""
-        config.client_id = ""
+        config.client_secret = "your-client-secret"
+        config.client_id = "your-client-id"
         config.environment = "development"
       end
     end
@@ -20,7 +20,7 @@ describe WealthForge::Investment do
 
     it "upload file" do
       VCR.use_cassette "upload_file", record: :none do
-        response = WealthForge::Investment.file_upload("#{Dir.pwd}/spec/files/test_file.pdf", "application/pdf", "test.pdf", "995d4912-ec81-4598-a0a0-e0aa174f1591")
+        response = WealthForge::Investment.file_upload("#{Dir.pwd}/spec/files/test_file.pdf", "application/pdf", "test.pdf", "8ee6531d-7d15-43a5-8270-c111bc9d42f9")
         expect(response.size).to eq 1
         expect(response.first["fileName"]).to eq "test.pdf"
       end

@@ -18,13 +18,15 @@ Gem::Specification.new do |spec|
   spec.executables = ["console", "setup"]
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "faraday", "~> 0.14.0"
-  spec.add_runtime_dependency "mime-types", "~> 3.1"
-  spec.add_runtime_dependency "jwt", "2.1.0"
+  spec.add_runtime_dependency "faraday", "~> 1.5", ">= 1.5.1"
+  spec.add_runtime_dependency "mime-types", "~> 3.3", ">= 3.3.1"
+  spec.add_runtime_dependency "jwt", "~> 2.2", ">= 2.2.3"
+  spec.add_runtime_dependency "openssl", "~> 2.2"
+  spec.add_runtime_dependency "json", "~> 2.5", ">= 2.5.1"
 
-  spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_development_dependency "vcr", "~> 3.0"
-  spec.add_development_dependency "webmock", "~> 2.3"
-  spec.add_development_dependency "factory_girl", "~> 4.0"
+  spec.add_development_dependency "rake", "~> 13.0", ">= 13.0.6"
+  spec.add_development_dependency "rspec", "~> 3.10"
+  spec.add_development_dependency "vcr", "~> 6.0"
+  spec.add_development_dependency "webmock", "~> 3.13"
+  spec.add_development_dependency "factory_bot", "~> 4.8", ">= 4.8.2"
 end

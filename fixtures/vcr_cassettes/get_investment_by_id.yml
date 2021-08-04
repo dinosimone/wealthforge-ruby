@@ -5,7 +5,7 @@ http_interactions:
     uri: https://api.wealthforge.org/v1/auth/tokens
     body:
       encoding: UTF-8
-      string: '{"data":{"attributes":{"clientId":"uXysPqyBCWeYHI9eS7b1o6iVlr76BJe4","clientSecret":"lTfIdKwqCi8mEX-H5mEOP50IrWB1yi7n8wfcxJvFNGrAqEYkcjhqxHhhjo7lhK1r"},"type":"token"}}'
+      string: '{"data":{"attributes":{"clientId":"your-client-id","clientSecret":"your-client-secret"},"type":"token"}}'
     headers:
       User-Agent:
       - Faraday v0.12.0.1
@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 08 Aug 2018 20:45:28 GMT
+      - Wed, 08 Aug 2018 20:17:23 GMT
       Content-Type:
       - application/vnd.api+json
       Content-Length:
@@ -30,11 +30,11 @@ http_interactions:
       - keep-alive
     body:
       encoding: UTF-8
-      string: '{"data":{"attributes":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1qVXhRVUV4UWtZeU5EaEVPVVU1UTBNNVEwSTVSVVl5UmtZNU5EYzFRVEEwTWpBM05rWTRNZyJ9.eyJodHRwczovL3dlYWx0aGZvcmdlLmNvbS93ZlVzZXJJZCI6IjZjMDEyYmExLTdhMDQtNGNjNi1iMmQ3LTRhMWRkYjBlYWRiNCIsImlzcyI6Imh0dHBzOi8vd2ZoLW5vbi1wcm9kLmF1dGgwLmNvbS8iLCJzdWIiOiJ1WHlzUHF5QkNXZVlISTllUzdiMW82aVZscjc2QkplNEBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9hcGkud2VhbHRoZm9yZ2Uub3JnIiwiaWF0IjoxNTMzNzYxMTI4LCJleHAiOjE1MzM3NjE3MjgsImF6cCI6InVYeXNQcXlCQ1dlWUhJOWVTN2IxbzZpVmxyNzZCSmU0Iiwic2NvcGUiOiJhcGk6YWNjZXNzIHN1YnNjcmlwdGlvbjpjcmVhdGUgc3Vic2NyaXB0aW9uOmdldCBzcG9uc29yOmNyZWF0ZSBvZmZlcmluZzpjcmVhdGUiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.O29Ak0WJpgWYGoJdALZ0vTnzRZJ2OmlmPWagcwIkUxE_cq5PF15GBIXjnrkESMREeiN3FHvZn60vVJju969YBbg1gLpe5Bpu2838MJ2f-nifEDgOXtB1V1eyi1spmwarUFijcah0iiUslG3etnQNND6Gm7egJHIViHftKJVAaoUs4IlOhDH2VvK4Pb4zogqomIVckol84aQO1JgJI0WE9Cv8dh-KLmleoqRtyTSp2dxqqTGrl7wOUmEf2DCVVzMQToqTc7Ij0MkTDrHoWAVCZMSFGJBmLx-ggp5Aq_FDRp-yK6acMhCQTlUm0dQS3j_aZ-ROr0uS9StTHdOfK6aQiA","expiresInSeconds":600,"tokenType":"Bearer"},"id":"80c0e08c-2dd5-4ade-8b8e-955e34f1557f","type":"tokens"}}
+      string: '{"data":{"attributes":{"accessToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1qVXhRVUV4UWtZeU5EaEVPVVU1UTBNNVEwSTVSVVl5UmtZNU5EYzFRVEEwTWpBM05rWTRNZyJ9.eyJodHRwczovL3dlYWx0aGZvcmdlLmNvbS93ZlVzZXJJZCI6IjZjMDEyYmExLTdhMDQtNGNjNi1iMmQ3LTRhMWRkYjBlYWRiNCIsImlzcyI6Imh0dHBzOi8vd2ZoLW5vbi1wcm9kLmF1dGgwLmNvbS8iLCJzdWIiOiJ1WHlzUHF5QkNXZVlISTllUzdiMW82aVZscjc2QkplNEBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9hcGkud2VhbHRoZm9yZ2Uub3JnIiwiaWF0IjoxNTMzNzU5NDQzLCJleHAiOjE1MzM3NjAwNDMsImF6cCI6InVYeXNQcXlCQ1dlWUhJOWVTN2IxbzZpVmxyNzZCSmU0Iiwic2NvcGUiOiJhcGk6YWNjZXNzIHN1YnNjcmlwdGlvbjpjcmVhdGUgc3Vic2NyaXB0aW9uOmdldCBzcG9uc29yOmNyZWF0ZSBvZmZlcmluZzpjcmVhdGUiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.thqvaFmtc-4SJoxvtPnU7tO-lSgtSgT1iM9R_P_aaYwiOeSxYx9lOQ1sdNxtjM348DhY_9qCV5NwEYaXWByslwl3dK2ot9eJrlfKvpqY9dDzbizW8Inx6kGMAzjE5LP8dxrwlo73dNG5q6H0vDuE0EVqqkLWlz-IDgvg9gdQTBZghJE-ZY4U1DCG9sWS9Vw88DALyC6dUhbKZ4yokkVjJht_5Vi7MkV2DWTlQc1nUMlGxq44rCsCpuK-MSCLIbNd9aE-eBPgvjPmHhq4P8Z9eN17mHX__AyAvM5a9le1dayQyf2h7XQu7nIgNiKYi5tcfBQF9TO2h77iT5VpkZ1jBA","expiresInSeconds":600,"tokenType":"Bearer"},"id":"ad7beee6-2c4b-47ec-9166-32c906a3b86c","type":"tokens"}}
 
 '
-    http_version: 
-  recorded_at: Wed, 08 Aug 2018 20:45:28 GMT
+    http_version:
+  recorded_at: Wed, 08 Aug 2018 20:17:23 GMT
 - request:
     method: get
     uri: https://api.wealthforge.org/v1/subscriptions/995d4912-ec81-4598-a0a0-e0aa174f1591
